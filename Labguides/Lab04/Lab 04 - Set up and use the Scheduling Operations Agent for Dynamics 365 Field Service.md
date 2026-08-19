@@ -1,19 +1,20 @@
-# **Lab 4: Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service**
+---
+lab:
 
-**Title**: Set up and use the Scheduling Operations Agent for Dynamics
-365 Field Service
+title: Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
 
-**Description**: Configure and use the **Scheduling Operations Agent**
-to optimize technician schedules, prioritize work orders, and improve
-resource assignment.
+description: Configure and use the **Scheduling Operations Agent** to optimize technician schedules, prioritize work orders, and improve resource assignment.
 
-**Duration**: 30 mins
+duration: 30 mins
 
-**Level**: 300
+level: 300
 
-**islab:** True
+islab: True
 
-**Primarytopics**: Dynamics 365 Field Service
+primarytopics: Dynamics 365 Field Service
+---
+
+# Lab 4: Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
 
 **Overview**
 
@@ -65,9 +66,7 @@ Enable the **Scheduling Operations Agent** in **Dynamics 365 Field
 Service** to streamline service scheduling and optimize resource
 allocation.
 
-1.  Go to **Power Platform admin center** by navigating to +++
-    [**https://admin.powerplatform.microsoft.com**](https://admin.powerplatform.microsoft.com)
-    +++ and if required, sign in using your given **Office 365 admin
+1.  Go to **Power Platform admin center** by navigating to +++ https://admin.powerplatform.microsoft.com +++ and if required, sign in using your given **Office 365 admin
     tenant** credentials.
 
 2.  From the left navigation pane, select **Manage** \> **Environment**
@@ -283,7 +282,7 @@ recommendations. You will configure the required settings, prepare
 scheduling data, and evaluate the agent's scheduling suggestions to
 improve operational efficiency and customer service.
 
-1.  On the Field Service app, go to the **Service** area.
+1.  On the **Field Service** app, go to the **Service** area.
 
 > ![](./media/image37.png)
 
@@ -374,7 +373,7 @@ improve operational efficiency and customer service.
 
 > ![](./media/image52.png)
 
-**Conclusion**:
+**Conclusion**
 
 You have successfully used the Scheduling Operations Agent to configure
 scheduling settings, prepare resources and work orders, and generate
@@ -383,7 +382,7 @@ optimization capabilities, you can improve resource utilization,
 streamline scheduling operations, and help Contoso respond to customer
 service requests more efficiently.
 
-## **Summary**: 
+## **Summary**
 
 In this lab, you learned how to enable the Scheduling Operations Agent,
 configure resource properties, assign optimization methods for booking
