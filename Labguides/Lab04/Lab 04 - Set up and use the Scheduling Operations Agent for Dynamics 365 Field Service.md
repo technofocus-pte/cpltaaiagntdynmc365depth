@@ -66,11 +66,11 @@ Enable the **Scheduling Operations Agent** in **Dynamics 365 Field Service** to 
 
 5.  Select **Resources** in the change area.
 
-> ![](./media/image4.png)
+    ![](./media/image4.png)
 
 6.  From the left pane, select **Scheduling Parameters** > **Resource Scheduling**.
 
-> ![](./media/image5.png)
+    ![](./media/image5.png)
 
 7.  Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**. Select **Save & Close**.
 
@@ -230,10 +230,10 @@ In this exercise, you will learn how to use the Scheduling Operations Agent in D
 
 4.  At a minimum, enter information in the following required fields and then select **Save & Close**.
 
-   - **Status**: +++Unscheduled+++
-   - **Priority**: +++High+++
-   - **Service Account**: Enter +++**Contoso**+++ and select **Contoso Coffee** from the suggestion list.
-   - **Work Order Type**: Enter +++**Diagnosis**+++ and select **Diagnosis & Repair** from the suggestion list.
+   - **Status**: Unscheduled
+   - **Priority**: High
+   - **Service Account**: Enter **Contoso** and select **Contoso Coffee** from the suggestion list.
+   - **Work Order Type**: Enter **Diagnosis** and select **Diagnosis & Repair** from the suggestion list.
 
 5. In the Contacts section, **Reported by**: Enter +++**Alex**+++ and then select **Alex Baker** from the list
     - **Time from promised**: Select todays date and 8:00 AM time.
@@ -243,19 +243,19 @@ In this exercise, you will learn how to use the Scheduling Operations Agent in D
 
     ![](./media/image41.png)
 
-5.  From the left pane, now select **Schedule Board**.
+6.  From the left pane, now select **Schedule Board**.
 
     ![](./media/image42.png)
 
-6.  Close any pop-up screen. It can be of agent related.
+7.  Close any pop-up screen. It can be of agent related.
 
    ![](./media/image43.png)
 
-7. On the Scheduling board, select **(…)** 3 dots to see more options and then select **Book**.
+8. On the **Scheduling board**, select **(…)** 3 dots to see more options and then select **Book**.
 
    ![](./media/image44.png)
 
-8.  In the **Requirement** field, select any sample from the drop-down list.
+9.  In the **Requirement** field, select any sample from the drop-down list.
 
     ![](./media/image45.png)
 
