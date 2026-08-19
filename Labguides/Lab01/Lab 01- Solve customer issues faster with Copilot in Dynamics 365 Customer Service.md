@@ -115,14 +115,14 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 Configure the following settings on the **Immersive** **settings** tab:
 
-Configure Workload Prompt:
-+++Show open cases in priority order.
-   Highlight overdue and escalated cases first.
-   Identify customers with multiple open cases.
-   Summarize key actions required for each case.
-   Recommend the next best action where appropriate.+++
+    Configure Workload Prompt:
+    +++Show open cases in priority order.
+       Highlight overdue and escalated cases first.
+       Identify customers with multiple open cases.
+       Summarize key actions required for each case.
+       Recommend the next best action where appropriate.+++
 
-    ![](./media/image15.png)
+![](./media/image15.png)
 
 9.  Configure **Case Overview Card.**
 
@@ -201,7 +201,7 @@ In this exercise, open a sample case in the **Customer Service Representative Da
 
 **Note**: If you receive any error regarding setting up presence, you can continue or wait till you see a **green checkmark** in the right corner of the screen.
 
-    ![](./media/image27.png)
+   ![](./media/image27.png)
 
 7.  Select one of the cases listed on the **Customer Service Representative Dashboard**. For example, **A Mineral Build Up in Water Supply**.
 
@@ -253,7 +253,7 @@ In this exercise, you will use the Copilot pane to ask natural-language question
 
 For example, **type**, **How to fix reduced water flow in Smart Brew 300 caused by mineral buildup?**
 
-    ![](./media/image37.png)
+  ![](./media/image37.png)
 
 6.  If the Copilot response meets your needs, select and use all or part of the response to address the customer's question:
 
@@ -433,7 +433,7 @@ In the **Copilot** pane, select the **Translate** drop-down and choose a
 language to translate the generated content. Review the translated
 response.
 
-    ![](./media/image66.png)
+   ![](./media/image66.png)
 
 ### Task 6: Use AI form-fill assistance
 
@@ -519,7 +519,7 @@ plain-language search terms.
 
 **Environment > Settings > Product > Features > Natural Language Grid and View Search > Enable**
 
-    ![](./media/image81.png)
+ ![](./media/image81.png)
 
 2.  Return to the **Dynamics 365 Copilot Service workspace**. In the
     left navigation pane, select **Service > Cases**.
