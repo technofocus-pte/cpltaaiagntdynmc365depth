@@ -1,17 +1,17 @@
-----
+---
 lab:
 
-    title: Setting up lab environment
+title: Setting up lab environment
 
-    description: Set up a trial environment for Microsoft Power Platform and Dynamics 365. Configure environments, Copilot capabilities, and required add-ins to prepare the environment for hands-on learning activities throughout the course.
+description: Set up a trial environment for Microsoft Power Platform and Dynamics 365. Configure environments, Copilot capabilities, and required add-ins to prepare the environment for hands-on learning activities throughout the course.
 
-    duration: 15 mins
+duration: 15 mins
 
-    level: 200
+level: 200
 
-    islab: True
+islab: True
 
-    primarytopics: Power Platform
+primary topics: Power Platform
 ---
 
 # Setting up the lab environment
@@ -21,7 +21,7 @@ In this lab, you will set up a complete trial environment required for working w
 ## **Exercise 1: Assign a Power Apps trial license**
 
 1.  Open a web browser on your VM and go to
-    +++[**https://powerapps.microsoft.com/en-us/free/**](https://powerapps.microsoft.com/en-us/free/)+++
+    +++ https://powerapps.microsoft.com/en-us/free/ +++
 
 ![](./media/image1.png)
 
@@ -30,7 +30,7 @@ In this lab, you will set up a complete trial environment required for working w
 ![](./media/image2.png "A person with his arms crossed Description automatically generated")
 
 3.  Enter your **Office 365 admin credentials**, check the checkbox to
-    **accept the agreement,** and click on **Start free**.
+    **accept the agreement** and click on **Start free**.
 
 ![](./media/image3.png)
 
@@ -39,7 +39,7 @@ In this lab, you will set up a complete trial environment required for working w
 
 ![](./media/image4.png)
 
-5.  Select **Yes** on **Stay signed in?** pop-up window.
+5.  Select **Yes** on **Stay signed in** pop-up window.
 
 ![](./media/image5.png "A screenshot of a computer AI-generated content may be incorrect.")
 
@@ -56,7 +56,7 @@ In this lab, you will set up a complete trial environment required for working w
 
 ![](./media/image8.png)
 
-9.  Open the new tab and go to the **Power Platform admin center** by navigating to +++[**https://admin.powerplatform.microsoft.com**](https://admin.powerplatform.microsoft.com)+++ and if required, **sign in** using your given Office 365 admin tenant credentials.
+9.  Open the new tab and go to the **Power Platform admin center** by navigating to +++ https://admin.powerplatform.microsoft.com +++ and if required, **sign in** using your given Office 365 admin tenant credentials.
 
 ![](./media/image9.png "A screenshot of a computer AI-generated content may be incorrect.")
 
