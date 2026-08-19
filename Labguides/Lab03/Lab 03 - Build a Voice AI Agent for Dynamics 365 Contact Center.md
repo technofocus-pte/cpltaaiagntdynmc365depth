@@ -55,13 +55,13 @@ A work, school, or administrator tenant account with the provided credentials.
 
 - Troubleshooting Guide document.
 
-# Exercise 1: Activate Dynamics 365 Customer Service Trial
+# Exercise 1: Activate Dynamics 365 Contact Center Trial
 
-In this exercise, you activate the Dynamics 365 Customer Service trial to access the Copilot Service workspace and required administration tools.
+In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
 
 1.  Open a **Microsoft Edge** in private window and navigate to the +++ https://www.microsoft.com/en-us/dynamics-365/products/contact-center +++ page.
 
-2.  On the **Customer Service** page, select **Try for free**.
+2.  On the **Contact Center** page, select **Try for free**.
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
@@ -548,7 +548,7 @@ The escalation topic is configured to transfer calls to a live agent.
 
 ## Exercise 10: Connect Channel and Publish Agent
 
-In this exercise, you connect the agent to the Dynamics 365 Customer Service channel and publish it.
+In this exercise, you connect the agent to the Dynamics 365 Contact Center channel and publish it.
 
 1. Navigate to **Channels**.
 
@@ -574,7 +574,7 @@ incorrect.](./media/image83.png)
 ![](./media/image84.png)
 
 **Conclusion**
-The agent is connected to the Dynamics 365 Customer Service channel and published.
+The agent is connected to the Dynamics 365 Contact Center channel and published.
 
 ## Exercise 11: Connect Agent to Voice Workstream
 
