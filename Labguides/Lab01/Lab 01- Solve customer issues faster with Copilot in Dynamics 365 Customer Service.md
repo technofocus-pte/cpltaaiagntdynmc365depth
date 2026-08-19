@@ -50,7 +50,7 @@ You are a **Dynamics 365 Customer Service administrator/representativeat Contoso
 In this task, you will start a **Dynamics 365 Customer Service trial**, provide the required contact information, and confirm that a **Customer Service Trial environment** has been provisioned in the Power Platform admin center.
 
 1.  Open your browser and browse to
-    **+++https://dynamics.microsoft.com/en-in/customer-service/overview/+++** and select **Try for free.**
+    +++ https://dynamics.microsoft.com/en-in/customer-service/overview/ +++ and select **Try for free**.
 
 ![](./media/image1.png)
 
@@ -76,7 +76,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 ![](./media/image5.png)
 
-6. Go to the **Power Platform admin** center by navigating to +++https://admin.powerplatform.microsoft.com/+++** and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
+6. Go to the **Power Platform admin** center by navigating to +++ **https://admin.powerplatform.microsoft.com/**+++ and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
 
 7. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
 
@@ -216,7 +216,7 @@ In this exercise, you will learn how to use **Copilot** in **Dynamics 365 Custom
 
 In this exercise, open a sample case in the **Customer Service Representative Dashboard** and use **Copilot** to generate a case summary, helping you quickly understand the issue and resolve it efficiently.
 
-1.  To navigate to your **Customer Service workspace**, go to the **Power Platform admin center** using the given link **+++<https://admin.powerplatform.microsoft.com>+++**.
+1.  To navigate to your **Customer Service workspace**, go to the **Power Platform admin center** using the given link +++ https://admin.powerplatform.microsoft.com +++.
 
 2.  From the left navigation pane, select **Manage** \> **Environments** and then select **Customer Service Trial** environment.
 
