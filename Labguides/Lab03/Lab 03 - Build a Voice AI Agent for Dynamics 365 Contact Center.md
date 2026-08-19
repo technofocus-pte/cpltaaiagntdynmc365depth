@@ -25,17 +25,21 @@ To improve customer service efficiency, Contoso plans to implement a voice-enabl
 ## Overview and Objectives
 
 In this lab, you'll create and configure a voice-enabled AI agent using Microsoft Copilot Studio and Dynamics 365 Contact Center. You'll activate the required environments, verify the voice configuration, build a voice agent, add knowledge sources, configure conversational behaviors and escalation paths, connect the agent to a voice workstream, and validate the solution through a live phone call.
+By the end of this lab, you will be able to:
 
-    By the end of this lab, you will be able to:
+ - Create and configure a voice-enabled AI agent in Copilot Studio.
+    
+ - Add and manage knowledge sources for customer self-service.
+    
+ - Configure conversational topics and live-agent escalation.
+    
+ - Connect the AI agent to a Dynamics 365 Contact Center voice workstream.
 
-    - Create and configure a voice-enabled AI agent in Copilot Studio.
-    - Add and manage knowledge sources for customer self-service.
-    - Configure conversational topics and live-agent escalation.
-    - Connect the AI agent to a Dynamics 365 Contact Center voice workstream.
-    - Test and validate the voice agent using a live phone call.
-    - Enable automated handling of common customer support inquiries.
+ - Test and validate the voice agent using a live phone call.
+    
+ - Enable automated handling of common customer support inquiries.
 
-# Exercise 1: Activate Dynamics 365 Contact Center Trial
+## Exercise 1: Activate Dynamics 365 Contact Center Trial
 
 In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
 
@@ -45,15 +49,15 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
-3.  On the Let's get started page, enter the administrator tenant ID.
+3.  On the **Let's get started** page, enter the administrator tenant ID.
 
      @lab.CloudCredential(M365BusPrem).AdministrativeUsername
 
-4.  Select the agreement check box and select Start your free trial.
+4.  Select the **agreement** check box and select **Start your free trial**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image2.png)
 
-5.  If prompted, enter the password and select Sign in.
+5.  If prompted, enter the password and select **Sign in**.
 
      @lab.CloudCredential(M365BusPrem).AdministrativePassword
 
@@ -73,32 +77,28 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
 10. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
 
+11. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
+
     ![](./media/image6.png)
 
 ## Exercise 2: Verify Contact Center Setup
 
-1. Verify the default contact center configuration, representative availability, and voice channel setup before building the voice agent.
-
-2. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
-
-3. Select **Chat**. Under **Test the chat service** > **Prepare the representative** app, select **Open representative app**.
+1. Select **Chat**. Under **Test the chat service** > **Prepare the representative** app, select **Open representative app**.
 
     ![](./media/image7.png)
 
-    **Note: A green check mark on the right side of the page indicates that the representative is Available.**
+2. Select **Open representative app**. The **Copilot Service workspace** opens.
+  > **Note: A green check mark on the right side of the page indicates that the representative is Available.**
 
-    ![](./media/image8.png)
+  ![](./media/image8.png)
 
-4. Select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
+3. Select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
 
     ![](./media/image9.png)
 
-5. Verify that the **Contact Center voice workstream** opens and displays the default **voice channel** and **phone number** that will be used later to test the agent.
+4. Verify that the **Contact Center voice workstream** opens and displays the default **voice channel** and **phone number** that will be used later to test the agent.
 
-![](./media/image10.png)
-
-**Conclusion**
-The default contact center configuration, representative availability, and voice channel phone number are verified and ready for the remaining lab activities.
+    ![](./media/image10.png)
 
 ## Exercise 3: Activate Microsoft Copilot Studio Trial
 
