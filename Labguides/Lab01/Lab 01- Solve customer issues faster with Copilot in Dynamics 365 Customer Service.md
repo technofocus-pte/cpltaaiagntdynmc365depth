@@ -115,12 +115,12 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 Configure the following settings on the **Immersive** **settings** tab:
 
-**Configure Workload Prompt:**
-    +++Show open cases in priority order.
-       Highlight overdue and escalated cases first.
-       Identify customers with multiple open cases.
-       Summarize key actions required for each case.
-       Recommend the next best action where appropriate.**+++
+Configure Workload Prompt:
++++Show open cases in priority order.
+   Highlight overdue and escalated cases first.
+   Identify customers with multiple open cases.
+   Summarize key actions required for each case.
+   Recommend the next best action where appropriate.+++
 
     ![](./media/image15.png)
 
@@ -142,13 +142,13 @@ Configure the following settings on the **Immersive** **settings** tab:
 
 11. Go to the **Email Settings** tab:
 
-Enable:
+    Enable:
 
-- Help pane - Write an email
-
-- Email sentiments (Preview) (optional)
-
-- Copilot-recommended templates (optional)
+    - Help pane - Write an email
+    
+    - Email sentiments (Preview) (optional)
+    
+    - Copilot-recommended templates (optional)
 
     ![](./media/image17.png)
 
@@ -331,9 +331,9 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
 8.  Adjust the **email draft** as needed:
 
-- **Length:** Select **Short**, **Medium**, or **Long**.
-
-- **Tone:** Select **Friendly**, **Professional**, or **Formal**.
+    - **Length:** Select **Short**, **Medium**, or **Long**.
+    
+    - **Tone:** Select **Friendly**, **Professional**, or **Formal**.
 
     ![](./media/image51.png)
 
@@ -422,11 +422,6 @@ In this exercise, use **Copilot** to generate a structured knowledge article dra
 8.  You will receive resolution Email.
 
     ![](./media/image65.png)
-
-**Conclusion:** You have generated a Copilot-drafted knowledge article
-from a resolved case and created a knowledge proposal, showing how
-Copilot turns case resolutions into reusable knowledge base content
-without manual write-up.
 
 ### Task 5: How Copilot supports different languages
 
@@ -527,7 +522,7 @@ plain-language search terms.
     ![](./media/image81.png)
 
 2.  Return to the **Dynamics 365 Copilot Service workspace**. In the
-    left navigation pane, select **Service \> Cases**.
+    left navigation pane, select **Service > Cases**.
 
     ![](./media/image82.png)
 
