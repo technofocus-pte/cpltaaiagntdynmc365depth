@@ -19,11 +19,11 @@ primarytopics: Power Platform
 **Objective** 
 In this lab, you will set up a complete trial environment required for working with Microsoft Power Platform and Dynamics 365
 applications. You will sign up for trial licenses, configure environments, create a team in Microsoft Teams, enable Copilot
-capabilities across services, and install required add-ins to support learning activities throughout the course.
+capabilities across services and install required add-ins to support learning activities throughout the course.
 
 ## **Exercise 1: Assign a Power Apps trial license**
 
-1.  Open a web browser on your VM and go to +++**https://powerapps.microsoft.com/en-us/free/**+++
+1.  Open a web browser on your VM and go to +++ https://powerapps.microsoft.com/en-us/free/ +++
 
 ![](./media/image1.png)
 
@@ -32,7 +32,7 @@ capabilities across services, and install required add-ins to support learning a
 ![](./media/image2.png "A person with his arms crossed Description automatically generated")
 
 3.  Enter your **Office 365 admin credentials**, check the checkbox to
-    **accept the agreement,** and click on **Start free**.
+    **accept the agreement** and click on **Start free**.
 
 ![](./media/image3.png)
 
@@ -41,7 +41,7 @@ capabilities across services, and install required add-ins to support learning a
 
 ![](./media/image4.png)
 
-5.  Select **Yes** on **Stay signed in?** pop-up window.
+5.  Select **Yes** on **Stay signed in** pop-up window.
 
 ![](./media/image5.png "A screenshot of a computer AI-generated content may be incorrect.")
 
@@ -50,7 +50,7 @@ capabilities across services, and install required add-ins to support learning a
 
 ![](./media/image6.png)
 
-7.  You can now see the **Home page of Power Apps** and the default  environment **Contoso (default)** – which has been created for you.
+7.  You can now see the **Home page of Power Apps** and the default environment **Contoso (default)** – which has been created for you.
 
 ![](./media/image7.png)
 
@@ -59,7 +59,7 @@ capabilities across services, and install required add-ins to support learning a
 ![](./media/image8.png)
 
 9.  Open the new tab and go to the **Power Platform admin center** by
-    navigating to +++**https://admin.powerplatform.microsoft.com**+++
+    navigating to +++ https://admin.powerplatform.microsoft.com +++
     and if required, sign in using your given Office 365 admin tenant
     credentials.
 
