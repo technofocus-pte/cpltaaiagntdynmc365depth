@@ -19,7 +19,7 @@ primarytopics: Dynamics 365 Customer Insights- Journey
 
 In this lab, you will learn how to design and style marketing emails using Copilot in Customer Insights – Journeys. You will learn how to enable Copilot features, use AI-generated content ideas to accelerate email creation, and apply theme customization tools to build branded email designs. You will also learn how to configure compliance elements, preview emails, and perform test sends to validate email styling and content before publishing.
 
-## **Task 1: Enable Copilot**
+## **Task 1: Enable Copilot in Customer Insights – Journeys**
 
 1. Go to **Power Platform admin center** by navigating to +++ https://admin.powerplatform.microsoft.com +++ and if required, sign in using your given **Office 365 admin tenant** credentials.
 
