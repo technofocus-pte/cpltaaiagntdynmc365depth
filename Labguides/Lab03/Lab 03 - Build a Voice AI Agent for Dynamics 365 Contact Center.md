@@ -59,7 +59,7 @@ A work, school, or administrator tenant account with the provided credentials.
 
 In this exercise, you activate the Dynamics 365 Customer Service trial to access the Copilot Service workspace and required administration tools.
 
-1.  Open a **Microsoft Edge** in private window and navigate to the **Dynamics 365 Customer Service trial** page.
+1.  Open a **Microsoft Edge** in private window and navigate to the +++ https://www.microsoft.com/en-us/dynamics-365/products/contact-center +++ page.
 
 2.  On the **Customer Service** page, select **Try for free**.
 
@@ -634,5 +634,4 @@ The voice agent successfully answers a policy query and routes the call to Copil
 
 ## Summary
 
-You have completed an end-to-end voice AI agent for Contoso using Microsoft Copilot Studio and Dynamics 365 Contact Center. The lab covered trial activation, contact center setup, voice agent creation, knowledge-source configuration, conversational topics, escalation, channel connection, publishing, voice-workstream integration, and
-live-call validation. The completed solution can answer Warranty & Return Policy and Troubleshooting Guide questions using the configured documents and transfer callers to a live representative when needed.
+You have completed an end-to-end voice AI agent for Contoso using **Microsoft Copilot Studio** and **Dynamics 365 Contact Center**. The lab covered trial activation, contact center setup, voice agent creation, knowledge-source configuration, conversational topics, escalation, channel connection, publishing, voice-workstream integration, and live-call validation. The completed solution can answer Warranty & Return Policy and Troubleshooting Guide questions using the configured documents and transfer callers to a live representative when needed.
