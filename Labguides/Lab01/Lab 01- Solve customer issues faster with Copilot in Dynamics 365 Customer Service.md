@@ -33,16 +33,6 @@ Set up the Microsoft 365 and Power Platform environment for **Dynamics 365  Cust
 
 You are a **Dynamics 365 Customer Service administrator/representativeat Contoso Coffee**, a company that sells and services coffee equipment.Your customer service team wants to reduce case resolution time andimprove response quality using **Copilot**. Before rolling out Copilotto representatives, you need to provision the required trial licenses and environments, enable and configure Copilot in the **Customer Service admin center**, and validate its ability to summarize cases, answer questions, draft customer communications, and support other AI-assisted capabilities. This will help Contoso Coffee representatives resolve customer issues faster and provide more consistent support.
 
-## **Lab Prerequisites**
-
-- Office 365 tenant with Global Administrator (or equivalent) access.
-
-- Internet access and a supported web browser (Microsoft Edge or Google Chrome recommended).
-
-- Basic familiarity with Power Platform and Dynamics 365 Customer Service.
-
-- Permissions to sign up for Power Apps and Dynamics 365 Customer Service trials in your tenant.
-
 ## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
 
 ### Task 1: Assign Customer Service trial license
@@ -52,35 +42,35 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 1.  Open your browser and browse to
     +++ https://dynamics.microsoft.com/en-in/customer-service/overview/ +++ and select **Try for free**.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  Enter your Office 365 admin **tenant credentials**, select the checkbox to accept the agreement and click on **Start your free trial**.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
-3.  Provide Contact Information as below and then select Submit.
+3.  Provide Contact Information as below and then select **Submit**.
 
-- Job Title: Your job title
+    - **Job Title**: Your job title
 
-- Country/region: United States
+    - **Country/region**: United States
 
-- Phone number: Your phone number
+    - **Phone number**: Your phone number
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 4.  If requested, enter your Office 365 admin tenant password.
 
-![Screenshot](./media/image4.png)
+    ![Screenshot](./media/image4.png)
 
 5.  You will land on the **Copilot Service Workspace** portal.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
-6. Go to the **Power Platform admin** center by navigating to +++ https://admin.powerplatform.microsoft.com/ +++ and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
+6. Go to the **Power Platform admin** center by navigating to +++https://admin.powerplatform.microsoft.com/+++ and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
 
 7. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 **Conclusion:** 
 You have successfully activated the **Customer Service trial** and verified that the Customer Service Trial environment is available, giving you access to the Copilot Service workspace used throughout the rest of this lab.
@@ -91,42 +81,42 @@ In this task, you will enable **Copilot** in the **Customer Service Admin Center
 
 1.  Navigate back to the **Copilot Service** **workspace** portal. Select the **Copilot Service workspace** at the top.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 2.  Under **Apps**, select **Copilot Service Admin Center**.
 
-![](./media/image8.png)
+    ![](./media/image8.png)
 
 3.  Select **Productivity** under **Support experience**.
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 4.  In the **Productivity** pane, select **Manage** for **Copilot settings**.
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 5.  Enable Copilot help - **Ask a Question**. Enable **Copilot immersive (preview)**.
 
-![](./media/image11.png)
+    ![](./media/image11.png)
 
-6.  Open Customer **Support \> Settings**
+6.  Open Customer **Support > Settings**
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
-![](./media/image13.png)
+    ![](./media/image13.png)
 
 7.  Configure the required **Copilot features** for representatives
     across the available tabs:
 
-- Overview
+    - Overview
 
-- Immersive settings
+    - Immersive settings
 
-- Email settings
+    - Email settings
 
-- Prompts
+    - Prompts
 
-- Extend agent
+    - Extend agent
 
 **Configure the Overview Tab**:
 
@@ -139,7 +129,7 @@ In the Instructions box, add:
 
 8.  Select **Save**.
 
-![](./media/image14.png)
+    ![](./media/image14.png)
 
 **Immersive Settings**
 
