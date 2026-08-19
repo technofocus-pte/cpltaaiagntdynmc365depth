@@ -17,7 +17,8 @@ primarytopics: Sales
 
 # Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)
 
-**Objective**: In this lab, you will learn how to set up and use the
+**Objective**
+In this lab, you will learn how to set up and use the
 Sales app in Microsoft Teams, configure Teams app setup policies to
 enable Copilot for Sales, schedule and manage Teams meetings with
 integrated Sales insights, and generate AI-powered transcripts and recap
@@ -29,206 +30,204 @@ for real organizational insights.
 
 ### **Task 1: Create a custom Teams app setup policy**
 
-1.  Sign in with your given Office 365 credentials to the **Microsoft
-    Teams admin center** using +++**https://admin.teams.microsoft.com/dashboard**+++.
+1.  Sign in with your given Office 365 credentials to the **Microsoft Teams admin center** using +++ https://admin.teams.microsoft.com/dashboard +++.
 
 2.  In the left pane, select **Teams apps \> Setup policies**.
 
-> ![](./media/image1.png)
+![](./media/image1.png)
 
 3.  On the **Manage policies** tab, select **Add**.
 
-> ![](./media/image2.png)
+![](./media/image2.png)
 
 4.  Enter **Assign Copilot permissions** in the **Name** field.
 
 5.  Turn on **User pinning**.
 
-> ![](./media/image3.png)
+![](./media/image3.png)
 
 6.  Under **Installed apps**, select **Add apps**.
 
-> ![](./media/image4.png)
+![](./media/image4.png)
 
 7.  In the **Add installed apps** panel, search for the **Sales** app. You can also filter apps by app permission policy
 
-> ![](./media/image5.png)
+![](./media/image5.png)
 
 8.  Hover the mouse over **Sales** and click on **Select**.
 
-> ![](./media/image6.png)
+![](./media/image6.png)
 
 9.  Select **Add** again to install the listed apps.
 
-> ![](./media/image7.png)
+![](./media/image7.png)
 
 10. Under **Pinned apps**, select **Add apps**.
 
-> ![](./media/image8.png)
+![](./media/image8.png)
 
 11. In the **Add pinned** apps panel, search for the **Sales** app. Hover the mouse over **Sales**, then click **Select**.
 
-> ![](./media/image9.png)
+![](./media/image9.png)
 
 12. Select **Add** again to pin the listed apps.
 
-> ![](./media/image10.png)
+![](./media/image10.png)
 
 13. You can arrange the apps in the order that you want them to appear in Teams.
 
-> ![](./media/image11.png)
+![](./media/image11.png)
 
 14. Once you moved the app to the first place, select **Save**.
 
-> ![](./media/image12.png)
+![](./media/image12.png)
 
 15. Select **Save** on the **User pinning** pop-up window.
 
-> ![](./media/image13.png)
+![](./media/image13.png)
 
 16. From the **Microsoft Teams admin center** portal, select **App launcher** and then select **Teams**.
 
-> ![](./media/image14.png)
+![](./media/image14.png)
 
 17. You can see the **Sales** app pinned in **Teams**.
 
 18. If you don’t see the app pinned, select **View more apps** from the left side pane, search for **Sales** and select **Add**.
 
-> ![](./media/image15.png)
+![](./media/image15.png)
 
 19. The **Sales** app is now ready.
 
-> ![](./media/image16.png)
+![](./media/image16.png)
 
 ### **Task 2: Schedule a Microsoft Teams meeting from Outlook**
 
-1.  Go to **App launcher**.
+1. Go to **App launcher**.
 
-> ![](./media/image17.png)
+![](./media/image17.png)
 
-2.  Select **Outlook**.
+2. Select **Outlook**.
 
-> ![](./media/image18.png)
+![](./media/image18.png)
 
-3.  Select **Calendar** from the left navigation pane. Select **New event \> Event**.
+3. Select **Calendar** from the left navigation pane. Select **New event \> Event**.
 
 > ![](./media/image19.png)
 
-4.  Give the name to the meeting – **Sales app Test Meeting**, select the current date and select time (set it to 10 minutes later from the current time).
+4. Give the name to the meeting – **Sales app Test Meeting**, select the current date and select time (set it to 10 minutes later from the current time).
 
-> ![](./media/image20.png)
+![](./media/image20.png)
 
-5.  In the field of **Invite attendees**, enter **your email id**. Ensure that the **Teams meeting** toggle button is **on**. Now select **Send**.
+5. In the field of **Invite attendees**, enter **your email id**. Ensure that the **Teams meeting** toggle button is **on**. Now select **Send**.
 
-> ![](./media/image21.png)
+![](./media/image21.png)
 
-6.  Now go to the **Teams** app, select **Calendar**. You can see the newly scheduled meeting. Click on the meeting.
+6. Now go to the **Teams** app, select **Calendar**. You can see the newly scheduled meeting. Click on the meeting.
 
-> ![](./media/image22.png)
+![](./media/image22.png)
 
-7.  Select **Edit**.
+7. Select **Edit**.
 
-> ![](./media/image23.png)
+![](./media/image23.png)
 
-8.  Select the **Apps icon** from the menu bar at the top.
+8. Select the **Apps icon** from the menu bar at the top.
 
-> ![](./media/image24.png)
+![](./media/image24.png)
 
-9.  Search for **Sales** and select it.
+9. Search for **Sales** and select it.
 
-> ![](./media/image25.png)
+![](./media/image25.png)
 
 10. Select **Add**.
 
-> ![](./media/image26.png)
+![](./media/image26.png)
 
 11. On the screen that states **This app may have issues**, select **Show the app anyway**.
 
-> ![](./media/image27.png)
+![](./media/image27.png)
 
 12. Select **Save**.
 
-> ![](./media/image28.png)
+![](./media/image28.png)
 
 13. Select **Join** to join the meeting.
 
-> ![](./media/image29.png)
+![](./media/image29.png)
 
 14. If asked, allow the use of headphones for this time. Select **Join now**.
 
-> ![](./media/image30.png)
+![](./media/image30.png)
 
 15. Select **Continue on this browser**.
 
-> ![](./media/image31.png)
+![](./media/image31.png)
 
-16. You will get a notification from the MOD Admin for joining the
-    meeting from your personal Teams app. Select **Join**.
+16. You will get a notification from the MOD Admin for joining the meeting from your personal Teams app. Select **Join**.
 
-> ![](./media/image32.png "Screenshot")
+![](./media/image32.png "Screenshot")
 
 17. Mute the audio and select **Join now**.
 
-> ![](./media/image33.png)
+![](./media/image33.png)
 
 18. On the Mod Admin’s Team web app, you will get a notification that **Waiting in the lobby**. Select **Admit**.
 
-> ![](./media/image34.png)
+![](./media/image34.png)
 
 19. Select **More \> Record** and **Transcribe \> Start recording**.
 
-> ![](./media/image35.png)
+![](./media/image35.png)
 
 20. Keep the language **English** and then select **Confirm**.
 
-> ![](./media/image36.png)
+![](./media/image36.png)
 
 21. You can talk about something as a MOD Admin to generate a transcript. (Example - You can explain what Sales in Microsoft 365 is)
 
 22. Leave the meeting from Mod Admin’s Teams web app and your Teams app.
 
-> ![](./media/image37.png)
+![](./media/image37.png)
 
 23. Select **Got it**.
 
-> ![](./media/image38.png)
+![](./media/image38.png)
 
 24. In the Chat section, you can see the recap.
 
-> ![](./media/image39.png)
+![](./media/image39.png)
 
 25. Select **View recap**.
 
-> ![](./media/image40.png)
+![](./media/image40.png)
 
 26. Scroll down and select the **Sales** tab.
 
-> ![](./media/image41.png)
+![](./media/image41.png)
 
 27. You can see sales related insights.
 
-> ![](./media/image42.png)
+![](./media/image42.png)
 
 28. Select **Transcript**, and you can see the AI-generated transcript.
 
-> ![](./media/image43.png)
+![](./media/image43.png)
 
 ## **Exercise 2: Analyze your sellers' conversation data with Power BI (preview)**
 
 ### **Task 1: Download the Copilot for Sales dashboard app**
 
 1. To download the Copilot for Sales - Conversation intelligence
-    dashboard, go to +++**https://go.microsoft.com/fwlink/p/?linkid=2259835**+++. Select **Get it now**.
+    dashboard, go to +++ https://go.microsoft.com/fwlink/p/?linkid=2259835 +++. Select **Get it now**.
 
-> ![](./media/image44.png)
+![](./media/image44.png)
 
 2. Enter the given Office 365 tenant credentials and select **Sign in**.
 
-> ![](./media/image45.png)
+![](./media/image45.png)
 
 3. Select **Get it now**.
 
-> ![](./media/image46.png)
+![](./media/image46.png)
 
 4. Again, enter the given Office 365 tenant credentials and select **Submit**.
 
@@ -276,7 +275,7 @@ for real organizational insights.
 
 ### **Task 2: Connect the dashboard to your organization's data**
 
-> When you download Copilot for Sales - Conversation intelligence dashboard from Microsoft AppSource, it includes sample data. To connect the dashboard to your own data in Dataverse, follow these steps:
+When you download Copilot for Sales - Conversation intelligence dashboard from Microsoft AppSource, it includes sample data. To connect the dashboard to your own data in Dataverse, follow these steps:
 
 1. Considering the downloaded Copilot for Sales dashboard is open already, select **Connect your data**.
 
