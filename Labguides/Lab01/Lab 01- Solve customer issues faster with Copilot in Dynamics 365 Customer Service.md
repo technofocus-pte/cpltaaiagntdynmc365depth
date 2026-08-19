@@ -76,7 +76,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 ![](./media/image5.png)
 
-6. Go to the **Power Platform admin** center by navigating to +++ **https://admin.powerplatform.microsoft.com/**+++ and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
+6. Go to the **Power Platform admin** center by navigating to +++ https://admin.powerplatform.microsoft.com/ +++ and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
 
 7. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
 
@@ -504,8 +504,8 @@ workspace**.
 
 **Enable AI Form Fill Assistance**
 
-1.  Open **Power Platform Admin Center
-    +++**<https://admin.powerplatform.microsoft.com>**+++**
+1.  Open **Power Platform Admin Center**
+    +++ https://admin.powerplatform.microsoft.com +++
 
 ![](./media/image67.png)
 
@@ -641,7 +641,7 @@ In this exercise, you will configure Row Summary for the Account table,
 apply it to the main form, and view the AI-generated summary for an
 account record in the Omnichannel for Customer Service app.
 
-1.  Return to +++<https://powerapps.microsoft.com> +++ tab. Select **Tables** \> **Accounts**
+1.  Return to +++ https://powerapps.microsoft.com +++ tab. Select **Tables** \> **Accounts**
 
 ![](./media/image92.png)
 
