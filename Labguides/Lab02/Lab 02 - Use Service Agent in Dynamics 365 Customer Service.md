@@ -77,7 +77,7 @@ In this task, start a **Dynamics 365 Customer Service trial**, provide the requi
 
   ![](./media/image5.png)
 
-6.  Open the +++ https://admin.powerplatform.microsoft.com/ +++ and sign in with your **Microsoft 365 tenant admin credentials**, if prompted. From the left navigation pane, select **Manage \> Environments**, and verify that the **Customer Service Trial** environment is listed.
+6.  Open the **+++https://admin.powerplatform.microsoft.com/+++** and sign in with your **Microsoft 365 tenant admin credentials**, if prompted. From the left navigation pane, select **Manage \> Environments**, and verify that the **Customer Service Trial** environment is listed.
 
   ![](./media/image6.png)
 
@@ -107,9 +107,10 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
 
   ![](./media/image11.png)
 
-6.  Open **Customer Support \> Settings**
+6.  Open **Customer Support > Settings**
 
   ![](./media/image12.png)
+  
 
   ![](./media/image13.png)
 
@@ -126,11 +127,11 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
     - Extend agent
 
 #### Configure the Overview Tab
-  In the Instructions box, add:
-  +++Respond in a professional and friendly tone.
-  Provide clear, concise explanations.
-  Use short paragraphs and bullet points when appropriate.
-  If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.**+++
+    In the Instructions box, add:
+    +++Respond in a professional and friendly tone.
+    Provide clear, concise explanations.
+    Use short paragraphs and bullet points when appropriate.
+    If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.+++
 
 8. Select **Save**.
   
@@ -138,20 +139,20 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
 
 #### Immersive Settings
 
-Configure the following settings on the **Immersive** **settings** tab:
+  Configure the following settings on the **Immersive** **settings** tab:
 
-Configure Workload Prompt:
-+++Show open cases in priority order.
-Highlight overdue and escalated cases first.
-Identify customers with multiple open cases.
-Summarize key actions required for each case.
-Recommend the next best action where appropriate.+++
+  Configure Workload Prompt:
+  +++Show open cases in priority order.
+  Highlight overdue and escalated cases first.
+  Identify customers with multiple open cases.
+  Summarize key actions required for each case.
+  Recommend the next best action where appropriate.+++
 
 ![](./media/image15.png)
 
 9.  Configure **Case Overview Card**.
 
-Configure the settings as:
+  Configure the settings as:
 
   - Case Number
   
@@ -167,13 +168,13 @@ Configure the settings as:
 
 11. Go to the **Email Settings** tab:
 
-Enable:
+    Enable:
 
-  - Help pane - Write an email
-  
-  - Email sentiments (Preview) (optional)
-  
-  - Copilot-recommended templates (optional)
+    - Help pane - Write an email
+    
+    - Email sentiments (Preview) (optional)
+    
+    - Copilot-recommended templates (optional)
 
   ![](./media/image17.png)
 
