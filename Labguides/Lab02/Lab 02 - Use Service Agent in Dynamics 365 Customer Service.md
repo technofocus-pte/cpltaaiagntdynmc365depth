@@ -71,7 +71,7 @@ Before starting this lab, ensure that:
 
 In this task, start a **Dynamics 365 Customer Service trial**, provide the required information, and verify that the **Customer Service Trial** environment is provisioned in the **Power Platform admin center**.
 
-1.  Open your browser and browse to **+++https://dynamics.microsoft.com/en-in/customer-service/overview/+++** and select **Try for free**.
+1.  Open your browser and browse to +++ https://dynamics.microsoft.com/en-in/customer-service/overview/ +++ and select **Try for free**.
 
 ![](./media/image1.png)
 
@@ -97,7 +97,7 @@ In this task, start a **Dynamics 365 Customer Service trial**, provide the requi
 
 ![](./media/image5.png)
 
-6.  Open the **+++https://admin.powerplatform.microsoft.com/+++** and sign in with your **Microsoft 365 tenant admin credentials**, if prompted. From the left navigation pane, select **Manage \> Environments**, and verify that the **Customer Service Trial** environment is listed.
+6.  Open the +++ https://admin.powerplatform.microsoft.com/ +++ and sign in with your **Microsoft 365 tenant admin credentials**, if prompted. From the left navigation pane, select **Manage \> Environments**, and verify that the **Customer Service Trial** environment is listed.
 
 ![](./media/image6.png)
 
@@ -231,7 +231,7 @@ Enable:
 
 Install the **Service app for Microsoft 365 Copilot** to enable access to service-related capabilities and support the lab activities.
 
-1.  Sign in to the **Microsoft 365 portal** at **+++<https://m365.cloud.microsoft/>+++** using your administrator credentials.
+1.  Sign in to the **Microsoft 365 portal** at +++ https://m365.cloud.microsoft/ +++ using your administrator credentials.
 
 ![](./media/image22.png)
 
@@ -249,7 +249,7 @@ Install the **Service app for Microsoft 365 Copilot** to enable access to servic
 
 Enable **Service Agent** in **Dynamics 365 Customer Service** and configure it to support AI-assisted case management and resolution.
 
-1.  Go to +++ <https://make.powerapps.com> +++.
+1.  Go to +++ https://make.powerapps.com +++.
 
 2.  Select **Apps \> Omnichannel for Customer Service**.
 
@@ -283,7 +283,7 @@ Enable **Service Agent** in **Dynamics 365 Customer Service** and configure it t
 
 ![](./media/image32.png)
 
-**Conclusion**: 
+**Conclusion**
 Service Agent is enabled and accessible from Dynamics 365 Customer Service.
 
 ## **Task 3: Open and review customer cases**
