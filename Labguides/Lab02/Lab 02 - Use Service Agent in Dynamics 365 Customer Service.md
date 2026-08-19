@@ -304,8 +304,6 @@ Ask for Next Steps: **Review case details and activity history**
 
 ![](./media/image39.png)
 
-**Conclusion**: Service Agent retrieves relevant knowledge articles and recommends next steps to help resolve the issue.
-
 ## **Task 7: Update a case using Service Agent**
 
 **Update case priority**
