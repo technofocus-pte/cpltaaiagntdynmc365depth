@@ -38,6 +38,25 @@ By the end of this lab, you will be able to:
  - Test and validate the voice agent using a live phone call.
     
  - Enable automated handling of common customer support inquiries.
+## Lab Prerequisites
+
+ Before starting this lab, ensure you have:
+
+- A work, school, or administrator tenant account with the provided credentials.
+  
+- Dynamics 365 Contact Center Free Trial.
+  
+- Microsoft Copilot Studio Free Trial.
+  
+- Access to the Copilot Service Admin Center.
+  
+- A configured Dynamics 365 Contact Center voice channel.
+  
+- Warranty & Return Policy document.
+  
+- Troubleshooting Guide document.
+  
+- Internet access and a phone capable of making calls for testing purposes.
 
 ## Exercise 1: Activate Dynamics 365 Contact Center Trial
 
