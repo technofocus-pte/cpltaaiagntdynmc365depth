@@ -27,7 +27,7 @@ To resolve the issue efficiently, you'll use **Service Agent** in **Dynamics 365
   - Update case records and add notes.
   - Create a follow-up child case for additional investigation if required.
 
-## **Overview and objective **
+## Overview and objective
 
 In this lab, you'll use Service Agent in Dynamics 365 Customer Service to manage customer cases more efficiently. You'll learn how to review and prioritize cases, generate summaries, retrieve knowledge articles, draft responses, update case records using natural language, and create follow-up activities and child cases.
 
@@ -138,29 +138,28 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
   ![](./media/image14.png)
 
 #### Immersive Settings
+    Configure the following settings on the **Immersive** **settings** tab:
 
-  Configure the following settings on the **Immersive** **settings** tab:
-
-  Configure Workload Prompt:
-  +++Show open cases in priority order.
-  Highlight overdue and escalated cases first.
-  Identify customers with multiple open cases.
-  Summarize key actions required for each case.
-  Recommend the next best action where appropriate.+++
+    Configure Workload Prompt:
+    +++Show open cases in priority order.
+    Highlight overdue and escalated cases first.
+    Identify customers with multiple open cases.
+    Summarize key actions required for each case.
+    Recommend the next best action where appropriate.+++
 
 ![](./media/image15.png)
 
 9.  Configure **Case Overview Card**.
 
-  Configure the settings as:
+    Configure the settings as:
 
-  - Case Number
-  
-  - Case Title
-  
-  - Priority
-  
-  - Status
+    - Case Number
+    
+    - Case Title
+    
+    - Priority
+    
+    - Status
 
   ![](./media/image16.png)
 
@@ -182,19 +181,19 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
 
 13. Go to the Prompts tab, leave all currently checked prompts enabled. Click **Save**.
 
-  ![](./media/image18.png)
+    ![](./media/image18.png)
 
 14. Click **Save and Close**.
 
-  ![](./media/image19.png)
+    ![](./media/image19.png)
 
 15. Select **Manage** for Summaries.
 
-  ![](./media/image20.png)
+    ![](./media/image20.png)
 
 16. Select **Make case summaries available to representatives** check box, select all the check boxes under Live conversation summaries and then select **Save and close**.
 
-  ![](./media/image21.png)
+    ![](./media/image21.png)
 
 ## **Task 3: Install the Service app for Microsoft 365 Copilot**
 
@@ -202,15 +201,15 @@ Install the **Service app for Microsoft 365 Copilot** to enable access to servic
 
 1.  Sign in to the **Microsoft 365 portal** at **+++https://m365.cloud.microsoft/+++** using your administrator credentials.
 
-  ![](./media/image22.png)
+    ![](./media/image22.png)
 
 2.  Select **Apps and more**. Search for **Service**.
 
-  ![](./media/image23.png)
+    ![](./media/image23.png)
 
 3.  Select the **Service app** and verify that the **Service** app appears in the left navigation pane.
 
-  ![](./media/image24.png)
+    ![](./media/image24.png)
 
 ## **Task 2: Enable Service Agent in Dynamics 365 Customer Service**
 
@@ -220,27 +219,27 @@ Enable **Service Agent** in **Dynamics 365 Customer Service** and configure it t
 
 2.  Select **Apps > Omnichannel for Customer Service**.
 
-  ![](./media/image25.png)
+    ![](./media/image25.png)
 
 3.  Open the app designer. Select **Create agent** and verify that **Service Agent** is available.
 
-  ![](./media/image26.png)
+    ![](./media/image26.png)
 
 4.  Confirm that the **Dynamics 365 Customer Service** app appears in the app designer.
 
-  ![](./media/image27.png)
+    ![](./media/image27.png)
 
 5.  Select **Save and Publish**.
 
-  ![](./media/image28.png)
+    ![](./media/image28.png)
 
 6. Confirm that the **Copilot** app appears in the app designer.
 
-  ![](./media/image29.png)
+    ![](./media/image29.png)
 
 7. Select **Play** to launch the application
 
-  ![](./media/image30.png)
+    ![](./media/image30.png)
 
 8. Verify that **Microsoft 365 Copilot** is available within **Dynamics 365 Customer Service**. Select the **Microsoft 365 Copilot** icon.
 
