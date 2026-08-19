@@ -126,11 +126,11 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
     - Extend agent
 
 #### Configure the Overview Tab
-In the Instructions box, add:
-+++Respond in a professional and friendly tone.
-Provide clear, concise explanations.
-Use short paragraphs and bullet points when appropriate.
-If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.**+++
+  In the Instructions box, add:
+  +++Respond in a professional and friendly tone.
+  Provide clear, concise explanations.
+  Use short paragraphs and bullet points when appropriate.
+  If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.**+++
 
 8. Select **Save**.
   
