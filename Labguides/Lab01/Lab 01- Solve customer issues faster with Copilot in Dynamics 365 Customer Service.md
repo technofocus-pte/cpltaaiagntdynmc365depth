@@ -471,20 +471,20 @@ workspace**.
 
 9.  In the left navigation pane, select **Service** > **Cases**
 
-    ![](./media/image72.png)
+   ![](./media/image72.png)
 
 10.  Select **+ New Cases**.
 
-    ![](./media/image73.png)
+   ![](./media/image73.png)
 
 11.  You can view new contact form.
 
-    ![](./media/image74.png)
+   ![](./media/image74.png)
 
 11.  Create the contact information data and save it as a **CSV** file.
     Then, select the row where you want to add the contact information.
 
-    ![](./media/image75.png)
+   ![](./media/image75.png)
 
 11. Return to the **Contact** form. Click “**Smart Paste Icon**”
 
