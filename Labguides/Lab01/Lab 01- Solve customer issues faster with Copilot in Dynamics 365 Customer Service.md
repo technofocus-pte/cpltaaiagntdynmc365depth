@@ -447,7 +447,7 @@ workspace**.
 
     ![](./media/image69.png)
 
-4.  Navigate to: **Product> Features**
+4.  Navigate to: **Product > Features**
 
     ![](./media/image70.png)
 
@@ -461,41 +461,49 @@ workspace**.
 
     ![](./media/image71.png)
 
-6.  In the left navigation pane, select **Service** > **Cases**
+6. Go to the **Power Apps tab**. In the App Designer left navigation pane, select **Apps**, and then select **Copilot Service Workspace** to open the app.
+
+    ![](./media/image104.png)
+
+7. Select **Save and Publish**, and then select the **Play** icon to open and preview the app.
+
+   ![](./media/image105.png)
+
+9.  In the left navigation pane, select **Service** > **Cases**
 
     ![](./media/image72.png)
 
-7.  Select **+ New Cases**.
+10.  Select **+ New Cases**.
 
     ![](./media/image73.png)
 
-8.  You can view new contact form.
+11.  You can view new contact form.
 
     ![](./media/image74.png)
 
-9.  Create the contact information data and save it as a **CSV** file.
+11.  Create the contact information data and save it as a **CSV** file.
     Then, select the row where you want to add the contact information.
 
     ![](./media/image75.png)
 
-10. Return to the **Contact** form. Click “**Smart Paste Icon**”
+11. Return to the **Contact** form. Click “**Smart Paste Icon**”
 
     ![](./media/image76.png)
 
-11. Wait for AI-generated suggestions to appear. Click “**Accept 11
+12. Wait for AI-generated suggestions to appear. Click “**Accept 11
     Suggestion**.”
 
     ![](./media/image77.png)
 
-12. Verify that the **Contact Information** is automatically populated.
+13. Verify that the **Contact Information** is automatically populated.
 
     ![](./media/image78.png)
 
-13. Click **Save & Close**.
+14. Click **Save & Close**.
 
     ![](./media/image79.png)
 
-14. Verify that the **Contact Information** has been added successfully.
+15. Verify that the **Contact Information** has been added successfully.
 
     ![](./media/image80.png)
 
