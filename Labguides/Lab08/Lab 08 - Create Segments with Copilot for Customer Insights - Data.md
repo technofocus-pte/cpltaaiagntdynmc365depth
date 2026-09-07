@@ -55,7 +55,11 @@ In this exercise, you will import customer and transaction datasets into Custome
 
   ![](./media/image1.png)
 
-2. From the left navigation, select **Data** > **Data sources**.
+2.Select Individual consumers (B2C) card.
+
+ ![](./media/image57.png)
+
+3. From the left navigation, select **Data** > **Data sources**.
 
   ![](./media/image2.png)
 
@@ -67,7 +71,7 @@ In this exercise, you will import customer and transaction datasets into Custome
 
   ![](./media/image4.png)
 
-5. Enter ***GroceryContacts*** in the **Data source name** for the data source and select **Next**.
+5. Enter ***+++GroceryContacts+++*** in the **Data source name** for the data source and select **Next**.
 
   ![](./media/image5.png)
 
@@ -137,7 +141,7 @@ In this exercise, you will import customer and transaction datasets into Custome
 
    ![](./media/image21.png)
 
-23. Enter ***GroceryTransactions*** in the **Data source Name** for the data source and select **Next**.
+23. Enter ***+++GroceryTransactions+++*** in the **Data source Name** for the data source and select **Next**.
 
    ![](./media/image22.png)
 
@@ -170,8 +174,6 @@ In this exercise, you will import customer and transaction datasets into Custome
  ![](./media/image29.png)
 
 31. Press and hold the **Ctrl** key on your keyboard to select the **msrc_transactionamount** and **msrc_discountappliedamount** columns. Right-click one of the columns, go to **Change type**, and then select **Decimal number**.
-
-  ![](./media/image30.png)
 
 32. Select **Next**.
 
@@ -231,7 +233,7 @@ In this exercise, you will unify customer and transaction data by selecting sour
 
    ![](./media/image43.png)
 
-11. Select **contactid** and **msrc_customerid** and then name the rule **contacttransactions**. Select **Done**.
+11. Select **contactid** and **msrc_customerid** and then name the rule **+++contacttransactions+++**. Select **Done**.
 
    ![](./media/image44.png)
 
@@ -283,7 +285,7 @@ In this exercise, you will use Copilot to create customer segments through natur
 
   ![](./media/image54.png "Screenshot")
 
-7. On the **Review details** page, enter ***Loyalty membership*** in the **Name** field and then select **Run**.
+7. On the **Review details** page, enter ***+++Loyalty membership+++*** in the **Name** field and then select **Run**.
 
    ![](./media/image55.png "Screenshot")
 
