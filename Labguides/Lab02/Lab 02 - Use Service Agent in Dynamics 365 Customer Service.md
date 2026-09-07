@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Customer Service
 ---
 
-# **Use Service Agent in Dynamics 365 Customer Service**
+# Lab 02 - Use Service Agent in Dynamics 365 Customer Service
 
 ## Scenario
 
