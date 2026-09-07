@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Contact Center
 ---
 
-# Build a Voice AI Agent for Dynamics 365 Contact Center
+# Lab 03 - Build a Voice AI Agent for Dynamics 365 Contact Center
 
 ## Scenario
 
