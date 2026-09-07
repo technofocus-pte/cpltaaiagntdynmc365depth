@@ -13,7 +13,7 @@ islab: True
 
 primarytopics: Dynamics 365 Customer Insights - Data
 ---
-# Create segments with Copilot for Customer Insights – Data
+# Lab 08 - Create segments with Copilot for Customer Insights – Data
 
 ## Scenario
 
