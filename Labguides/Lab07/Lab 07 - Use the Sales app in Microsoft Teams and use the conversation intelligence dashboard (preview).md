@@ -15,7 +15,7 @@ primarytopics: Sales
 ---
 
 
-# Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)
+# Lab 07 - Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)
 
 ## Scenario
 
