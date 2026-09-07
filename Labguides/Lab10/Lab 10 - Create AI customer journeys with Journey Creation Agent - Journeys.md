@@ -132,7 +132,7 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![New segment dialog](./media/image18.png "New segment dialog")
 
-3. Name the new segment **New Customers - Welcome Campaign** and select **Lead** from the Select a target audience drop-down list.
+3. Name the new segment **+++New Customers - Welcome Campaign+++** and select **Lead** from the Select a target audience drop-down list.
 
  ![Naming the segment and choosing target audience](./media/image19.png "Naming the segment and choosing target audience")
 
@@ -142,7 +142,7 @@ Build a segment that identifies new customers who should receive the welcome cam
  
  2. Open the **Design** tab of the segment (here shown for the **Welcome Campaign segment**) to review the generated condition group. Confirm it reads: **Marketing Form Submitted** **at** **least once in the last 28 days**, with E-mail Id Contains **Contoso**. In the Segment details pane on the right, confirm the Segment type is Dynamic, and the Target audience is set to Leads.
  
- 3. Note that the segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
+>**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
 
  ![](./media/image20.png)
 
@@ -156,7 +156,7 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![Create new journey dialog with Journey Creation Agent tab](./media/image21.png "Create new journey dialog with Journey Creation Agent tab")
 
-2. In the prompt box, enter: **Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.** Select the **Send** (arrow) icon.
+2. In the prompt box, enter: **+++Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.+++** Select the **Send** (arrow) icon.
 
  ![Prompt entered in Journey Creation Agent](./media/image22.png "Prompt entered in Journey Creation Agent")
 
