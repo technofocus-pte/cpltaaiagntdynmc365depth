@@ -14,7 +14,7 @@ islab: True
 primarytopics: Sales Agent
 ---
 
-# Compose emails, view email summary and opportunity summary in Outlook using Sales Agent
+# Lab 06 - Compose emails, view email summary and opportunity summary in Outlook using Sales Agent
 
 ## Scenario
 
