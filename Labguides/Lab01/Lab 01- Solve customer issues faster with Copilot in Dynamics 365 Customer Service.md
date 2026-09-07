@@ -13,7 +13,7 @@ islab: True
     
 primarytopics: Dynamics365 Customer Service
 ---   
-# Solve customer issues faster with Copilot in Dynamics 365 Customer Service
+# Lab 01 - Solve customer issues faster with Copilot in Dynamics 365 Customer Service
 
 ## Scenario
 You are a **Dynamics 365 Customer Service administrator/representative at Contoso Coffee**, a company that sells and services coffee equipment. Your customer service team wants to reduce case resolution time and improve response quality using **Copilot**. Before rolling out Copilot to representatives, you need to provision the required trial licenses and environments, enable and configure Copilot in the **Customer Service admin center**, and validate its ability to summarize cases, answer questions, draft customer communications, and support other AI-assisted capabilities. This will help Contoso Coffee representatives resolve customer issues faster and provide more consistent support.
