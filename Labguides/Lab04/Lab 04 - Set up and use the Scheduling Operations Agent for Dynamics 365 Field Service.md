@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Field Service
 ---
 
-# Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
+# Lab 04 - Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
 
 ## Scenario
 
