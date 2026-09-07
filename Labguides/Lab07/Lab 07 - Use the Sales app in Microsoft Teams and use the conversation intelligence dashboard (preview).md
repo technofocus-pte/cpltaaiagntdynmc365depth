@@ -74,7 +74,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
 ### Task 1: Create a custom Teams app setup policy
 
-1.  Sign in with your given Office 365 credentials to the **Microsoft Teams admin center** using +++ https://admin.teams.microsoft.com/dashboard +++.
+1.  Sign in with your given Office 365 credentials to the **Microsoft Teams admin center** using **+++https://admin.teams.microsoft.com/dashboard+++**.
 
 2.  In the left pane, select **Teams apps > Setup policies**.
 
@@ -84,7 +84,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image2.png)
 
-4.  Enter **Assign Copilot permissions** in the **Name** field.
+4.  Enter **+++Assign Copilot permissions+++** in the **Name** field.
 
 5.  Turn on **User pinning**.
 
@@ -154,11 +154,11 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image18.png)
 
-3. Select **Calendar** from the left navigation pane. Select **New event \> Event**.
+3. Select **Calendar** from the left navigation pane. Select **New event > Event**.
 
     ![](./media/image19.png)
 
-4. Give the name to the meeting – **Sales app Test Meeting**, select the current date and select time (set it to 10 minutes later from the current time).
+4. Give the name to the meeting – **+++Sales app Test Meeting+++**, select the current date and select time (set it to 10 minutes later from the current time).
 
     ![](./media/image20.png)
 
