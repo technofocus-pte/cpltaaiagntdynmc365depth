@@ -13,7 +13,7 @@ islab: True
 primarytopics: Dynamics 365 Customer Insights- Journey
 ---
 
-# Design and style emails with AI-assisted themes using Copilot in Customer Insights – Journeys
+# Lab 09 - Design and style emails with AI-assisted themes using Copilot in Customer Insights – Journeys
 
 ## Scenario
 
