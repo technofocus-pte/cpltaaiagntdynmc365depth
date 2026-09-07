@@ -14,7 +14,7 @@ islab: True
 primarytopics: Power Platform
 ---
 
-# Setting up the lab environment
+# Lab 05 - Setting up the lab environment
 
 ## Objective
 In this lab, you will set up a complete trial environment required for working with Microsoft Power Platform and Dynamics 365 applications. You will sign up for trial licenses, configure environments, create a team in Microsoft Teams, enable Copilot capabilities across services and install required add-ins to support learning activities throughout the course.
