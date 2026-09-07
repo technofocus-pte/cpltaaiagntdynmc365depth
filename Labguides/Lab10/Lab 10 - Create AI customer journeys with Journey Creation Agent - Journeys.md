@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Customer Insights- Journeys
 ---
 
-# Create an AI-Assisted Customer Journey with the Journey Creation Agent in Customer Insights – Journeys
+# Lab 10 - Create an AI-Assisted Customer Journey with the Journey Creation Agent in Customer Insights – Journeys
 
 ## Scenario
 
