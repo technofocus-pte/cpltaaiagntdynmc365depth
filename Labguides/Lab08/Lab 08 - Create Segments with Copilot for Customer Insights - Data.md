@@ -51,13 +51,13 @@ In this exercise, you will import customer and transaction datasets into Custome
 
 1. Access your **Customer Insights - Data** environment using the given link **+++https://home.ci.ai.dynamics.com/+++**.
 
-**Note**: Close the pop-up – introducing Copilot in Customer Insights – Data.
-
-  ![](./media/image1.png)
-
 2.Select Individual consumers (B2C) card.
 
  ![](./media/image57.png)
+
+ **Note**: Close the pop-up – introducing Copilot in Customer Insights – Data.
+
+  ![](./media/image1.png)
 
 3. From the left navigation, select **Data** > **Data sources**.
 
