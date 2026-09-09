@@ -335,26 +335,26 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 
     ![](./media/image43.png)
 
-2. Rename the topic +++**Warranty and Return Policy**+++.
+2. Rename the topic **+++Warranty and Return Policy+++**.
 
     ![](./media/image44.png)
 
-3. On the trigger node, select **Edit**. Add +++**Warranty and Return Policy**+++ to the phrase field, and then select the **+** icon.
+3. On the trigger node, select **Edit**. Add **+++Warranty and Return Policy+++** to the phrase field, and then select the **+** icon.
 
     ![](./media/image45.png)
 
 4. Add the following trigger phrases:
 
-        - **+++Information About Warranty and Return Policy+++**
+   **+++Information About Warranty and Return Policy+++**
     
-        - **+++Return Policy details+++**
+   **+++Return Policy details+++**
 
     ![](./media/image46.png)
 
 5. Below the trigger node, select **+** and add an **Ask a question** node.
 
 6. In the message field, enter:
-    +++**Please explain your query related to troubleshooting**+++
+    +++**Please explain your query related to troubleshooting**+++. Select under **Identity** tab **User's entire response**.
 
     ![](./media/image47.png)
 
