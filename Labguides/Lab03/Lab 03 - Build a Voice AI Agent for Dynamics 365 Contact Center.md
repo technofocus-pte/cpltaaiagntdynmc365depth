@@ -588,7 +588,7 @@ In this exercise, you connect the AI agent to the voice workstream for handling 
 
     ![](./media/image90.png)
 
-**Expected result: The incoming call appears in Copilot Service Workspace, confirming that the voice agent is receiving and routing live calls.**
+Expected result: The incoming call appears in Copilot Service Workspace, confirming that the voice agent is receiving and routing live calls.
 
 ## Summary
 
