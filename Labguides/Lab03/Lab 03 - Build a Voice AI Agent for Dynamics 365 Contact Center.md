@@ -123,7 +123,7 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
 In this exercise, you activate the Microsoft Copilot Studio trial to create and manage AI-powered agents.
 
-1.  Open a new browser tab and navigate to the **Microsoft Copilot Studio trial** page.
+1.  Open a new browser tab and navigate to the **+++https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio+++** page.
 
 2. Select **Try for free**.
 
