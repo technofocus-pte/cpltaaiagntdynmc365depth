@@ -104,6 +104,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
  ![AI agents list showing Journey Creation Agent enabled](./media/image13.png "AI agents list showing Journey Creation Agent enabled")
 
+<!--
 ### Task 3: Open the Customer Insights – Journeys App
 
 1. Go to **+++https://powerapps.microsoft.com+++** and select **Apps** in the left navigation to view the apps available in the environment.
@@ -118,6 +119,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
  ![All Journeys list in the app](./media/image16.png "All Journeys list in the app")
 
+-->
 ## Exercise 2 – Create a target segment
 
 Build a segment that identifies new customers who should receive the welcome campaign, so the journey you generate in Exercise 3 has an audience to target.
