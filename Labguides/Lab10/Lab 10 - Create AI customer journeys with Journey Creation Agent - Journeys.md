@@ -138,13 +138,9 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![Naming the segment and choosing target audience](./media/image19.png "Naming the segment and choosing target audience")
 
-### Task 2: Define the Segment Condition with Query Assist
+### Task 2: Define the Segment Condition
 
- 1. In the Query Assist box, describe the audience in natural language —for example, **leads whose e-mail address contains Contoso and who submitted a marketing form at least once in the last 28 days** — and let Copilot build the matching condition. Select **Create** to save the segment.
- 
- 1. Open the **Design** tab of the segment (here shown for the **Welcome Campaign segment**) to review the generated condition group. Confirm it reads: **Marketing Form Submitted** **at** **least once in the last 28 days**, with E-mail Id Contains **Contoso**. In the Segment details pane on the right, confirm the Segment type is Dynamic, and the Target audience is set to Leads.
-
- 1. If the Copilot-generated journey shows an error while publishing, then create segment manually. Select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
+ 1. To create the segment manually, select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
  
 >**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
 
