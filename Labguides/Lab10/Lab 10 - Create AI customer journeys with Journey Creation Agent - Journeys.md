@@ -130,11 +130,11 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![All Segments view](./media/image17.png "All Segments view")
 
-2. Select **New Segment** to open the segment creation pane.
+1. Select **New Segment** to open the segment creation pane.
 
  ![New segment dialog](./media/image18.png "New segment dialog")
 
-3. Name the new segment **+++New Customers - Welcome Campaign+++** and select **Lead** from the Select a target audience drop-down list.
+1. Name the new segment **+++New Customers - Welcome Campaign+++** and select **Lead** from the Select a target audience drop-down list.
 
  ![Naming the segment and choosing target audience](./media/image19.png "Naming the segment and choosing target audience")
 
@@ -142,7 +142,9 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  1. In the Query Assist box, describe the audience in natural language —for example, **leads whose e-mail address contains Contoso and who submitted a marketing form at least once in the last 28 days** — and let Copilot build the matching condition. Select **Create** to save the segment.
  
- 2. Open the **Design** tab of the segment (here shown for the **Welcome Campaign segment**) to review the generated condition group. Confirm it reads: **Marketing Form Submitted** **at** **least once in the last 28 days**, with E-mail Id Contains **Contoso**. In the Segment details pane on the right, confirm the Segment type is Dynamic, and the Target audience is set to Leads.
+ 1. Open the **Design** tab of the segment (here shown for the **Welcome Campaign segment**) to review the generated condition group. Confirm it reads: **Marketing Form Submitted** **at** **least once in the last 28 days**, with E-mail Id Contains **Contoso**. In the Segment details pane on the right, confirm the Segment type is Dynamic, and the Target audience is set to Leads.
+
+ 1. If the Copilot-generated journey shows an error while publishing, then create segment manually. Select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
  
 >**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
 
@@ -166,7 +168,7 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 1. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
 
-2. On the canvas, confirm the generated journey structure: **Journey start \> Email (Welcome Email) \> Wait (2 days) \> Email (Exclusive Offer) \> Exit.** Adjust any step if needed before continuing.
+2. On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
 
 ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
