@@ -473,7 +473,7 @@ workspace**.
 
    ![](./media/image72.png)
 
-10.  Select **+ New Cases**.
+10.  Select **+ New Contacts**.
 
    ![](./media/image73.png)
 
