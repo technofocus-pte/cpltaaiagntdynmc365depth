@@ -473,7 +473,7 @@ workspace**.
 
    ![](./media/image72.png)
 
-10.  Select **+ New Contacts**.
+10.  Select **+ New** to create **New Create a new Contact record**.
 
    ![](./media/image73.png)
 
