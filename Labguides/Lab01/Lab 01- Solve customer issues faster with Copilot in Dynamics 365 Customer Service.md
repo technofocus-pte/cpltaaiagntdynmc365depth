@@ -584,7 +584,7 @@ account record in the Omnichannel for Customer Service app.
 
     ![](./media/image95.png)
 
-5.  Verify that the Show row summary toggle is now On and that a confirmation message shows the row summary has been applied to all main forms.
+5.  Verify that the **Show row summary** toggle is now **On** and that a confirmation message shows the row summary has been applied to all main forms.
    
     ![](./media/image107.png)
    
