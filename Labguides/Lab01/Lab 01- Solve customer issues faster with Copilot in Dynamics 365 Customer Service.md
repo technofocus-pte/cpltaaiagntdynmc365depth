@@ -101,20 +101,20 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 #### **Configure the Overview Tab**
 
-In the Instructions box, add:
+1. In the Instructions box, add:
 
     +++Respond in a professional and friendly tone.
         Provide clear, concise explanations.
         Use short paragraphs and bullet points when appropriate.
         If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.+++
 
-8.  Select **Save**.
+2. Select **Save**.
 
     ![](./media/image14.png)
 
 #### **Immersive Settings**
 
-Configure the following settings on the **Immersive** **settings** tab: Configure Workload Prompt:
+1. Configure the following settings on the **Immersive** **settings** tab: Configure Workload Prompt:
 
        +++Show open cases in priority order.
        Highlight overdue and escalated cases first.
@@ -122,9 +122,7 @@ Configure the following settings on the **Immersive** **settings** tab: Configur
        Summarize key actions required for each case.
        Recommend the next best action where appropriate.+++
 
-![](./media/image15.png)
-
-9.  Configure **Case Overview Card.**
+2. Configure **Case Overview Card.**
 
     Configure the settings as:
 
@@ -138,9 +136,9 @@ Configure the following settings on the **Immersive** **settings** tab: Configur
 
     ![](./media/image16.png)
 
-10. Select **Save**.
+3. Select **Save**.
 
-11. Go to the **Email Settings** tab:
+4. Go to the **Email Settings** tab:
 
     Enable:
 
@@ -152,21 +150,21 @@ Configure the following settings on the **Immersive** **settings** tab: Configur
 
     ![](./media/image17.png)
 
-12. Select **Save**.
+5. Select **Save**.
 
-13. Go to the **Prompts tab**, leave all currently checked prompts enabled. Click **Save** if required else close the pane.
+6. Go to the **Prompts tab**, leave all currently checked prompts enabled. Click **Save** if required else close the pane.
 
     ![](./media/image18.png)
 
-14. Click **Save and Close**.
+7. Click **Save and Close**.
 
     ![](./media/image19.png)
 
-15. Select **Manage** for Summaries.
+8. Select **Manage** for Summaries.
 
     ![](./media/image20.png)
 
-16. Select the **Make case summaries available to representatives** check box, select all the check boxes under **Live conversation summaries** and then select **Save and close**.
+9. Select the **Make case summaries available to representatives** check box, select all the check boxes under **Live conversation summaries** and then select **Save and close**.
 
     ![](./media/image21.png)
 
