@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 01
 
 title: Solve customer issues faster with Copilot in Dynamics 365 Customer Service
     
@@ -13,7 +13,7 @@ islab: True
     
 primarytopics: Dynamics365 Customer Service
 ---   
-# Lab 01 - Solve customer issues faster with Copilot in Dynamics 365 Customer Service
+# **Lab 01 - Solve customer issues faster with Copilot in Dynamics 365 Customer Service**
 
 ## Scenario
 You are a **Dynamics 365 Customer Service administrator/representative at Contoso Coffee**, a company that sells and services coffee equipment. Your customer service team wants to reduce case resolution time and improve response quality using **Copilot**. Before rolling out Copilot to representatives, you need to provision the required trial licenses and environments, enable and configure Copilot in the **Customer Service admin center**, and validate its ability to summarize cases, answer questions, draft customer communications, and support other AI-assisted capabilities. This will help Contoso Coffee representatives resolve customer issues faster and provide more consistent support.
@@ -21,9 +21,9 @@ You are a **Dynamics 365 Customer Service administrator/representative at Contos
 ## Objective
 Configure **Dynamics 365 Customer Service** and explore **Copilot** capabilities that help streamline case management, customer communication, knowledge creation, and data analysis.
 
-## Exercise 1: Assign a Customer Service trial license and enable Copilot
+## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
 
-### Task 1: Assign Customer Service trial license
+### **Task 1: Assign Customer Service trial license**
 
 In this task, you will start a **Dynamics 365 Customer Service trial**, provide the required contact information, and confirm that a **Customer Service Trial environment** has been provisioned in the Power Platform admin center.
 
@@ -61,33 +61,33 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 ### Task 2: Enable the Copilot feature
 
-1.  Navigate back to the **Copilot Service** **workspace** portal. Select the **Copilot Service workspace** at the top.
+1. Navigate back to the **Copilot Service** **workspace** portal. Select the **Copilot Service workspace** at the top.
 
     ![](./media/image7.png)
 
-2.  Under **Apps**, select **Copilot Service Admin Center**.
+2. Under **Apps**, select **Copilot Service Admin Center**.
 
     ![](./media/image8.png)
 
-3.  Select **Productivity** under **Support experience**.
+3. Select **Productivity** under **Support experience**.
 
     ![](./media/image9.png)
 
-4.  In the **Productivity** pane, select **Manage** for **Copilot settings**.
+4. In the **Productivity** pane, select **Manage** for **Copilot settings**.
 
     ![](./media/image10.png)
 
-5.  Enable Copilot help - **Ask a Question**. Enable **Copilot immersive (preview)**.
+5. Enable Copilot help - **Ask a Question**. Enable **Copilot immersive (preview)**.
 
     ![](./media/image11.png)
 
-6.  Open Customer **Support > Settings**
+6. Open **Customer Support > Settings**
 
     ![](./media/image12.png)
 
     ![](./media/image13.png)
 
-7.  Configure the required **Copilot features** for representatives across the available tabs:
+7. Configure the required **Copilot features** for representatives across the available tabs:
 
     - Overview
 
@@ -101,11 +101,12 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 #### **Configure the Overview Tab**
 
-    In the Instructions box, add:
+In the Instructions box, add:
+
     +++Respond in a professional and friendly tone.
-       Provide clear, concise explanations.
-       Use short paragraphs and bullet points when appropriate.
-       If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.+++
+        Provide clear, concise explanations.
+        Use short paragraphs and bullet points when appropriate.
+        If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.+++
 
 8.  Select **Save**.
 
@@ -115,11 +116,11 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 Configure the following settings on the **Immersive** **settings** tab: Configure Workload Prompt:
 
-    +++Show open cases in priority order.
-       Highlight overdue and escalated cases first.
-       Identify customers with multiple open cases.
-       Summarize key actions required for each case.
-       Recommend the next best action where appropriate.+++
+    +++ Show open cases in priority order.
+        Highlight overdue and escalated cases first.
+        Identify customers with multiple open cases.
+        Summarize key actions required for each case.
+        Recommend the next best action where appropriate. +++
 
 ![](./media/image15.png)
 
@@ -153,7 +154,7 @@ Configure the following settings on the **Immersive** **settings** tab: Configur
 
 12. Select **Save**.
 
-13. Go to the **Prompts** tab, leave all currently checked prompts enabled. Click **Save**.
+13. Go to the **Prompts tab**, leave all currently checked prompts enabled. Click **Save** if required else close the pane.
 
     ![](./media/image18.png)
 
@@ -169,6 +170,22 @@ Configure the following settings on the **Immersive** **settings** tab: Configur
 
     ![](./media/image21.png)
 
+#### Generate knowledge drafts
+
+1.  Open the **Copilot Service admin center** and, from the left
+    navigation pane, select **Knowledge**.
+
+    ![](./media/image106.png)
+
+2.  Under **Knowledge creation**, select **Manage**.
+
+    ![](./media/image57.png)
+
+3.  Turn on **Case-based knowledge creation**, and then select **Save
+    and close**.
+
+    ![](./media/image58.png)
+
 ## **Exercise 2: Solve customer issues faster with Copilot in Dynamics 365 Customer Service**
 
 In this exercise, you will learn how to use **Copilot** in **Dynamics 365 Customer Service** to accelerate case resolution. You will learn how Copilot generates AI-driven case summaries, responds to         technical and troubleshooting queries using available knowledge sources, and assists in drafting customer-ready emails through predefined and custom prompts.
@@ -181,7 +198,7 @@ In this exercise, open a sample case in the **Customer Service Representative Da
 
     ![](./media/image24.png)
 
-2.  Select the **Copilot service workspace**.
+2.  Click on the **Copilot Service admin center** menu.
 
     ![](./media/image25.png)
 
@@ -189,7 +206,7 @@ In this exercise, open a sample case in the **Customer Service Representative Da
 
     ![](./media/image26.png)
 
-**Note**: If you receive any error regarding setting up presence, you can continue or wait till you see a **green checkmark** in the right corner of the screen.
+    **Note**: If you receive any error regarding setting up presence, you can continue or wait till you see a **green checkmark** in the right corner of the screen.
 
    ![](./media/image27.png)
 
@@ -217,11 +234,11 @@ In this exercise, you will use the Copilot pane to ask natural-language question
 
     ![](./media/image32.png)
 
-2.  In the **Copilot** pane on the right, enter **+++How to resolve mineral buildup** **in the water supply?+++**, and then select **Send**.
+2.  In the **Copilot** pane on the right, enter **+++How to resolve mineral buildup in the water supply? +++**, and then select **Send**.
 
     ![](./media/image33.png)
 
-**Note**: The Copilot setup process may take some time to complete. To optimize your lab session, save your progress and proceed to the next lab activity. You can return to this lab once the Copilot setup is complete to continue from where you left off.
+    **Note**: The Copilot setup process may take some time to complete. To optimize your lab session, save your progress and proceed to the next lab activity. You can return to this lab once the Copilot setup is complete to continue from where you left off.
 
    ![](./media/image34.png)
 
@@ -247,15 +264,15 @@ For example, **type**, **How to fix reduced water flow in Smart Brew 300 caused 
 
 6.  If the Copilot response meets your needs, select and use all or part of the response to address the customer's question:
 
-- Select **Edit**. Copy part of Copilot's reply into your chat or read from it during a voice conversation.
+    - Select **Edit**. Copy part of Copilot's reply into your chat or read from it during a voice conversation.
 
     ![](./media/image38.png)
 
-- Select the **Copy** icon to copy the entire response to the clipboard.
+    - Select the **Copy** icon to copy the entire response to the clipboard.
 
     ![](./media/image39.png)
 
-**Note**: When you're in an active digital messaging conversation, select Send to customer to open an editing window where you can revise the response and send it to the customer. You can also change customer keywords to prompt Copilot to generate a more accurate response.
+    **Note**: When you're in an active digital messaging conversation, select Send to customer to open an editing window where you can revise the response and send it to the customer. You can also change customer keywords to prompt Copilot to generate a more accurate response.
 
 7.  Select **Check sources** to see the knowledge base or website links from which Copilot drew the response. You can use this supplemental information as a resource or share it with the customer.
 
@@ -285,7 +302,7 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image45.png)
 
-3. Select **+ New Activity \> Email**.
+3. Select **+ New Activity > Email**.
 
     ![](./media/image46.png)
 
@@ -359,22 +376,6 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 ### Task 4: Generate knowledge drafts
 
 In this exercise, use **Copilot** to generate a structured knowledge article draft from a resolved case. Review and refine the **Title, Issue, Cause, and Resolution** before creating the knowledge proposal.
-
-1.  Open the **Copilot Service admin center** and, from the left
-    navigation pane, select **Knowledge**.
-
-    ![](./media/image56.png)
-
-2.  Under **Knowledge creation**, select **Manage**.
-
-    ![](./media/image57.png)
-
-3.  Turn on **Case-based knowledge creation**, and then select **Save
-    and close**.
-
-    ![](./media/image58.png)
-
-**Task: Generate knowledge draft**
 
 1.  Select **Resolve Case**
 
