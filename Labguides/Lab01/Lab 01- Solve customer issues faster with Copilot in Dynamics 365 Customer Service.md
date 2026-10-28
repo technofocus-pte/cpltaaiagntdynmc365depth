@@ -234,7 +234,7 @@ In this exercise, you will use the Copilot pane to ask natural-language question
 
     ![](./media/image32.png)
 
-2.  In the **Copilot** pane on the right, enter **+++How to resolve mineral buildup in the water supply? +++**, and then select **Send**.
+2.  In the **Copilot** pane on the right, enter **+++How to resolve mineral buildup in the water supply?+++**, and then select **Send**.
 
     ![](./media/image33.png)
 
