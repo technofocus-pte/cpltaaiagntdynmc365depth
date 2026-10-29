@@ -193,7 +193,7 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
 
 16. Select **Make case summaries available to representatives** check box, select all the check boxes under Live conversation summaries and then select **Save and close**.
 
-    ![](./media/image21.png) -->
+    ![](./media/image21.png)-->
 
 ## **Task 1: Install the Service app for Microsoft 365 Copilot**
 
