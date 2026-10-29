@@ -406,11 +406,11 @@ In this exercise, use **Copilot** to generate a structured knowledge article dra
 11.  Verify that the **Knowledge proposal created** confirmation appears
     on the right side of the screen.
 
-    ![](./media/image64.png)
+        ![](./media/image64.png)
 
-11.  You will receive resolution Email.
+12.  You will receive resolution Email.
 
-    ![](./media/image65.png)
+        ![](./media/image65.png)
 
 ### **Task 5: Use AI form-fill assistance**
 
@@ -468,44 +468,44 @@ workspace**.
 
        ![](./media/image105.png)
 
-11.  In the left navigation pane, select **Service** > **Cases**
+13.  In the left navigation pane, select **Service** > **Cases**
 
       ![](./media/image72.png)
 
-10.  Select **+ New** to create **New Create a new Contact record**.
+14.  Select **+ New** to create **New Create a new Contact record**.
 
       ![](./media/image73.png)
 
-12.  You can view new contact form.
+15.  You can view new contact form.
 
       ![](./media/image74.png)
 
-13.  Select the row where you want to add the contact information, and then upload **contacts_dummy_data.csv** from C:\Labfiles, which contains the pre-created contact data.
+16.  Select the row where you want to add the contact information, and then upload **contacts_dummy_data.csv** from C:\Labfiles, which contains the pre-created contact data.
 
      ![](./media/image75.png)
 
-14. Return to the **Contact** form. Click “**Smart Paste Icon**”
+17. Return to the **Contact** form. Click “**Smart Paste Icon**”
 
     ![](./media/image76.png)
 
-15. Wait for AI-generated suggestions to appear. Click “**Accept 11
+18. Wait for AI-generated suggestions to appear. Click “**Accept 11
     Suggestion**.”
 
     ![](./media/image77.png)
 
-16. Verify that the **Contact Information** is automatically populated.
+19. Verify that the **Contact Information** is automatically populated.
 
     ![](./media/image78.png)
 
-17. Click **Save & Close**.
+20. Click **Save & Close**.
 
     ![](./media/image79.png)
 
-18. Verify that the **Contact Information** has been added successfully.
+21. Verify that the **Contact Information** has been added successfully.
 
     ![](./media/image80.png)
 
-### Task 7: Use natural language to find data with AI and Visualize data chart
+### **Task 7: Use natural language to find data with AI and Visualize data chart**
 
 In this exercise, you will enable the Natural Language Grid and View
 Search feature and use the AI search box to query case data using
@@ -562,7 +562,7 @@ plain-language search terms.
 
      ![](./media/image91.png)
 
-### Task 8: View a Copilot-generated row summary
+### **Task 8: View a Copilot-generated row summary**
 
 In this exercise, you will configure **Row Summary** for the Account table,
 apply it to the main form, and view the AI-generated summary for an
@@ -612,7 +612,7 @@ account record in the Omnichannel for Customer Service app.
 
     ![](./media/image101.png)
 
-### Task 9: Use timeline highlights with generative AI
+### **Task 9: Use timeline highlights with generative AI**
 
 In this exercise, you will open a case timeline and use Copilot **Highlights** feature to generate a bullet summary of key activities and actions.
 
