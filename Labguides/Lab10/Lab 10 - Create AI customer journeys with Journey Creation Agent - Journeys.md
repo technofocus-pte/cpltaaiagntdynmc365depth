@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 10
 
 title: Create AI customer journeys with Journey Creation Agent – Journeys
 
@@ -39,6 +39,42 @@ Dynamics 365 Customer Insights – Journeys includes the Journey Creation Agent,
 
 Next, you will use the Journey Creation Agent to generate a customer journey based on a plain-language prompt. The agent automatically creates audience targeting, email activities, wait conditions, and journey flow components. Finally, you will review the generated journey, make any necessary adjustments, and publish it as a live marketing journey that automates customer engagement activities.
 
+
+**# Exercise 1: Assign a Customer Insight trial license and enable Copilot**
+
+**## Task 1: Assign Customer Insight trial license**
+In this task, you will start a Dynamics 365 Customer Insight trial, provide the required contact information, and confirm that a Customer Insight Trial environment has been provisioned in the Power Platform admin center.
+
+1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/customer-insights+++ and select **Try for free**.
+
+    ![](./media/image28.png)
+
+2. Enter your Office 365 admin tenant credentials.
+
+    ![](./media/image29.png)
+
+3. Select the checkbox to accept the agreement and click on **Start your free trial**.
+
+    ![](./media/image30.png)
+
+4. If requested, enter your Office 365 admin tenant password.
+
+   ![](./media/image31.png)
+
+5. Select **Yes** to Stay Signed in?
+
+    ![](./media/image32.png)
+
+6. Provide Contact Information as below and then select Submit.
+
+    - Job Title: Your job title
+
+    - Country/region: United States
+
+    - Phone number: Your phone number
+
+    ![](./media/image33.png)
+
 ## Enable Copilot in Customer Insights – Journeys
 
 1. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given **Office 365 admin tenant** credentials.
@@ -59,11 +95,11 @@ Next, you will use the Journey Creation Agent to generate a customer journey bas
 
   ![](./media/image4.png)
 
-## Exercise 1 - Enable and access the Journey Creation Agent
+**## Exercise 2 - Enable and access the Journey Creation Agent**
 
 Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you can access it from Customer Insights – Journeys before you start building a journey.
 
-### Task 1: Open the AI Hub
+**### Task 1: Open the AI Hub**
 
 1. Navigate to the **Customer Insights – Journeys portal**. The Welcome to real-time journeys home page opens, displaying quick start tiles for creating emails, journeys, and text messages.
 
@@ -73,7 +109,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
  ![Settings menu with AI hub highlighted](./media/image6.png "Settings menu with AI hub highlighted")
 
-### Task 2: Add Journey Creation Agent
+**### Task 2: Add Journey Creation Agent**
 
 1. On the Dynamics 365 AI hub page, select **Add and manage agents** under Agent manager. 
 2. Confirm the Prerequisites section shows 3 of 3 complete (Microsoft Copilot Studio capacity, move data across regions, and AI prompts) before continuing.
@@ -120,11 +156,11 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
  ![All Journeys list in the app](./media/image16.png "All Journeys list in the app")
 
 -->
-## Exercise 2 – Create a target segment
+**## Exercise 3 – Create a target segment**
 
 Build a segment that identifies new customers who should receive the welcome campaign, so the journey you generate in Exercise 3 has an audience to target.
 
-### Task 1: Create a New Segment
+**### Task 1: Create a New Segment**
 
 1. Go to **Customer Insights – Journeys > Audiences > Segments**.
 
