@@ -265,7 +265,7 @@ Open and review customer cases to understand case details, customer issues, and 
 
 1. Open the **Service Agent** pane.
 
-2. Enter the following prompt: **Identify open cases that require follow-up**.
+2. Enter the following prompt: +++**Identify open cases that require follow-up**+++.
 
   ![](./media/image35.png)
 
