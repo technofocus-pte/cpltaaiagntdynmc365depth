@@ -193,9 +193,9 @@ In this task, you will enable Copilot in the **Customer Service Admin Center**, 
 
 16. Select **Make case summaries available to representatives** check box, select all the check boxes under Live conversation summaries and then select **Save and close**.
 
-    ![](./media/image21.png)
+    ![](./media/image21.png) -->
 
-## **Task 3: Install the Service app for Microsoft 365 Copilot**
+## **Task 1: Install the Service app for Microsoft 365 Copilot**
 
 Install the **Service app for Microsoft 365 Copilot** to enable access to service-related capabilities and support the lab activities.
 
@@ -247,7 +247,7 @@ Enable **Service Agent** in **Dynamics 365 Customer Service** and configure it t
 
 9. Open the navigation menu and verify that the **Service agent** is available under Agents.
 
-  ![](./media/image32.png) -->
+  ![](./media/image32.png) 
 
 ## **Task 3: Open and review customer cases**
 
