@@ -47,7 +47,7 @@ Before starting this lab, ensure that:
   - Service Agent is enabled.
   - Sample customer cases are available.
 
-## **Task 1: Assign a Customer Service trial license and enable Copilot**
+<!--## **Task 1: Assign a Customer Service trial license and enable Copilot**
 
 In this task, start a **Dynamics 365 Customer Service trial**, provide the required information, and verify that the **Customer Service Trial** environment is provisioned in the **Power Platform admin center**.
 
@@ -247,7 +247,7 @@ Enable **Service Agent** in **Dynamics 365 Customer Service** and configure it t
 
 9. Open the navigation menu and verify that the **Service agent** is available under Agents.
 
-  ![](./media/image32.png)
+  ![](./media/image32.png) -->
 
 ## **Task 3: Open and review customer cases**
 
