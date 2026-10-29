@@ -76,6 +76,10 @@ In this task, you will start a Dynamics 365 Customer Insight trial, provide the 
 
     ![](./media/image33.png)
 
+7. Select **Customer Insights – Journeys** if asked.
+
+      ![](./media/image34.png)
+
 <!--## Enable Copilot in Customer Insights – Journeys
 
 1. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given **Office 365 admin tenant** credentials.
