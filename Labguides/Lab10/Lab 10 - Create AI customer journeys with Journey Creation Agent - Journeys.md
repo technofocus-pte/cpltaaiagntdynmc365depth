@@ -40,9 +40,10 @@ Dynamics 365 Customer Insights – Journeys includes the Journey Creation Agent,
 Next, you will use the Journey Creation Agent to generate a customer journey based on a plain-language prompt. The agent automatically creates audience targeting, email activities, wait conditions, and journey flow components. Finally, you will review the generated journey, make any necessary adjustments, and publish it as a live marketing journey that automates customer engagement activities.
 
 
-**# Exercise 1: Assign a Customer Insight trial license and enable Copilot**
+**## Exercise 1: Assign a Customer Insight trial license and enable Copilot**
 
-**## Task 1: Assign Customer Insight trial license**
+**### Task 1: Assign Customer Insight trial license**
+
 In this task, you will start a Dynamics 365 Customer Insight trial, provide the required contact information, and confirm that a Customer Insight Trial environment has been provisioned in the Power Platform admin center.
 
 1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/customer-insights+++ and select **Try for free**.
@@ -174,19 +175,19 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![Naming the segment and choosing target audience](./media/image19.png "Naming the segment and choosing target audience")
 
-### Task 2: Define the Segment Condition
+**### Task 2: Define the Segment Condition**
 
  1. To create the segment manually, select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
  
->**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
+    >**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
 
  ![](./media/image20.png)
 
-## Exercise 3 – Generate the journey with Copilot
+**## Exercise 3 – Generate the journey with Copilot**
 
    Use the Journey Creation Agent to turn a plain-language description into a complete, multi-step customer journey that targets the segment created in Exercise 2.
 
-### Task 1: Start the Journey Creation Agent
+**### Task 1: Start the Journey Creation Agent**
 
 1. From the Journeys area, select **New journey**. The Create new journey dialog opens on the Journey Creation Agent (Preview) tab, prompting What would you like to plan today?
 
@@ -196,7 +197,7 @@ Build a segment that identifies new customers who should receive the welcome cam
 
  ![Prompt entered in Journey Creation Agent](./media/image22.png "Prompt entered in Journey Creation Agent")
 
-### Task 2: Review the Generated Journey
+**### Task 2: Review the Generated Journey**
 
 1. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
 
@@ -204,11 +205,11 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
-## Exercise 4 – Review and publish the journey
+**## Exercise 4 – Review and publish the journey**
 
 Publish the completed journey so it goes live and starts running against the target segment.
 
-### Task 1: Publish the Journey
+**### Task 1: Publish the Journey**
 
 1. Select **Review and publish** in the top-right corner of the journey canvas, then confirm the publishing action.
 
@@ -218,7 +219,7 @@ Publish the completed journey so it goes live and starts running against the tar
 
  ![Journey published confirmation dialog](./media/image25.png "Journey published confirmation dialog")
 
-### Task 2: Verify the Journey Is Live
+**### Task 2: Verify the Journey Is Live**
 
 1. Verify that the journey status is **Live** and that a **scheduled start date and time** are displayed.
 
@@ -226,5 +227,5 @@ Publish the completed journey so it goes live and starts running against the tar
 
  ![Published journey showing Live status](./media/image26.png "Published journey showing Live status")
 
-## Summary
+**## Summary**
 In this lab, you enabled the Journey Creation Agent in the Dynamics 365 AI hub and confirmed access to it through the Customer Insights – Journeys app. You created a target segment (New Customers - Welcome Campaign) and used Query Assist to define its membership conditions with natural language. You then used the Journey Creation Agent to generate a complete, multi-step journey from a text prompt, reviewed the Copilot-generated steps — a welcome email, a two-day wait, and an exclusive offer email — and published the journey so it is now live and running against your segment. You have practiced the end-of-the-end workflow for building AI-assisted customer journeys with Copilot, from agent setup through publishing.
