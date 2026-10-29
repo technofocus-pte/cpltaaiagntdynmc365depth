@@ -104,6 +104,23 @@ In this task, you will start a Dynamics 365 Customer Insight trial, provide the 
 
 Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you can access it from Customer Insights – Journeys before you start building a journey.
 
+1. Go to the **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and, if required, sign in using your provided Microsoft 365 tenant administrator credentials.
+
+    ![](./media/image35.png)
+
+2. From the left navigation pane, select **Copilot** > **Settings** > **Dynamics365 Customer Insights - Journeys**.
+
+     ![](./media/image36.png)
+ 
+3. Under AI Agents, select **Marketing Trial** environment. Select **Edit setting**.
+ 
+     ![](./media/image37.png)
+ 
+4. Set AI agents to On and select Save.
+
+     ![](./media/image38.png)
+
+
 **### Task 1: Open the AI Hub**
 
 1. Navigate to the **Customer Insights – Journeys portal**. The Welcome to real-time journeys home page opens, displaying quick start tiles for creating emails, journeys, and text messages.
