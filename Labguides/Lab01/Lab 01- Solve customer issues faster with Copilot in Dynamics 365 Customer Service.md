@@ -15,10 +15,10 @@ primarytopics: Dynamics365 Customer Service
 ---   
 # **Lab 01 - Solve customer issues faster with Copilot in Dynamics 365 Customer Service**
 
-## Scenario
+## **Scenario**
 You are a **Dynamics 365 Customer Service administrator/representative at Contoso Coffee**, a company that sells and services coffee equipment. Your customer service team wants to reduce case resolution time and improve response quality using **Copilot**. Before rolling out Copilot to representatives, you need to provision the required trial licenses and environments, enable and configure Copilot in the **Customer Service admin center**, and validate its ability to summarize cases, answer questions, draft customer communications, and support other AI-assisted capabilities. This will help Contoso Coffee representatives resolve customer issues faster and provide more consistent support.
 
-## Objective
+## **Objective**
 Configure **Dynamics 365 Customer Service** and explore **Copilot** capabilities that help streamline case management, customer communication, knowledge creation, and data analysis.
 
 ## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
@@ -59,7 +59,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
     ![](./media/image6.png)
 
-### Task 2: Enable the Copilot feature
+### **Task 2: Enable the Copilot feature**
 
 1. Navigate back to the **Copilot Service** **workspace** portal. Select the **Copilot Service workspace** at the top.
 
@@ -84,8 +84,6 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 6. Open **Customer Support > Settings**
 
     ![](./media/image12.png)
-
-    ![](./media/image13.png)
 
 7. Configure the required **Copilot features** for representatives across the available tabs:
 
@@ -168,7 +166,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
     ![](./media/image21.png)
 
-#### Generate knowledge drafts
+#### **Generate knowledge drafts**
 
 1.  Open the **Copilot Service admin center** and, from the left
     navigation pane, select **Knowledge**.
@@ -188,7 +186,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 In this exercise, you will learn how to use **Copilot** in **Dynamics 365 Customer Service** to accelerate case resolution. You will learn how Copilot generates AI-driven case summaries, responds to         technical and troubleshooting queries using available knowledge sources, and assists in drafting customer-ready emails through predefined and custom prompts.
 
-### Task 1: Summarize cases
+### **Task 1: Summarize cases**
 
 In this exercise, open a sample case in the **Customer Service Representative Dashboard** and use **Copilot** to generate a case summary, helping you quickly understand the issue and resolve it efficiently.
 
@@ -224,7 +222,7 @@ In this exercise, open a sample case in the **Customer Service Representative Da
 
     ![](./media/image31.png)
 
-### Task 2: Ask Questions About Case Data
+### **Task 2: Ask Questions About Case Data**
 
 In this exercise, you will use the Copilot pane to ask natural-language questions about a case, review Copilot's answers and sources, and refine responses through follow-up questions.
 
@@ -256,9 +254,9 @@ In this exercise, you will use the Copilot pane to ask natural-language question
 
     - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance.
 
-For example, **type**, +++**How to fix reduced water flow in Smart Brew 300 caused by mineral buildup?**+++
+    For example, **type**, +++**How to fix reduced water flow in Smart Brew 300 caused by mineral buildup?**+++
 
-  ![](./media/image37.png)
+      ![](./media/image37.png)
 
 6.  If the Copilot response meets your needs, select and use all or part of the response to address the customer's question:
 
@@ -288,7 +286,7 @@ For example, **type**, +++**How to fix reduced water flow in Smart Brew 300 caus
 
     ![](./media/image43.png)
 
-### Task 3: Draft and refine emails
+### **Task 3: Draft and refine emails**
 
 In this exercise, you will use Copilot's predefined and custom prompts to draft a customer email, then adjust its length and tone before copying it into your reply.
 
@@ -328,13 +326,23 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image49.png)
 
-6.  Review the **Copilot-generated email draft** and select **Keep it** to accept it, or **Discard** to remove it.
+6.  Review the revised response, make any necessary changes, and select
+    **Copy** to add the entire response to your draft. Alternatively,
+    select and copy only the required portion.
 
-7.  To refine the draft, enter instructions in **Add details to revise the draft**, or use **Adjust**, **Translate**, or **Check sources** as needed.
+    ![](./media/image52.png)
 
-    ![](./media/image50.png)
+7. Verify that the Copilot-generated response is added to the **email
+    body** on the left.
 
-8.  Adjust the **email draft** as needed:
+    ![](./media/image53.png)
+   
+8. In the **Draft with Copilot** pane, select **Suggest a call**.
+    Review the generated content and verify that Copilot updates the
+    email draft with a follow-up call recommendation.
+
+    ![](./media/image54.png)
+9. Adjust the **email draft** as needed:
 
     - **Length:** Select **Short**, **Medium**, or **Long**.
     
@@ -342,89 +350,69 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image51.png)
 
-9.  Review the revised response, make any necessary changes, and select
-    **Copy** to add the entire response to your draft. Alternatively,
-    select and copy only the required portion.
 
-    ![](./media/image52.png)
+14. In the **Copilot** pane, select the **Translate** drop-down and choose a language to translate the generated content. Review the translated response.
 
-10. Verify that the Copilot-generated response is added to the **email
-    body** on the left.
+    ![](./media/image66.png)
 
-    ![](./media/image53.png)
-
-11. In the **Draft with Copilot** pane, select **Suggest a call**.
-    Review the generated content and verify that Copilot updates the
-    email draft with a follow-up call recommendation.
-
-    ![](./media/image54.png)
-
-12. Review the **Copilot-generated content**, and then select **Keep
-    it** to insert the suggested follow-up call text into the email
-    response.
-
-    ![](./media/image50.png)
-
-13. Review the email, and then select **Send** to send it or **Save** to
-    save it for later. Additionally, use **Draft with Copilot** to
-    further refine the email response as needed.
+    
+16. Review the email, and then you can select **Send** to send it but in the lab select **Save** to save it. Additionally, use Draft with Copilot to further refine the email response as needed.
 
     ![](./media/image55.png)
 
-### Task 4: Generate knowledge drafts
+
+
+### **Task 4: Generate knowledge drafts**
 
 In this exercise, use **Copilot** to generate a structured knowledge article draft from a resolved case. Review and refine the **Title, Issue, Cause, and Resolution** before creating the knowledge proposal.
 
-1.  Select **Resolve Case**
+1.    Select one of the cases listed on the **Customer Service Representative Dashboard**. For example, **A Mineral Build Up in Water Supply**.
 
-    ![](./media/image59.png)
+        ![](./media/image28.png)
+ 
+2.   Select **Resolve Case**
 
-2.  From the **Resolve type** drop-down list, select the appropriate
-    resolution type, enter a **Resolution comment**, select **Propose
-    new knowledge article for this case**, and then select **Resolve**.
+        ![](./media/image59.png)
 
-    ![](./media/image60.png)
+3.  When prompted, select Confirm to cancel all open activities associated with the case and proceed with resolving it.
 
-3.  On the **Propose new knowledge (preview)** dialog, select a
-    **template** and **language**, if required.
+     ![](./media/image109.png)
+   
+5.  For **Resolution Type**, select **Problem Solved** or **Information Provided** from the drop-down list.
+
+   ![](./media/image110.png)
+
+6.  In the **Resolution field**, enter +++Mineral buildup from hard water removed after descaling; machine working normally+++, make sure **Propose new knowledge article for this case** is selected, and then select **Resolve**.
+
+    ![](./media/image111.png)
+
+7.  On the **Propose new knowledge (preview)** dialog, select a **template** and **language**, if required.
 
     ![](./media/image61.png)
 
-4.  Select **Generate draft**.
+8.  Select **Generate draft**.
 
     ![](./media/image62.png)
 
-5.  Review the knowledge article draft generated using the selected
+9.  Review the knowledge article draft generated using the selected
     template.
 
     ![](./media/image63.png)
 
-6.  Review and refine the knowledge draft as needed. Use the editor to
+10.  Review and refine the knowledge draft as needed. Use the editor to
     format the content, **Revise with instructions** to make changes,
     and **Create proposal** to save the draft as a knowledge proposal.
 
-7.  Verify that the **Knowledge proposal created** confirmation appears
+11.  Verify that the **Knowledge proposal created** confirmation appears
     on the right side of the screen.
 
     ![](./media/image64.png)
 
-8.  You will receive resolution Email.
+11.  You will receive resolution Email.
 
     ![](./media/image65.png)
 
-### Task 5: How Copilot supports different languages
-
-In this exercise, use **Copilot in Dynamics 365 Customer Service** to
-generate and translate responses in multiple languages, helping
-representatives support customers globally.
-
-In the **Copilot** pane, select the **Translate** drop-down and choose a
-language to translate the generated content. Review the translated
-response.
-
-   ![](./media/image66.png)
-
-### Task 6: Use AI form-fill assistance
+### **Task 5: Use AI form-fill assistance**
 
 In this exercise, enable **AI Form Fill Assistance** and configure
 form-fill suggestions for a table column. Test both **inline** and
@@ -443,34 +431,46 @@ workspace**.
     ![](./media/image68.png)
 
 3.  Navigate to: **Settings**.
-
-    ![](./media/image69.png)
-
+   
+    ![](./media/image112.png) 
+    
 4.  Navigate to: **Product > Features**
 
     ![](./media/image70.png)
 
-5.  Under **AI features**, enable:
-
-    - **AI Form Fill Assistance**
+6.  Under **AI form fill assistance**, leave the following options at their **default** settings:
+   
+       - **Automatic Suggestions**
     
-    - **Smart Paste** (optional)
+       - **Smart Paste and file suggestions** (optional)
     
-    - **File Upload/Form Fill Toolbar** (optional)
+       - **File Form Fill Toolbar** (optional)
 
-    ![](./media/image71.png)
+       ![](./media/image71.png)
 
-6. Go to the **Power Apps tab**. In the App Designer left navigation pane, select **Apps**, and then select **Copilot Service Workspace** to open the app.
+8.  Go to the **Power Apps** tab and make sure the **Customer Service Trial** environment is selected. In the left navigation pane, select **Apps**, and then select **Copilot Service workspace** to open the app.
 
-    ![](./media/image104.png)
+       ![](./media/image104.png)
 
-7. Select **Save and Publish**, and then select the **Play** icon to open and preview the app.
+9.  In the **App Designer**, locate the Copilot card at the bottom of the Pages pane, and then select **+ Enable Copilot**.
 
-   ![](./media/image105.png)
+      ![](./media/image113.png)
+    
+10. In the Settings dialog, select **Features**, and then locate the **Enable M365 Copilot in model-driven apps** setting.
 
-9.  In the left navigation pane, select **Service** > **Cases**
+       ![](./media/image114.png)
+    
+11. Under **Enable M365 Copilot in model-driven apps**, select **On** from the drop-down list, and then select **Save**.
 
-   ![](./media/image72.png)
+       ![](./media/image115.png)
+     
+12. Select **Save and Publish**, and then select the **Play** icon to open and preview the app.
+
+       ![](./media/image105.png)
+
+11.  In the left navigation pane, select **Service** > **Cases**
+
+      ![](./media/image72.png)
 
 10.  Select **+ New** to create **New Create a new Contact record**.
 
