@@ -44,11 +44,11 @@ In this lab, you will set up a complete trial environment required for working w
 
     ![](./media/image6.png)
 
-7.  You can now view the **Power Apps** home page with the default **Contoso (default)** environment, which is created for you.
+7.  You can now see the **Power Apps** home page with the **Dev One** environment, which is the developer environment created for you.
 
     ![](./media/image7.png)
 
-8.  From the drop-down list, select the required **environment** for the lab.
+8.  If you are directed to the default **Contoso (default)** environment, select the required **Dev One** environment for the lab from the drop-down list..
 
     ![](./media/image8.png)
 
@@ -56,7 +56,7 @@ In this lab, you will set up a complete trial environment required for working w
 
     ![](./media/image9.png "A screenshot of a computer AI-generated content may be incorrect.")
 
-10. From the left navigation pane, select **Manage** > **Environments**, and then select the **Dataverse environment** required for the lab from the list of environments.
+10. From the left navigation pane, select **Manage** > **Environments**, and then you can see that **Dev One** is your Dataverse environment.
 
     ![](./media/image10.png)
 
