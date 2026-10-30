@@ -311,7 +311,7 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image53.png)
    
-8. In the Draft with Copilot pane, select Suggest a call, confirm that Copilot updates the email draft with a follow-up call recommendation, and then select one of the following options: Keep it, Start over, Discard, Adjust, or Translate.
+8. In the **Draft with Copilot pane**, select **Suggest a call**, confirm that Copilot updates the email draft with a follow-up call recommendation, and then select one of the following options: **Keep it**, **Start over**, **Discard**, **Adjust**, or **Translate**.
 
     ![](./media/image54.png)
 
