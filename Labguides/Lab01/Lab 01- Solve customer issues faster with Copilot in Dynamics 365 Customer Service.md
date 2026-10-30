@@ -311,12 +311,15 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image53.png)
    
-8. In the **Draft with Copilot** pane, select **Suggest a call**.
-    Review the generated content and verify that Copilot updates the
-    email draft with a follow-up call recommendation.
+8. In the Draft with Copilot pane, select Suggest a call, confirm that Copilot updates the email draft with a follow-up call recommendation, and then select one of the following options: Keep it, Start over, Discard, Adjust, or Translate.
 
     ![](./media/image54.png)
-9. Adjust the **email draft** as needed:
+
+
+    ![](./media/image117.png)
+    
+   
+10. Adjust the **email draft** as needed:
 
     - **Length:** Select **Short**, **Medium**, or **Long**.
     
@@ -335,54 +338,53 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
     ![](./media/image55.png)
 
 
-
 ### **Task 4: Generate knowledge drafts**
 
 In this exercise, use **Copilot** to generate a structured knowledge article draft from a resolved case. Review and refine the **Title, Issue, Cause, and Resolution** before creating the knowledge proposal.
 
-1.    Select one of the cases listed on the **Customer Service Representative Dashboard**. For example, **A Mineral Build Up in Water Supply**.
+1.   Select one of the cases listed on the **Customer Service Representative Dashboard**. For example, **A Mineral Build Up in Water Supply**.
 
-        ![](./media/image28.png)
+       ![](./media/image28.png)
  
-2.   Select **Resolve Case**
+2.  Select **Resolve Case**
 
-        ![](./media/image59.png)
+       ![](./media/image59.png)
 
 3.  When prompted, select Confirm to cancel all open activities associated with the case and proceed with resolving it.
 
-     ![](./media/image109.png)
+      ![](./media/image109.png)
    
-5.  For **Resolution Type**, select **Problem Solved** or **Information Provided** from the drop-down list.
+4.  For **Resolution Type**, select **Problem Solved** or **Information Provided** from the drop-down list.
 
-   ![](./media/image110.png)
+     ![](./media/image110.png)
 
-6.  In the **Resolution field**, enter +++Mineral buildup from hard water removed after descaling; machine working normally+++, make sure **Propose new knowledge article for this case** is selected, and then select **Resolve**.
+5.  In the **Resolution field**, enter +++Mineral buildup from hard water removed after descaling; machine working normally+++, make sure **Propose new knowledge article for this case** is selected, and then select **Resolve**.
 
     ![](./media/image111.png)
 
-7.  On the **Propose new knowledge (preview)** dialog, select a **template** and **language**, if required.
+6.  On the **Propose new knowledge (preview)** dialog, select a **template** and **language**, if required.
 
     ![](./media/image61.png)
 
-8.  Select **Generate draft**.
+7.  Select **Generate draft**.
 
     ![](./media/image62.png)
 
-9.  Review the knowledge article draft generated using the selected
+8.  Review the knowledge article draft generated using the selected
     template.
 
     ![](./media/image63.png)
 
-10.  Review and refine the knowledge draft as needed. Use the editor to
+9.  Review and refine the knowledge draft as needed. Use the editor to
     format the content, **Revise with instructions** to make changes,
     and **Create proposal** to save the draft as a knowledge proposal.
 
-11.  Verify that the **Knowledge proposal created** confirmation appears
+10.  Verify that the **Knowledge proposal created** confirmation appears
     on the right side of the screen.
 
        ![](./media/image64.png)
 
-12.  You will receive resolution Email.
+11.  You will receive resolution Email.
 
       ![](./media/image65.png)
 
