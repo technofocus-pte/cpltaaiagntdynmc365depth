@@ -20,7 +20,7 @@ primarytopics: Power Platform
 In this lab, you will set up a complete trial environment required for working with Dynamics 365 applications. You will sign up for trial licenses, configure environments, create a team in Microsoft Teams, enable Copilot capabilities across services and install required add-ins to support learning activities throughout the course.
 
 
-**## Exercise 1: Assign a Customer Insight trial license and enable Copilot**
+**## Exercise 1: Assign a Customer Insight trial license**
 
 **### Task 1: Assign Customer Insight trial license**
 
@@ -38,7 +38,7 @@ In this task, you will start a Dynamics 365 Customer Insight trial, provide the 
 
     ![](./media/image13.png)
 
-4. If requested, enter your Office 365 admin tenant password.
+4. Enter your Office 365 admin tenant password.
 
    ![](./media/image14.png)
 
@@ -65,10 +65,38 @@ In this task, you will start a Dynamics 365 Customer Insight trial, provide the 
    ![](./media/image18.png)
 
 
+**## Exercise 2: Assign a Sales trial license**
 
+**### Task 1: Assign Sales license**
 
+In this task, you will start a Dynamics 365 Sales trial, provide the required contact information, and confirm that a Sales Trial environment has been provisioned in the Power Platform admin center.
 
+1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/sales+++ and select **Try for free**.
 
+    ![](./media/image19.png)
+
+2. If requested, enter your Office 365 admin tenant credentials. Select the checkbox to accept the agreement and click on **Start your free trial**
+
+    ![](./media/image21.png)
+3. If requested, enter your Office 365 admin tenant password.
+   
+4. If requested, provide Contact Information as below and then select Submit.
+
+    - Job Title: Your job title
+
+    - Country/region: United States
+
+    - Phone number: Your phone number
+  
+7. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++**.
+
+   ![](./media/image17.png)
+
+9. From the left navigation pane, select **Manage** > **Environments**, and then verify that the **Marketing Trial** environment was created successfully.
+
+   ![](./media/image22.png)
+
+   
 
 
 
