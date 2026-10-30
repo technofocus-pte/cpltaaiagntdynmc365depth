@@ -58,7 +58,7 @@ By the end of this lab, you will be able to:
   
 - Internet access and a phone capable of making calls for testing purposes.
 
-## Exercise 1: Activate Dynamics 365 Contact Center Trial
+<!--## Exercise 1: Activate Dynamics 365 Contact Center Trial
 
 In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
 
@@ -98,9 +98,9 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
 11. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
 
-    ![](./media/image6.png)
+    ![](./media/image6.png)-->
 
-## Exercise 2: Verify Contact Center Setup
+## **Exercise 1: Verify Contact Center Setup**
 
 1. Select **Chat**. Under **Test the chat service** > **Prepare the representative** app, select **Open representative app**.
 
@@ -119,7 +119,7 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
     ![](./media/image10.png)
 
-## Exercise 3: Activate Microsoft Copilot Studio Trial
+## **Exercise 2: Activate Microsoft Copilot Studio Trial**
 
 In this exercise, you activate the Microsoft Copilot Studio trial to create and manage AI-powered agents.
 
@@ -158,11 +158,6 @@ If you cannot launch **Copilot Studio** or switch to the correct environment, us
 
 2. Sign in using the provided administrator tenant credentials.
 
-    Administrator username:
-    @lab.CloudCredential(M365BusPrem).AdministrativeUsername
-    Administrator password:
-    @lab.CloudCredential(M365BusPrem).AdministrativePassword
-
     ![](./media/image15.png)
 
 3. Open the **ContactCenterTrial** environment.
@@ -187,23 +182,20 @@ If you cannot launch **Copilot Studio** or switch to the correct environment, us
 
     ![](./media/image20.png)
 
-## Exercise 4: Create and Configure Contoso Voice Agent
+## **Exercise 3: Create and Configure Contoso Voice Agent**
 
 In this exercise, you create a voice-based Copilot agent and configure its basic settings, including authentication.
 
-### Task 1: Create Voice Agent
+### **Task 1: Create Voice Agent**
 
 1. From the environment selector at the bottom of the page, select **ContactCenter Trial**.
 
     ![](./media/image21.png)
 
-    If the environment selector is not visible, use the following recovery steps:
+ 
+2. If the environment selector is not visible, use the following recovery steps:
 
 1. Open the Power Platform admin center in a new browser tab and sign in with the provided administrator credentials.
-
-    @lab.CloudCredential(M365BusPrem).AdministrativeUsername
-
-    @lab.CloudCredential(M365BusPrem).AdministrativePassword
 
     ![](./media/image22.jpeg)
 
@@ -239,7 +231,7 @@ In this exercise, you create a voice-based Copilot agent and configure its basic
 
     ![](./media/image28.png)
 
-### Task 2: Configure Authentication
+### **Task 2: Configure Authentication**
 
 1.  After the agent is created, select **Settings** in the upper-right corner.
 
@@ -261,7 +253,7 @@ In this exercise, you create a voice-based Copilot agent and configure its basic
 
     ![](./media/image33.png)
 
-## Exercise 5: Add Knowledge Sources to the Agent
+## **Exercise 4: Add Knowledge Sources to the Agent**
 
 In this exercise, you add policy documents as knowledge sources so the agent can generate accurate responses.
 
@@ -285,11 +277,11 @@ In this exercise, you add policy documents as knowledge sources so the agent can
 
     ![](./media/image37.png)
 
-## Exercise 6: Configure System and Custom Topics
+## **Exercise 5: Configure System and Custom Topics**
 
 In this exercise, you customize system and main menu topics to control the agent's greeting and navigation flow.
 
-### Task 1: Update Conversation Start Topic
+### **Task 1: Update Conversation Start Topic**
 
 1. From the top navigation, select Topics. Under System topics, select Conversation Start.
 
@@ -302,7 +294,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
     ![](./media/image39.png)
 
-### Task 2: Update Main Menu Topic
+### **Task 2: Update Main Menu Topic**
 
 1. Under **Custom** topics, open the **Main menu** topic.
 
@@ -315,7 +307,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
     ![](./media/image41.png)
 
-### Task 3: Delete Dummy Topics
+### **Task 3: Delete Dummy Topics**
 
 1. Under Custom topics, **turn off** the following topics:
 
@@ -327,7 +319,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
     ![](./media/image42.png)
 
-## Exercise 7: Create Warranty and Return Policy Topic
+## **Exercise 6: Create Warranty and Return Policy Topic**
 
 In this exercise, you create a custom topic that enables the agent to answer refund-related questions using generative AI.
 
@@ -410,7 +402,7 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 
     ![](./media/image59.png)
 
-## Exercise 8: Create Troubleshooting Guide Topic
+## **Exercise 7: Create Troubleshooting Guide Topic**
 
 In this exercise, you create a custom topic to handle protection plan queries using a dedicated knowledge source.
 
@@ -493,7 +485,7 @@ In this exercise, you create a custom topic to handle protection plan queries us
 
     ![](./media/image75.png)
 
-## Exercise 9: Configure Escalation Topic
+## **Exercise 8: Configure Escalation Topic**
 
 In this exercise, you configure call escalation so the agent can transfer conversations to a live agent.
 
@@ -516,7 +508,7 @@ conversation** under **Topic management**.
 
     ![](./media/image79.png)
 
-## Exercise 10: Connect Channel and Publish Agent
+## **Exercise 9: Connect Channel and Publish Agent**
 
 In this exercise, you connect the agent to the Dynamics 365 Contact Center channel and publish it.
 
