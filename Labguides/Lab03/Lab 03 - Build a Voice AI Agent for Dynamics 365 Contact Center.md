@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 3
 
 title: Build a Voice AI Agent for Dynamics 365 Contact Center
 
