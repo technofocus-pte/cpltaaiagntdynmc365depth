@@ -92,7 +92,7 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
    ![](./media/image17.png)
 
-9. From the left navigation pane, select **Manage** > **Environments**, and then verify that the **Marketing Trial** environment was created successfully.
+9. From the left navigation pane, select **Manage** > **Environments**, and then verify that the **Sales Trial** environment was created successfully.
 
    ![](./media/image22.png)
 
