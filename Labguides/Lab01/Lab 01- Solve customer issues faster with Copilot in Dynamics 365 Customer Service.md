@@ -27,35 +27,9 @@ Configure **Dynamics 365 Customer Service** and explore **Copilot** capabilities
 
 In this task, you will start a **Dynamics 365 Customer Service trial**, provide the required contact information, and confirm that a **Customer Service Trial environment** has been provisioned in the Power Platform admin center.
 
-1.  Open your browser and browse to **+++https://dynamics.microsoft.com/en-in/customer-service/overview/+++** and select **Try for free**.
+1. Go to the **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
 
-    ![](./media/image1.png)
-
-2.  Enter your Office 365 admin **tenant credentials**, select the checkbox to accept the agreement and click on **Start your free trial**.
-
-    ![](./media/image2.png)
-
-3.  Provide Contact Information as below and then select **Submit**.
-
-    - **Job Title**: Your job title
-
-    - **Country/region**: United States
-
-    - **Phone number**: Your phone number
-
-    ![](./media/image3.png)
-
-4.  If requested, enter your Office 365 admin tenant password.
-
-    ![Screenshot](./media/image4.png)
-
-5.  You will land on the **Copilot Service Workspace** portal.
-
-    ![](./media/image5.png)
-
-6. Go to the **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
-
-7. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
+2. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
 
     ![](./media/image6.png)
 
