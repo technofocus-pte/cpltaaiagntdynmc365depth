@@ -85,51 +85,52 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
 1. Navigate to the **Customer Insights – Journeys portal**. The Welcome to real-time journeys home page opens, displaying quick start tiles for creating emails, journeys, and text messages.
 
- ![Real-time journeys home page](./media/image5.png "Real-time journeys home page")
+     ![](./media/image40.png)
 
-2.  In the left-hand navigation, select **Settings**, then choose AI hub to open the area where AI agents are managed.
+2. In the left-hand navigation, select **Settings**, then choose **AI hub** to open the area where AI agents are managed.
 
- ![Settings menu with AI hub highlighted](./media/image6.png "Settings menu with AI hub highlighted")
+     ![](./media/image41.png)
 
 **### Task 2: Add Journey Creation Agent**
 
-1. On the Dynamics 365 AI hub page, select **Add and manage agents** under Agent manager. 
+1. On the Dynamics 365 AI hub page, select **Add and manage agents** under Agent manager.
+   
 2. Confirm the Prerequisites section shows 3 of 3 complete (Microsoft Copilot Studio capacity, move data across regions, and AI prompts) before continuing.
 
- ![Agent manager prerequisites](./media/image7.png "Agent manager prerequisites")
+     ![](./media/image7.png)
 
 3. Select **Add an agent**, then choose the **Journey Creation Agent** card (Preview). This agent automatically generates tailored campaigns and builds customer journeys from natural language. Select **Choose**.
 
- ![Add an AI agent dialog](./media/image8.png "Add an AI agent dialog")
+     ![](./media/image8.png)
 
 4. Review the agent **Overview**, which explains that the agent interprets your goal, asks clarifying questions, and builds a complete journey with triggers, steps, and waits. Select **Next**.
 
- ![Journey Creation Agent overview](./media/image9.png "Journey Creation Agent overview")
+     ![](./media/image9.png)
 
 5. On the **Prerequisites** tab, confirm **Anthropic** shows a Done status (this allows the agent to use the underlying AI model), then select Next.
 
- ![Journey Creation Agent prerequisites tab](./media/image10.png "Journey Creation Agent prerequisites tab")
+     ![](./media/image10.png)
 
 6. On the **Settings** tab, review the message consumption limit option, then select **Enable** agent.
 
- ![Journey Creation Agent settings tab](./media/image11.png "Journey Creation Agent settings tab")
+     ![](./media/image11.png)
 
 7. A confirmation dialog appears once the agent is ready. Select **Got it**, to close it.
 
- ![Agent enabled confirmation dialog](./media/image12.png "Agent enabled confirmation dialog")
+     ![](./media/image12.png)
 
 8. Back on the **Agent manager** page, verify that **Journey Creation Agent** now appears in the AI agents list with a Status of Enabled.
 
- ![AI agents list showing Journey Creation Agent enabled](./media/image13.png "AI agents list showing Journey Creation Agent enabled")
+     ![](./media/image13.png)
 
 <!--
 ### Task 3: Open the Customer Insights – Journeys App
 
-1. Go to **+++https://powerapps.microsoft.com+++** and select **Apps** in the left navigation to view the apps available in the environment.
+1.  Go to **+++https://powerapps.microsoft.com+++** and select **Apps** in the left navigation to view the apps available in the environment.
+    
+    ![](./media/image14.png)
 
-  ![Power Apps home page with Apps highlighted](./media/image14.png "Power Apps home page with Apps highlighted")
-
-2. In the apps list, locate **Customer Insights – Journeys** and select the **edit (pencil)** icon to open it, or select the app name to launch it directly.
+2.  In the apps list, locate **Customer Insights – Journeys** and select the **edit (pencil)** icon to open it, or select the app name to launch it directly.
 
  ![Apps list with Customer Insights - Journeys edit icon highlighted](./media/image15.png "Apps list with Customer Insights - Journeys edit icon highlighted")
 
@@ -146,23 +147,21 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 1. Go to **Customer Insights – Journeys > Audiences > Segments**.
 
- ![All Segments view](./media/image17.png "All Segments view")
+     ![](./media/image17.png))
 
 1. Select **New Segment** to open the segment creation pane.
 
- ![New segment dialog](./media/image18.png "New segment dialog")
-
+     ![](./media/image18.png)
 1. Name the new segment **+++New Customers - Welcome Campaign+++** and select **Lead** from the Select a target audience drop-down list.
 
- ![Naming the segment and choosing target audience](./media/image19.png "Naming the segment and choosing target audience")
-
+     ![](./media/image19.png)
 **### Task 2: Define the Segment Condition**
 
  1. To create the segment manually, select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
  
     >**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
 
- ![](./media/image20.png)
+     ![](./media/image20.png)
 
 **## Exercise 3 – Generate the journey with Copilot**
 
@@ -172,12 +171,11 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 1. From the Journeys area, select **New journey**. The Create new journey dialog opens on the Journey Creation Agent (Preview) tab, prompting What would you like to plan today?
 
- ![Create new journey dialog with Journey Creation Agent tab](./media/image21.png "Create new journey dialog with Journey Creation Agent tab")
+     ![](./media/image21.png)
 
 2. In the prompt box, enter: **+++Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.+++** Select the **Send** (arrow) icon.
 
- ![Prompt entered in Journey Creation Agent](./media/image22.png "Prompt entered in Journey Creation Agent")
-
+     ![](./media/image22.png)
 **### Task 2: Review the Generated Journey**
 
 1. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
