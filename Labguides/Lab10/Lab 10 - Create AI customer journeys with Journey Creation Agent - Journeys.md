@@ -40,65 +40,25 @@ Dynamics 365 Customer Insights – Journeys includes the Journey Creation Agent,
 Next, you will use the Journey Creation Agent to generate a customer journey based on a plain-language prompt. The agent automatically creates audience targeting, email activities, wait conditions, and journey flow components. Finally, you will review the generated journey, make any necessary adjustments, and publish it as a live marketing journey that automates customer engagement activities.
 
 
-**## Exercise 1: Assign a Customer Insight trial license and enable Copilot**
-
-**### Task 1: Assign Customer Insight trial license**
-
-In this task, you will start a Dynamics 365 Customer Insight trial, provide the required contact information, and confirm that a Customer Insight Trial environment has been provisioned in the Power Platform admin center.
-
-1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/customer-insights+++ and select **Try for free**.
-
-    ![](./media/image28.png)
-
-2. Enter your Office 365 admin tenant credentials.
-
-    ![](./media/image29.png)
-
-3. Select the checkbox to accept the agreement and click on **Start your free trial**.
-
-    ![](./media/image30.png)
-
-4. If requested, enter your Office 365 admin tenant password.
-
-   ![](./media/image31.png)
-
-5. Select **Yes** to Stay Signed in?
-
-    ![](./media/image32.png)
-
-6. Provide Contact Information as below and then select Submit.
-
-    - Job Title: Your job title
-
-    - Country/region: United States
-
-    - Phone number: Your phone number
-
-    ![](./media/image33.png)
-
-7. Select **Customer Insights – Journeys** if asked.
-
-      ![](./media/image34.png)
-
-<!--## Enable Copilot in Customer Insights – Journeys
+**## Enable Copilot in Customer Insights – Journeys**
 
 1. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given **Office 365 admin tenant** credentials.
 
 2. From the left navigation pane, select **Manage** > **Environment** and then click on **Marketing trial**.
 
-  ![](./media/image1.png)
+    ![](./media/image1.png)
 
 3. Click on **Environment URL**.
 
-  ![](./media/image2.png)
+    ![](./media/image2.png)
   
 5. Select **Customer Insights – Journeys**.
 
- ![](./media/image3.png)
+    ![](./media/image3.png)
 
 5. Select **Customer Insights – Journeys** if asked.
 
-  ![](./media/image4.png)-->
+    ![](./media/image34.png)
 
 **## Exercise 2 - Enable and access the Journey Creation Agent**
 
