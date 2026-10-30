@@ -3,7 +3,7 @@ lab: 00
 
 title: Setting up lab environment
 
-description: Set up a trial environment for Microsoft Power Platform and Dynamics 365. Configure environments, Copilot capabilities, and required add-ins to prepare the environment for hands-on learning activities throughout the course.
+description: Set up a trial environment for Microsoft Power Platform and Dynamics 365. Configure environments and required add-ins to prepare the environment for hands-on learning activities throughout the course.
 
 duration: 15 mins
 
@@ -60,7 +60,7 @@ In this lab, you will set up a complete trial environment required for working w
 
     ![](./media/image10.png)
 
-## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
+## **Exercise 2: Assign a Customer Service trial license and enable Copilot**
 
 ### **Task 1: Assign Customer Service trial license**
 
@@ -92,8 +92,57 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
     ![](./media/image15.png)
 
+## Exercise 3: Activate Dynamics 365 Contact Center Trial
+
+In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
+
+1.  Open a **Microsoft Edge** in private window and navigate to the **+++https://www.microsoft.com/en-us/dynamics-365/products/contact-center+++** page.
+
+2.  On the **Contact Center** page, select **Try for free**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
+
+3.  On the **Let's get started** page, enter the administrator tenant ID.
+
+4.  Select the **agreement** check box and select **Start your free trial**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
+
+5.  If prompted, enter the password and select **Sign in**.
+
+     ![A screenshot of a login box AI-generated content may be incorrect.](./media/image18.png)
+
+6.  Enter the required details, such as **Job title**, **Country/Region** and **Phone number**.
+
+7.  Select the **agreement** check box and select **Get started**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
+
+8.  After the trial is activated, confirm that you are redirected to the **Copilot Service Workspace**.
+
+9.  From the top app launcher, select **Copilot Service Admin Center**, if the pop-up appears, select **Skip & go to home page**.
+
+    ![](./media/image22.png)
+
+10. Select **Create** on the **Create your contact center** tile.
+
+    ![](./media/image20.png)
+
+11. Wait till the setup is complete. Verify that the Your contact center is ready! message appears and confirms that the Chat setup, Voice setup, and AI experiences are configured.
+
+    ![](./media/image24.png)
+
+  
+    ![](./media/image23.png)
+
+
+13. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
+
+14. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
+
+    ![](./media/image21.png)
 
 
 
 **Summary** 
-You have successfully activated the **Power Apps** trial license and verified that the required **Dataverse-enabled environment** is available in the **Power Platform admin center**, providing the environment required for the lab activities.
+You have successfully activated the **Power Apps**, **Customer Service** and **Contact Center** trial license and verified that the required **Dataverse-enabled environment** is available in the **Power Platform admin center**, providing the environment required for the lab activities.
