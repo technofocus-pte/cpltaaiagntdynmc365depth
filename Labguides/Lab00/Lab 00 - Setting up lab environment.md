@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 00
 
 title: Setting up lab environment
 
@@ -14,7 +14,7 @@ islab: True
 primary topics: Power Platform
 ---
 
-# Lab 00 - Setting up the lab environment
+# **Lab 00 - Setting up the lab environment**
 
 In this lab, you will set up a complete trial environment required for working with Microsoft Power Platform and Dynamics 365 applications. You will sign up for trial licenses, configure environments, enable Copilot capabilities across services, and install required add-ins to support learning activities throughout the course.
 
@@ -60,5 +60,40 @@ In this lab, you will set up a complete trial environment required for working w
 
     ![](./media/image10.png)
 
-**Conclusion** 
+## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
+
+### **Task 1: Assign Customer Service trial license**
+
+In this task, you will start a **Dynamics 365 Customer Service trial**, provide the required contact information, and confirm that a **Customer Service Trial environment** has been provisioned in the Power Platform admin center.
+
+1.  Open your browser and browse to **+++https://dynamics.microsoft.com/en-in/customer-service/overview/+++** and select **Try for free**.
+
+    ![](./media/image11.png)
+
+2.  Enter your Office 365 admin **tenant credentials**, select the checkbox to accept the agreement and click on **Start your free trial**.
+
+    ![](./media/image12.png)
+
+3.  Provide Contact Information as below and then select **Submit**.
+
+    - **Job Title**: Your job title
+
+    - **Country/region**: United States
+
+    - **Phone number**: Your phone number
+
+    ![](./media/image13.png)
+
+4.  If requested, enter your Office 365 admin tenant password.
+
+    ![Screenshot](./media/image14.png)
+
+5.  You will land on the **Copilot Service Workspace** portal.
+
+    ![](./media/image15.png)
+
+
+
+
+**Summary** 
 You have successfully activated the **Power Apps** trial license and verified that the required **Dataverse-enabled environment** is available in the **Power Platform admin center**, providing the environment required for the lab activities.
