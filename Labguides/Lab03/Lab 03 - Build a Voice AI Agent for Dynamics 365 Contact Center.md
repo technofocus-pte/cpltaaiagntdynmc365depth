@@ -107,11 +107,11 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
     ![](./media/image7.png)
 
 2. Select **Open representative app**. The **Copilot Service workspace** opens.
-  > **Note: A green check mark on the right side of the page indicates that the representative is Available.**
+   > **Note: A green check mark on the right side of the page indicates that the representative is Available.**
 
   ![](./media/image8.png)
 
-3. Select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
+3. Go back to the **Copilot Service admin** center portal and select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
 
     ![](./media/image9.png)
 
@@ -125,7 +125,7 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
 1.  Open a new browser tab and navigate to the **+++https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio+++** page.
 
-2. Select **Try for free**.
+2. Select **Sign in** to Copilot Studio.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.jpeg)
 
