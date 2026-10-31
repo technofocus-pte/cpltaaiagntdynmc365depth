@@ -21,9 +21,9 @@ You are a **Dynamics 365 Customer Service administrator/representative at Contos
 ## **Objective**
 Configure **Dynamics 365 Customer Service** and explore **Copilot** capabilities that help streamline case management, customer communication, knowledge creation, and data analysis.
 
-## **Exercise 1: Assign a Customer Service trial license and enable Copilot**
+## **Exercise 1: Verify Customer Service Licensing and Enable Copilot**
 
-### **Task 1: Assign Customer Service trial license**
+### **Task 1: Access Power Platform Admin Center and Verify Environment Configuration**
 
 In this task, you will start a **Dynamics 365 Customer Service trial**, provide the required contact information, and confirm that a **Customer Service Trial environment** has been provisioned in the Power Platform admin center.
 
@@ -31,7 +31,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 2. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Customer Service Trial** environment is available.
 
-    ![](./media/image6.png)
+    ![](./media/image68.png)
 
 ### **Task 2: Enable the Copilot feature**
 
