@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 4
 
 title: Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
 
@@ -42,7 +42,45 @@ Before starting this lab, ensure that:
 
 - You are signed up using the Microsoft 365 provided credentials.
 
-## **Exercise 1: Set up the Scheduling Operations Agent (preview)**
+## **Exercise 1: Assign a Field Service trial license and enable Copilot**
+
+### **Task 1: Assign Field Service trial license**
+
+In this task, you will start a **Dynamics 365 Field Service** trial, provide the required contact information, and confirm that a Field Service Trial environment has been provisioned in the Power Platform admin center.
+
+1.  Navigate to the Field Service product page using the given link +++https://www.microsoft.com/en-in/dynamics-365/products/field-service+++ and select **Try for free**.
+
+      ![](./media/image53.png)
+    
+2. Enter your **Office 365 admin tenant** username, select the checkbox for service agreement and then select **Start your free trial**.
+
+      ![](./media/image54.png)
+
+3. Provide **Contact Information** as below and then select **Submit**.
+ 
+   - **Job title**: Your job title
+   - **Country/region**: United States
+   - **Phone number**: Your phone number
+
+      ![](./media/image55.png)
+
+4. If a pop-up appears, select **Launch Trial**.
+
+      ![](./media/image56.png)
+ 
+5. If a pop-up regarding Whats new appears, close it.
+
+     ![](./media/image57.png)
+
+6. You will be navigated to the **Dynamics 365 Field Service portal**.
+
+     ![](./media/image58.png)
+
+7. Go to Power Platform admin center by navigating to +++https://admin.powerplatform.microsoft.com/+++ and if required, sign in using your given **Office 365 tenant admin** credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Field Service Trial** environment is created.
+
+    ![](./media/image59.png)
+
+## **Exercise 2: Set up the Scheduling Operations Agent (preview)**
 
 Enable the Scheduling Operations Agent (Preview) in Dynamics 365 Field Service so that AI-powered scheduling capabilities can be used within the environment.
 
@@ -50,29 +88,15 @@ Enable the Scheduling Operations Agent (Preview) in Dynamics 365 Field Service s
 
 Enable the **Scheduling Operations Agent** in **Dynamics 365 Field Service** to streamline service scheduling and optimize resource allocation.
 
-1.  Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given **Office 365 admin tenant** credentials.
-
-2.  From the left navigation pane, select **Manage** > **Environment** and then click on **FieldService Trial**.
-
-    ![](./media/image1.png)
-
-3.  Click on **Environment URL**.
-
-    ![](./media/image2.png)
-
-4.  You will be on the **Field Service** portal. Close the pop-up screen.
-
-    ![](./media/image3.png)
-
-5.  Select **Resources** in the change area.
+1. Make sure that the **Resource** Type is User. Select Save& Close.
 
     ![](./media/image4.png)
 
-6.  From the left pane, select **Scheduling Parameters** > **Resource Scheduling**.
+2.  From the left pane, select **Scheduling Parameters** > **Resource Scheduling**.
 
     ![](./media/image5.png)
 
-7.  Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**. Select **Save & Close**.
+3.  Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**. Select **Save & Close**.
 
     ![](./media/image6.png)
 
@@ -150,7 +174,7 @@ Configure optimization methods for booking statuses so that the **Scheduling Ope
 
     ![](./media/image22.png)
 
-11. In the **Status** field, select **Ignore** from the drop-down menu.
+11. In the **Optimization Method** field, select **Ignore** from the drop-down menu.
 
     ![](./media/image23.png)
 
@@ -202,7 +226,7 @@ Define priority values for work order priorities to help the Scheduling Operatio
 
     ![](./media/image34.png)
     
-10. Set the value 100.
+10. Set the value **100**. And select **Save and close**.
 
     ![](./media/image35.png)
 
@@ -212,7 +236,7 @@ Define priority values for work order priorities to help the Scheduling Operatio
 
     ![](./media/image36.png)
 
-## **Exercise 2: Use the Scheduling Operations Agent (preview)**
+## **Exercise 3: Use the Scheduling Operations Agent (preview)**
 
 In this exercise, you will learn how to use the Scheduling Operations Agent in Dynamics 365 Field Service to optimize resource scheduling, prioritize work orders, and generate AI-powered scheduling recommendations. You will configure the required settings, prepare scheduling data and evaluate the agent's scheduling suggestions to improve operational efficiency and customer service.
 
@@ -231,67 +255,76 @@ In this exercise, you will learn how to use the Scheduling Operations Agent in D
 4.  At a minimum, enter information in the following required fields and then select **Save & Close**.
 
    - **Status**: Unscheduled
+     
    - **Priority**: High
+     
    - **Service Account**: Enter **Contoso** and select **Contoso Coffee** from the suggestion list.
+     
    - **Work Order Type**: Enter **Diagnosis** and select **Diagnosis & Repair** from the suggestion list.
+     
 
-5. In the Contacts section, **Reported by**: Enter +++**Alex**+++ and then select **Alex Baker** from the list
-    - **Time from promised**: Select todays date and 8:00 AM time.
+5. In the Contacts section enter the given information and then select **Save & Close**. 
+     -  **Reported by**: Enter +++**Alex**+++ and then select **Alex Baker** from the list
+       
+     - **Time from promised**: Select todays date and 8:00 AM time.
 
-    ![](./media/image40.png)
+     ![](./media/image40.png)
    
 
-    ![](./media/image41.png)
+     ![](./media/image41.png)
 
-6.  From the left pane, now select **Schedule Board**.
+7.  From the left pane, now select **Schedule Board**.
 
-    ![](./media/image42.png)
+     ![](./media/image42.png)
 
-7.  Close any pop-up screen. It can be of agent related.
+8.  Close any pop-up screen. It can be of agent related.
 
-   ![](./media/image43.png)
+    ![](./media/image43.png)
 
 8. On the **Scheduling board**, select **(…)** 3 dots to see more options and then select **Book**.
 
-   ![](./media/image44.png)
+    ![](./media/image44.png)
 
-9.  In the **Requirement** field, select any sample from the drop-down list.
+10.  In the **Requirement** field, select any sample from the drop-down list.
 
-    ![](./media/image45.png)
+     ![](./media/image45.png)
 
-9.  Select **Alex** **Baker** as a **Resource**. Set **today’s** date as the **Start** **date**. Set 8:00 AM **Start time** and then select **Book**.
+11.  Select **Alex** **Baker** as a **Resource**. Set **today’s** date as the **Start** **date**. Set 8:00 AM **Start time** and then select **Book**.
 
-    ![](./media/image46.png)
+     ![](./media/image46.png)
 
-10. From the **schedule board**, right-click the **name** and select **Suggest schedule**.
+12. From the **schedule board**, right-click the **name** and select **Suggest schedule**.
 
-    ![](./media/image47.png)
+     ![](./media/image47.png)
 
-11. On the **Suggest schedule** pane, enter the following information and then select **Suggest schedule**.
+13. On the **Suggest schedule** pane, enter the following information and then select **Suggest schedule**.
 
-    - **Resource**: Alex Baker
+       - **Resource**: Alex Baker
+        
+       - **Scheduling goal**: Maximize utilization
+        
+       - **Time range**: Next 2 days
+        
+       - **Requirements**: Unscheduled Work Order Requirements
+        
+       - **Scheduling options**: Select **Match required characteristics** only
+
+      ![](./media/image48.png)
     
-    - **Scheduling goal**: Maximize utilization
-    
-    - **Time range**: Next 2 days
-    
-    - **Requirements**: Unscheduled Work Order Requirements
-    
-    - **Scheduling options**: Select **Match required characteristics** only
 
-     ![](./media/image48.png)
-
-     ![](./media/image49.png)
+      ![](./media/image49.png)
+    
 
      ![](./media/image50.png)
+    
 
-12. **Agent** is analyzing the schedule.
+15. **Agent** is analyzing the schedule.
 
-    ![](./media/image51.png)
+     ![](./media/image51.png)
 
-13. Review the **suggested schedule**.
+16. Review the **suggested schedule**.
 
-    ![](./media/image52.png)
+     ![](./media/image52.png)
 
 ## **Summary**
 
