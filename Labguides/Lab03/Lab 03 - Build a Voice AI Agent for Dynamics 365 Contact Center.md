@@ -58,6 +58,17 @@ By the end of this lab, you will be able to:
   
 - Internet access and a phone capable of making calls for testing purposes.
 
+## **Exercise 1: Verify Contact Center Licensing and enable Copilot**
+
+### **Task 1: Access Power Platform Admin Center and Verify Environment Configuration**
+
+In this task, you will start a **Dynamics 365 Contact Center trial**, provide the required contact information, and confirm that a **Contact Center Trial environment** has been provisioned in the Power Platform admin center.
+
+1. Go to the **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
+
+2. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Contact Center** environment is available.
+
+   ![](./media/image98.png)
 
 ## **Exercise 1: Verify Contact Center Setup**
 
