@@ -16,13 +16,13 @@ primarytopics: Dynamics 365 Contact Center
 
 # Lab 03 - Build a Voice AI Agent for Dynamics 365 Contact Center
 
-## Scenario
+## **Scenario**
 
 Contoso receives a high volume of customer support calls related to warranty coverage, return policies, and product troubleshooting. These routine inquiries consume significant agent time, resulting in longer wait times for customers and reduced availability for complex support cases.
 
 To improve customer service efficiency, Contoso plans to implement a voice-enabled AI agent using Microsoft Copilot Studio and Dynamics 365 Contact Center. The AI agent will answer common customer questions using approved knowledge sources, provide self-service support, and seamlessly transfer callers to a live agent when additional assistance is required.
 
-## Overview and Objectives
+## **Overview and Objectives**
 
 In this lab, you'll create and configure a voice-enabled AI agent using Microsoft Copilot Studio and Dynamics 365 Contact Center. You'll activate the required environments, verify the voice configuration, build a voice agent, add knowledge sources, configure conversational behaviors and escalation paths, connect the agent to a voice workstream, and validate the solution through a live phone call.
 By the end of this lab, you will be able to:
@@ -38,7 +38,7 @@ By the end of this lab, you will be able to:
  - Test and validate the voice agent using a live phone call.
     
  - Enable automated handling of common customer support inquiries.
-## Lab Prerequisites
+## **Lab Prerequisites**
 
  Before starting this lab, ensure you have:
 
@@ -58,47 +58,6 @@ By the end of this lab, you will be able to:
   
 - Internet access and a phone capable of making calls for testing purposes.
 
-<!--## Exercise 1: Activate Dynamics 365 Contact Center Trial
-
-In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
-
-1.  Open a **Microsoft Edge** in private window and navigate to the **+++https://www.microsoft.com/en-us/dynamics-365/products/contact-center+++** page.
-
-2.  On the **Contact Center** page, select **Try for free**.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
-
-3.  On the **Let's get started** page, enter the administrator tenant ID.
-
-     @lab.CloudCredential(M365BusPrem).AdministrativeUsername
-
-4.  Select the **agreement** check box and select **Start your free trial**.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image2.png)
-
-5.  If prompted, enter the password and select **Sign in**.
-
-     @lab.CloudCredential(M365BusPrem).AdministrativePassword
-
-    ![A screenshot of a login box AI-generated content may be incorrect.](./media/image3.png)
-
-6.  Enter the required details, such as **Job title**, **Country/Region** and **Phone number**.
-
-7.  Select the **agreement** check box and select **Get started**.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
-
-8.  After the trial is activated, confirm that you are redirected to the **Copilot Service Workspace**.
-
-9.  From the top app launcher, select **Copilot Service Admin Center**, and then select **Open to set up the contact center**.
-
-    ![](./media/image5.png)
-
-10. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
-
-11. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
-
-    ![](./media/image6.png)-->
 
 ## **Exercise 1: Verify Contact Center Setup**
 
@@ -180,46 +139,15 @@ In this exercise, you create a voice-based Copilot agent and configure its basic
 
 ### **Task 1: Create Voice Agent**
 
-1. From the environment selector at the bottom of the page, select **ContactCenter Trial**.
-
-    ![](./media/image21.png)
-
- 
-2. If the environment selector is not visible, use the following recovery steps:
-
-1. Open the Power Platform admin center in a new browser tab and sign in with the provided administrator credentials.
-
-    ![](./media/image22.jpeg)
-
-2. In the left navigation, under **Manage**, select **Environments**. Select **ContactCenterTrial** to open its details.
-
-    ![](./media/image16.png)
-
-3.  On the **environment details** page, locate and copy the **Environment ID**.
-
-    ![](./media/image17.png)
-
-4.  **Return** to the **Copilot Studio** tab. In the address bar, replace the **default environment ID** with the **ContactCenter Trial** Environment ID you copied. If home is present, retain the path after the environment ID.
-
-    ![](./media/image23.png)
-
-5.  Select **Contact Center Trial Copilot**.
-
-    ![](./media/image24.png)
-
-6.  Select **Skip**.
-
-    ![](./media/image25.png)
-
-7.  Select **Agents**, scroll down, and select **Voice**.
+1.  Select **Agents**, scroll down, and select **Voice**.
 
     ![](./media/image26.png)
 
-8.  Verify that the **Voice agent creation** page appears and prompts you for the agent’s name and language.
+2.  Verify that the **Voice agent creation** page appears and prompts you for the agent’s name and language.
 
     ![](./media/image27.png)
 
-9.  In the Name field, enter **Contoso Voice Agent**, and then select **Create**.
+3.  In the Name field, enter +++Contoso Voice Agent+++, and then select **Create**.
 
     ![](./media/image28.png)
 
@@ -275,7 +203,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
 ### **Task 1: Update Conversation Start Topic**
 
-1. From the top navigation, select Topics. Under System topics, select Conversation Start.
+1. From the top navigation, select **Topics**. Under **System** topics, select **Conversation Start**.
 
     ![](./media/image38.png)
 
@@ -288,7 +216,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
 ### **Task 2: Update Main Menu Topic**
 
-1. Under **Custom** topics, open the **Main menu** topic.
+1. From the top navigation, select **Topics** again. Under **Custom topics**, open the **Main menu** topic.
 
     ![](./media/image40.png)
 
@@ -301,7 +229,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
 ### **Task 3: Delete Dummy Topics**
 
-1. Under Custom topics, **turn off** the following topics:
+1. From the top navigation, select **Topics** again. Under Custom topics, **turn off** the following topics:
 
     - **Lesson 1**
     
@@ -351,11 +279,11 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 
     ![](./media/image49.png)
 
-9.  Select **WarrantyandReturnQuery** as the input variable.
+9.  Click on the three dots in the Input field and select **WarrantyandReturnQuery** as the input variable.
 
     ![](./media/image50.png)
 
-10. For **Data source**, select **Edit** and enable **Search only selected** **sources**.
+10. For **Data source**, select **Edit**, then enable **Search only selected sources** in the **Create generative answers properties** pane that opens on the right.
 
 11. Select **Warranty & Return Policy** as the data source.
 
@@ -430,8 +358,7 @@ In this exercise, you create a custom topic to handle protection plan queries us
 
     ![](./media/image65.png)
 
-8.  Select the **response variable** and rename it to
-    +++**TroubleshootingQuery**+++
+8.  Select the **response variable** i.e. **Var1** and rename it to +++TroubleshootingQuery+++
 
     ![](./media/image66.png)
 
@@ -487,7 +414,7 @@ In this exercise, you configure call escalation so the agent can transfer conver
 
     ![](./media/image76.png)
 
-3. In the message node, enter: +++**Please wait while connecting**+++
+3. In the message node, replace the existing message with: +++Please wait while connecting+++.
 
     ![](./media/image77.png)
 
@@ -514,31 +441,35 @@ In this exercise, you connect the agent to the Dynamics 365 Contact Center chann
 
     ![](./media/image81.png)
 
-4. After the connection is established, select **Publish** in the upper-right corner.
+4. After the connection is established, Close the connection pane and then select **Publish** in the upper-right corner.
 
     ![](./media/image82.png)
 
 5. Select **Publish** again to confirm.
 
-![A screenshot of a computer AI-generated content may be incorrect.](./media/image83.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image83.png)
 
-6. Verify that the agent is successfully connected to **Dynamics 365 Contact Center**.
+6. Go back to the **Channels** tab, select the **Dynamics 365 Contact Center** channel. Verify that the agent is successfully connected to **Dynamics 365 Contact Center**.
 
     ![](./media/image84.png)
 
-## Exercise 11: Connect Agent to Voice Workstream
+## **Exercise 11: Connect Agent to Voice Workstream**
 
 In this exercise, you connect the AI agent to the voice workstream for handling inbound calls.
 
-1. Return to **Contoso Voice Workstream**.
+1. On the Dynamics 365 Contact Center channel pane, select **View Dynamics 365 Contact Center**.
+  
+    ![](./media/image96.png)
 
-2. Scroll down and select **+** **Add AI agent**.
+2. In the **Omnichannel admin center** portal, from the left navigation pane, select **Workstreams** and then select **Contact center voice workstream**.
+
+   ![](./media/image97.png)
+    
+3. Scroll down and select **+ Add AI agent**.
 
     ![](./media/image85.png)
 
-3. Select **Contoso Voice Agent**.
-
-4. Select **Connect**.
+4. Select **Contoso Voice Agent** and then, select **Connect**.
 
     ![](./media/image86.png)
 
@@ -546,34 +477,36 @@ In this exercise, you connect the AI agent to the voice workstream for handling 
 
     ![](./media/image87.png)
 
-6. Wait until the agent shows as connected successfully.
+9. Wait until the agent shows as connected successfully.
 
-**Note**: Agent testing may take up to 15 minutes to become available after configuration.
+  **Note**: Agent testing may take up to 15 minutes to become available after configuration.
 
    ![](./media/image88.png)
 
-## Exercise 12: Test the Agent
+## **Exercise 12: Test the Agent**
 
-1. Open the **Contoso Voice Workstream** page and scroll to the **Voice channel** section. Note the phone number displayed.
+1. Open the **Contact center voice workstream** page and scroll to the **Voice channel** section. Note the phone number displayed.
 
     ![](./media/image89.png)
 
-2. Call the **phone numbe**r listed and wait for the **Copilot voice agent** to contact.
+2. Using your mobile phone, call the **phone number listed and wait for the Copilot voice agent to contact**.
 
-3. When prompted, say **"Troubleshooting Guide" or "Warranty & Return Policy"** to select the required option.
+   **Note**: After the call connects, an automated voice agent greets you and lists the available options. Wait for the agent to finish speaking before you respond, and speak clearly so the agent recognizes your selection.
 
-4. Ask Copilot, **"Give me details about the Warranty & Return Policy,"** and listen to the response.
+4. When the automated agent asks you to choose an option, say “**Troubleshooting Guide**” or “**Warranty & Return Policy**”.
 
-5. To connect with a customer representative, clearly say **"Talk to an agent."**
+5. Ask the agent, **“Give me details about the Warranty & Return Policy,”** and listen to the response.
 
-6. Open **Copilot Service Workspace** from the top app selector.
+6. To speak with a customer representative, say **“Talk to an agent”**.
 
-7. Verify that the **incoming call** appears in the top-right corner of **Copilot Service Workspace**, confirming successful call routing.
+7. Open **Copilot Service Workspace** from the top app selector.
+
+8. Verify that the **incoming call** appears in the top-right corner of **Copilot Service Workspace**, confirming successful call routing.
 
     ![](./media/image90.png)
 
-Expected result: The incoming call appears in Copilot Service Workspace, confirming that the voice agent is receiving and routing live calls.
+Expected result: The incoming call appears in **Copilot Service Workspace**, confirming that the voice agent is receiving and routing live calls.
 
-## Summary
+## **Summary**
 
 You have completed an end-to-end voice AI agent for Contoso using **Microsoft Copilot Studio** and **Dynamics 365 Contact Center**. The lab covered trial activation, contact center setup, voice agent creation, knowledge-source configuration, conversational topics, escalation, channel connection, publishing, voice-workstream integration, and live-call validation. The completed solution can answer Warranty & Return Policy and Troubleshooting Guide questions using the configured documents and transfer callers to a live representative when needed.
