@@ -131,9 +131,7 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
 3. In the **Email** field, enter the administrator username and select **Next**.
 
-     @lab.CloudCredential(M365BusPrem).AdministrativeUsername
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
 4. Select **Sign in**.
 
@@ -152,35 +150,29 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
-If you cannot launch **Copilot Studio** or switch to the correct environment, use the following recovery steps:
-
-1. Open the **+++https://admin.powerplatform.microsoft.com/+++** in a new browser tab.
-
-2. Sign in using the provided administrator tenant credentials.
-
-    ![](./media/image15.png)
-
-3. Open the **ContactCenterTrial** environment.
-
-    ![](./media/image16.png)
-
-4. Copy the **Environment ID**.
-
-    ![](./media/image17.png)
-
-5. Return to the **Copilot Studio** page.
-
-6. In the **URL**, remove everything after environment.
-
-    ![](./media/image18.png)
-
-7. Paste the copied **Environment ID** after **environment**.
-
-    ![](./media/image19.png)
-
-8. **Reload** the page.
+9. After sign in, the **Copilot Studio** Home page appears.
 
     ![](./media/image20.png)
+
+10. From the environment selector at the bottom of the page, select ContactCenter Trial.
+
+    ![](./media/image91.png)
+
+11. From the bottom of the page select **Classic Copilot Studio**.
+
+    ![](./media/image92.png)
+
+12. Select **Skip feedback** from the popup screen.
+
+    ![](./media/image93.png)
+    
+13. If the pop-up appears, select **Skip**.
+
+     ![](./media/image94.png)
+
+14. Confirm That the **Classic Copilot Studio Interface** Is Displayed.
+
+     ![](./media/image95.png)    
 
 ## **Exercise 3: Create and Configure Contoso Voice Agent**
 
