@@ -16,13 +16,13 @@ primarytopics: Dynamics 365 Customer Insights- Journeys
 
 # Lab 10 - Create an AI-Assisted Customer Journey with the Journey Creation Agent in Customer Insights – Journeys
 
-## Scenario
+## **Scenario**
 
 You are a Marketing Automation Specialist at Contoso responsible for onboarding new customers and increasing engagement through personalized marketing campaigns. To streamline campaign creation, you will use the **Journey Creation Agent** in Dynamics 365 Customer Insights – Journeys. Using natural language prompts, you will create a target audience, generate an AI-assisted customer journey, review the journey design, and publish a multi-step campaign that automatically sends welcome and follow-up communications to new customers.
 
 In this lab, you will use **Copilot** in Customer Insights – Journeys to build a fully automated, AI-assisted customer journey. You will enable the Journey Creation Agent, create and configure a target segment, generate a multi-step journey from a natural language prompt, review and adjust the Copilot-generated steps, and publish a live, running journey.
 
-## Objective
+## **Objective**
 
 In this lab, you will learn how to:
 
@@ -33,16 +33,17 @@ In this lab, you will learn how to:
 - Configure automated customer engagement workflows using emails and wait conditions.
 - Publish and validate a live customer journey for marketing execution.
 
-## Overview
+## **Overview**
 
 Dynamics 365 Customer Insights – Journeys includes the Journey Creation Agent, an AI-powered capability that helps marketers create complete customer journeys using natural language. In this lab, you will first enable the Journey Creation Agent through the Dynamics 365 AI Hub and verify its availability within Customer Insights – Journeys. You will then create a target segment using Query Assist, allowing Copilot to translate business requirements into audience criteria.
 
 Next, you will use the Journey Creation Agent to generate a customer journey based on a plain-language prompt. The agent automatically creates audience targeting, email activities, wait conditions, and journey flow components. Finally, you will review the generated journey, make any necessary adjustments, and publish it as a live marketing journey that automates customer engagement activities.
 
+# **Exercise 1: Verify Customer Insights – Journeys Licensing and enable Copilot**
 
-**## Enable Copilot in Customer Insights – Journeys**
+## **Task 1: Access Power Platform Admin Center and Verify Environment Configuration**
 
-1. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given **Office 365 admin tenant** credentials.
+1. Open a new browser tab, go to +++https://admin.powerplatform.microsoft.com+++, and sign in with your Office 365 admin tenant credentials if prompted.
 
 2. From the left navigation pane, select **Manage** > **Environment** and then click on **Marketing trial**.
 
@@ -60,7 +61,7 @@ Next, you will use the Journey Creation Agent to generate a customer journey bas
 
     ![](./media/image34.png)
 
-**## Exercise 2 - Enable and access the Journey Creation Agent**
+## **Exercise 2 - Enable and access the Journey Creation Agent**
 
 Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you can access it from Customer Insights – Journeys before you start building a journey.
 
@@ -145,28 +146,51 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 ### **Task 1: Create a New Segment**
 
-1. Go to **Customer Insights – Journeys > Audiences > Segments**.
+1. In Customer Insights – Journeys, under Audiences, select Segments, and then select New segment to open the segment creation pane.
 
-     ![](./media/image17.png))
+      ![](./media/image17.png))
+  
+1. In the Name field, enter +++New Customers - Welcome Campaign+++, and then select **Lead** from the **Select a target audience** drop-down list. Select **Create**.
 
-1. Select **New Segment** to open the segment creation pane.
-
-     ![](./media/image18.png)
-   
-1. Name the new segment **+++New Customers - Welcome Campaign+++** and select **Lead** from the Select a target audience drop-down list.
-
-     ![](./media/image19.png)
+      ![](./media/image19.png)
    
 ### **Task 2: Define the Segment Condition**
 
- 1. To create the segment manually, select **+ Add new** > **Behavioral group** > **Marketing form** > **Submitted** > **Email ID**, then set the condition to **Email ID Contains Contoso**.
- 
-       >**Note**: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.
+ 1.  On the segment canvas, select Add a new group.
+
+        ![](./media/image45.png)
     
+ 2.  From the drop-down list, select **Behavioral group**.
+
+        ![](./media/image46.png)
+
+ 3.  In the Behavioral pane, expand **Marketing form**, and then select **Submitted**.
+
+        ![](./media/image47.png)
+
+ 4.  Verify that **Marketing Form Submitted at least once in the last 28 days** is added to Group 1, and then in the **Marketing Form** Submitted pane, select **E-mail Id**.
+
+        ![](./media/image48.png)
+
+ 5.  In the **E-mail Id** row, select the drop-down arrow, and then select **Contains**.
+
+        ![](./media/image49.png)
+
+ 6. In the **Enter value** field, enter +++Contoso+++, and then select **Ready to use**.
+
+       ![](./media/image50.png)  
+    
+ 7.  Verify that the New Customers - Welcome Campaign segment status changes to Getting ready.
+
+        **Note: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.**
+
+        ![](./media/image51.png) 
+
+ 9. Verify that the **New Customers - Welcome Campaign segment** status changes **Ready to use**.
 
        ![](./media/image20.png)
 
-## **Exercise 3 – Generate the journey with Copilot**
+## **Exercise 4 – Generate the journey with Copilot**
 
    Use the Journey Creation Agent to turn a plain-language description into a complete, multi-step customer journey that targets the segment created in Exercise 2.
 
@@ -181,21 +205,21 @@ Build a segment that identifies new customers who should receive the welcome cam
 
       ![](./media/image22.png)
 
-3. Select **Allow** to use data and proceed with generating response.
+3. Select **Allow** to use data and proceed with **generating response**.
 
       ![](./media/image42.png)
 
-4. Select Allow to connect with Microsoft Dataverse.
+4. Select **Allow** to connect with **Microsoft Dataverse**.
 
-    ![](./media/image43.png)
+     ![](./media/image43.png)
 
 5.  Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
 
-6. On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
+6.  On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
 
-    ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
+      ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
-## **Exercise 3 – Review and publish the journey**
+## **Exercise 5 – Review and publish the journey**
 
 Publish the completed journey so it goes live and starts running against the target segment.
 
