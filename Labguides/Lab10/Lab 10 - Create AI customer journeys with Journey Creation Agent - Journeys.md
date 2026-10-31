@@ -77,7 +77,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
  
      ![](./media/image37.png)
  
-4. Set AI agents to On and select Save.
+4. Set AI agents to **On** and select **Save**.
 
      ![](./media/image38.png)
 
@@ -96,7 +96,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
 1. On the Dynamics 365 AI hub page, select **Add and manage agents** under Agent manager.
    
-2. Confirm the **Prerequisites** section shows 3 of 3 complete **(Microsoft Copilot Studio capacity, move data across regions, and AI prompts)**.
+2. Confirm the **Prerequisites** section shows **3 of 3** complete **(Microsoft Copilot Studio capacity, move data across regions, and AI prompts)**.
 
      ![](./media/image7.png)
 
