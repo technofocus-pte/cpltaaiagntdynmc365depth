@@ -96,8 +96,7 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
 5. If prompted, enter the password and select **Sign in**.
 
-    @lab.CloudCredential(M365BusPrem).AdministrativePassword
-
+    
 6. If a message appears stating that a license already exists, select **Get started**.
 
     ![A screenshot of a computer error AI-generated content may be incorrect.](./media/image13.png)
@@ -129,7 +128,7 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
      ![](./media/image94.png)
 
-14. Confirm That the **Classic Copilot Studio Interface** Is Displayed.
+14. Confirm that the **Classic Copilot Studio** experience appears on the screen.
 
      ![](./media/image95.png)    
 
