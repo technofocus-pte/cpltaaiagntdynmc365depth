@@ -124,7 +124,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
      ![](./media/image13.png)
 
 <!--
-### Task 3: Open the Customer Insights – Journeys App
+### **Task 3: Open the Customer Insights – Journeys App**
 
 1.  Go to **+++https://powerapps.microsoft.com+++** and select **Apps** in the left navigation to view the apps available in the environment.
     
@@ -136,7 +136,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
 3. The app opens and displays the **Journeys area**. Confirm you can see the **All Journeys list** before moving to the next exercise.
 
- ![All Journeys list in the app](./media/image16.png "All Journeys list in the app")
+     ![All Journeys list in the app](./media/image16.png "All Journeys list in the app")
 
 -->
 ## **Exercise 3 – Create a target segment**
@@ -209,7 +209,7 @@ Publish the completed journey so it goes live and starts running against the tar
 
      ![Journey published confirmation dialog](./media/image25.png "Journey published confirmation dialog")
 
-**### Task 2: Verify the Journey Is Live**
+### **Task 2: Verify the Journey Is Live**
 
 1. Verify that the journey status is **Live** and that a **scheduled start date and time** are displayed.
 
