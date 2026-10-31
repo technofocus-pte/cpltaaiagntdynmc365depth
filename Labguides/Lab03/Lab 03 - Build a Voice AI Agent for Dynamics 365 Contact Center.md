@@ -491,7 +491,7 @@ In this exercise, you connect the AI agent to the voice workstream for handling 
 
 2. Using your mobile phone, call the **phone number listed and wait for the Copilot voice agent to contact**.
 
-   **Note**: After the call connects, an automated voice agent greets you and lists the available options. Wait for the agent to finish speaking before you respond, and speak clearly so the agent recognizes your selection.
+   **Note:** **After the call connects, an automated voice agent greets you and lists the available options. Wait for the agent to finish speaking before you respond, and speak clearly so the agent recognizes your selection.**
 
 4. When the automated agent asks you to choose an option, say “**Troubleshooting Guide**” or “**Warranty & Return Policy**”.
 
@@ -505,7 +505,7 @@ In this exercise, you connect the AI agent to the voice workstream for handling 
 
     ![](./media/image90.png)
 
-Expected result: The incoming call appears in **Copilot Service Workspace**, confirming that the voice agent is receiving and routing live calls.
+**Expected result:** The incoming call appears in **Copilot Service Workspace**, confirming that the voice agent is receiving and routing live calls.
 
 ## **Summary**
 
