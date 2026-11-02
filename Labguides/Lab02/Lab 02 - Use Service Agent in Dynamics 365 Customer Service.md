@@ -261,7 +261,7 @@ Open and review customer cases to understand case details, customer issues, and 
 
   ![](./media/image34.png)
 
-**Identify cases requiring attention**
+## **Identify cases requiring attention**
 
 1. Open the **Service Agent** pane.
 
