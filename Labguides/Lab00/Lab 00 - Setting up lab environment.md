@@ -20,45 +20,45 @@ In this lab, you will set up a complete trial environment required for working w
 
 ## **Exercise 1: Assign a Power Apps trial license**
 
-1.  Open a web browser on your VM and go to +++https://powerapps.microsoft.com/en-us/free/+++
+1.  Open a web browser on your VM and go to +++https://powerapps.microsoft.com/en-us/free/+++.
 
-    ![](./media/image1.png)
+     ![](./media/image1.png)
 
 2.  Select **Start free**.
 
-    ![](./media/image2.png "A person with his arms crossed Description automatically generated")
+     ![](./media/image2.png "A person with his arms crossed Description automatically generated")
 
 3.  Enter your **Office 365 admin credentials**, check the checkbox to **accept the agreement** and click on **Start free**.
 
-    ![](./media/image3.png)
+     ![](./media/image3.png)
 
 4.  Enter your **Microsoft 365** tenant admin password, and then select **Sign in**.
 
-    ![](./media/image4.png)
+     ![](./media/image4.png)
 
 5.  Select **Yes** on **Stay signed in** pop-up window.
 
-    ![](./media/image5.png "A screenshot of a computer AI-generated content may be incorrect.")
+     ![](./media/image5.png "A screenshot of a computer AI-generated content may be incorrect.")
 
 6.  Keep the **United States** as your **country/region** and then click on the **Get started** button.
 
-    ![](./media/image6.png)
+     ![](./media/image6.png)
 
 7.  You can now see the **Power Apps** home page with the **Dev One** environment, which is the developer environment created for you.
 
-    ![](./media/image7.png)
+     ![](./media/image7.png)
 
-8.  If you are directed to the default **Contoso (default)** environment, select the required **Dev One** environment for the lab from the drop-down list..
+8.  If you are directed to the default **Contoso (default)** environment, select the required **Dev One** environment for the lab from the drop-down list.
 
-    ![](./media/image8.png)
+     ![](./media/image8.png)
 
 9.  Open the new tab and go to the **Power Platform admin center** by navigating to +++https://admin.powerplatform.microsoft.com+++ and if required, **sign in** using your given Office 365 admin tenant credentials.
 
-    ![](./media/image9.png "A screenshot of a computer AI-generated content may be incorrect.")
+     ![](./media/image9.png "A screenshot of a computer AI-generated content may be incorrect.")
 
 10. From the left navigation pane, select **Manage** > **Environments**, and then you can see that **Dev One** is your Dataverse environment.
 
-    ![](./media/image10.png)
+     ![](./media/image10.png)
 
 ## **Exercise 2: Assign a Customer Service trial license and enable Copilot**
 
@@ -68,11 +68,11 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 1.  Open your browser and browse to **+++https://dynamics.microsoft.com/en-in/customer-service/overview/+++** and select **Try for free**.
 
-    ![](./media/image11.png)
+     ![](./media/image11.png)
 
 2.  Enter your Office 365 admin **tenant credentials**, select the checkbox to accept the agreement and click on **Start your free trial**.
 
-    ![](./media/image12.png)
+     ![](./media/image12.png)
 
 3.  Provide Contact Information as below and then select **Submit**.
 
@@ -82,17 +82,17 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
     - **Phone number**: Your phone number
 
-    ![](./media/image13.png)
+     ![](./media/image13.png)
 
 4.  If requested, enter your Office 365 admin tenant password.
 
-    ![Screenshot](./media/image14.png)
+     ![Screenshot](./media/image14.png)
 
 5.  You will land on the **Copilot Service Workspace** portal.
 
-    ![](./media/image15.png)
+     ![](./media/image15.png)
 
-## Exercise 3: Activate Dynamics 365 Contact Center Trial
+## **Exercise 3: Activate Dynamics 365 Contact Center Trial**
 
 In this exercise, you activate the Dynamics 365 Contact Center trial to access the Copilot Service workspace and required administration tools.
 
@@ -118,31 +118,31 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
-8.  After the trial is activated, confirm that you are redirected to the **Copilot Service Workspace**.
+8.  If prompted, select Launch Trial. After the trial is activated, confirm that you are redirected to the **Copilot Service Workspace**.
+
+       ![](./media/image25.png)
 
 9.  From the top app launcher, select **Copilot Service Admin Center**, if the pop-up appears, select **Skip & go to home page**.
 
-    ![](./media/image22.png)
+      ![](./media/image22.png)
 
 10. Select **Create** on the **Create your contact center** tile.
 
-    ![](./media/image20.png)
+     ![](./media/image20.png)
 
 11. Wait till the setup is complete. Verify that the Your contact center is ready! message appears and confirms that the Chat setup, Voice setup, and AI experiences are configured.
 
-    ![](./media/image24.png)
+     ![](./media/image24.png)
 
-  
-    ![](./media/image23.png)
+     ![](./media/image23.png)
 
+12. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
 
-13. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
+13. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
 
-14. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
-
-    ![](./media/image21.png)
-
+     ![](./media/image21.png)
 
 
 **Summary** 
+
 You have successfully activated the **Power Apps**, **Customer Service** and **Contact Center** trial license and verified that the required **Dataverse-enabled environment** is available in the **Power Platform admin center**, providing the environment required for the lab activities.
