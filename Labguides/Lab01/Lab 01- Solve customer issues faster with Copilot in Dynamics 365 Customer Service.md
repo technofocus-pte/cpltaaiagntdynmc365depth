@@ -527,11 +527,11 @@ plain-language search terms.
 10.  Select the **three dots (...)** in the chart pane. Select **Save
     as**.
 
-    ![](./media/image88.png)
+     ![](./media/image88.png)
 
 11.  In the **Name** field, enter **Incidents by Priority**. Optionally, enter a **Description**, and then select **Save** to save the chart.
 
-    ![](./media/image89.png)
+     ![](./media/image89.png)
 
 11.  Create new chart with Copilot. Select option **New Chart with Copilot**.
 
@@ -549,7 +549,7 @@ account record in the Omnichannel for Customer Service app.
 
 1.  Return to +++**https://powerapps.microsoft.com**+++ tab. Select **Tables** > **Accounts**
 
-    ![](./media/image92.png)
+     ![](./media/image92.png)
 
 2.  Select **Account > Row Summary**
 
