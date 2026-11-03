@@ -98,29 +98,29 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
     ![](./media/image31.png)
     
- a. Access your **Customer Insights - Data** environment using the given link +++https://home.ci.ai.dynamics.com/+++. Select **Sign up for trial**.
+   a. Access your **Customer Insights - Data** environment using the given link +++https://home.ci.ai.dynamics.com/+++. Select **Sign up for trial**.
 
-   ![](./media/image32.png)
+      ![](./media/image32.png)
 
- b. **Sign up** using the given **Office 365 tenant** credentials and select **Next**. 
+   b. **Sign up** using the given **Office 365 tenant** credentials and select **Next**. 
 
-   ![](./media/image33.png)
+     ![](./media/image33.png)
 
- c.  Select **Sign in**.  
+   c.  Select **Sign in**.  
 
-   ![](./media/image34.png)
+     ![](./media/image34.png)
 
- d. Enter **Country/region** as **United States**, your **job title** and **phone number**. Then, select **Get Started**.
+   d. Enter **Country/region** as **United States**, your **job title** and **phone number**. Then, select **Get Started**.
 
-   ![](./media/image35.png)
+     ![](./media/image35.png)
 
- e. Select **Get Started**.
+   e. Select **Get Started**.
 
-   ![](./media/image36.png)
+      ![](./media/image36.png)
 
- f. You will be on the **Home page** of **Customer Insights – Data** portal. Now, select **Start trial**.
+   f. You will be on the **Home page** of **Customer Insights – Data** portal. Now, select **Start trial**.
 
-   ![](./media/image37.png)
+      ![](./media/image37.png)
 
 10. You can see that the **Marketing Trial** environment is getting created for you and now you can directly go to step no 14. In case the environment is not created and asking for **Basic information**, then enter +++Marketing Trial+++ in the **Name** field, select **United States** for the **Region** field, and then select **Next**.
 
