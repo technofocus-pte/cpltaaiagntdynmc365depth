@@ -74,12 +74,13 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 #### **Configure the Overview Tab**
 
 1. In the Instructions box, add:
+
     +++Respond in a professional and friendly tone.
        Provide clear, concise explanations.
        Use short paragraphs and bullet points when appropriate.
        If the knowledge base doesn't contain a clear answer, advise the representative to escalate the case.+++
 
-2. Select **Save**.
+3. Select **Save**.
 
     ![](./media/image14.png)
 
