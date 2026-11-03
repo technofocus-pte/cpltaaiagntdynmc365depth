@@ -25,49 +25,54 @@ In this lab, you will set up a complete trial environment required for working w
 
 In this task, you will start a Dynamics 365 Sales trial, provide the required contact information, and confirm that a Sales Trial environment has been provisioned in the Power Platform admin center.
 
-1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/sales+++ and select **Try for free**.
+1. Go to the **Sales overview** page using the given URL **https://www.microsoft.com/en-us/dynamics-365/products/sales** and select **Try for free**.
 
     ![](./media/image19.png)
 
-2. If requested, enter your Office 365 admin tenant credentials. Select the checkbox to accept the agreement and click on **Start your free trial**
+2. Enter your **Office 365 admin tenant** credentials, select the checkbox to **accept the agreement** and click on **Start your free trial**.
 
     ![](./media/image21.png)
 3. If requested, enter your Office 365 admin tenant password.
    
-4. If requested, provide Contact Information as below and then select Submit.
+4. Provide **Contact Information** as below and then select **Submit**.
 
     - Job Title: Your job title
 
     - Country/region: United States
 
     - Phone number: Your phone number
+
+    ![](./media/image23.png)
   
-7. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++**.
+5. If asked, enter your Office 365 admin tenant password.
 
-   ![](./media/image17.png)
+    ![](./media/image24.png)
+   
+6. If any pop-up appears, select Launch Trial.
 
-9. From the left navigation pane, select **Manage** > **Environments**, and then verify that the **Sales Trial** environment was created successfully.
+    ![](./media/image25.png)
+
+7. You will be landed to the **Dynamics 365 Sales portal**.
+
+    ![](./media/image26.png)  
+ 
+8. Go to **Power Platform admin** center by navigating to **https://admin.powerplatform.microsoft.com** and if required, sign in using your given Office 365 tenant admin credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Sales Trial** environment is created.
 
    ![](./media/image22.png)
 
-   
 ## **Exercise 2: Assign a Customer Insight trial license**
 
-### **Task 1: Assign Customer Insight trial license**
-
-In this task, you will start a Dynamics 365 Customer Insight trial, provide the required contact information, and confirm that a Customer Insight Trial environment has been provisioned in the Power Platform admin center.
-
-1. Open your browser and browse to +++https://www.microsoft.com/en-us/dynamics-365/products/customer-insights+++ and select **Try for free**.
+1. Go to +++https://dynamics.microsoft.com/en-us/ai/customer-insights/+++  and choose the **Try for free** button.
 
     ![](./media/image11.png)
 
-2. Enter your Office 365 admin tenant credentials.
-
-    ![](./media/image12.png)
-
-3. Select the checkbox to accept the agreement and click on **Start your free trial**.
+2. Enter your **Office 365 admin credentials**, check the checkbox to **accept the agreement** and click on **Start your free trial**.
 
     ![](./media/image13.png)
+
+3. Select **United States** for the **Country/region** field, enter your **phone number** and then select **Submit**.
+
+    ![](./media/image27.png)
 
 4. Enter your Office 365 admin tenant password.
 
@@ -77,23 +82,72 @@ In this task, you will start a Dynamics 365 Customer Insight trial, provide the 
 
     ![](./media/image15.png)
 
-6. Provide Contact Information as below and then select Submit.
+6. Choose **Start Customer Insights - Data**.
 
-    - Job Title: Your job title
+    ![](./media/image28.png)
 
-    - Country/region: United States
+7. Select **United States** for the **Country/region** field and then select **Continue**.
 
-    - Phone number: Your phone number
+    ![](./media/image29.png)
 
-    ![](./media/image16.png)
+9. Close the Couldn’t load tables notification from the right corner of the screen.
 
-7. Go to **Power Platform admin center** by navigating to **+++https://admin.powerplatform.microsoft.com+++**.
+    ![](./media/image30.png)
 
-   ![](./media/image17.png)
+10. Select **Start trial** from the top right corner. If you get an error message as **‘Couldn’t create environment’**, then follow the steps (a to f) given below and then continue with Step 9.
 
-9. From the left navigation pane, select **Manage** > **Environments**, and then verify that the **Marketing Trial** environment was created successfully.
+    ![](./media/image31.png)
+    
+ a. Access your **Customer Insights - Data** environment using the given link +++https://home.ci.ai.dynamics.com/+++. Select **Sign up for trial**.
 
-   ![](./media/image18.png)
+   ![](./media/image32.png)
+
+ b. **Sign up** using the given **Office 365 tenant** credentials and select **Next**. 
+
+   ![](./media/image33.png)
+
+c.  Select **Sign in**.  
+
+   ![](./media/image34.png)
+
+d. Enter **Country/region** as **United States**, your **job title** and **phone number**. Then, select **Get Started**.
+
+   ![](./media/image35.png)
+
+e. Select **Get Started**.
+
+   ![](./media/image36.png)
+
+f. You will be on the **Home page** of **Customer Insights – Data** portal. Now, select **Start trial**.
+
+   ![](./media/image37.png)
+
+10. You can see that the **Marketing Trial** environment is getting created for you and now you can directly go to step no 14. In case the environment is not created and asking for **Basic information**, then enter +++Marketing Trial+++ in the **Name** field, select **United States** for the **Region** field, and then select **Next**.
+
+   ![](./media/image38.png)
+
+11. Select **Next** on the **Data storage** page.
+
+    ![](./media/image39.png)
+
+13. Select your **Dataverse environment** and then click **Next**.
+
+     ![](./media/image40.png)
+
+15. Review the information on the **Review** page and then select **Create**.
+
+     ![](./media/image41.png)
+
+17. It may take some time to create your environment.
+
+     ![](./media/image42.png)
+
+19. You can now see that your environment is named **Marketing Trial**.
+
+     ![](./media/image43.png)
+        
+
+   
 
 
 
