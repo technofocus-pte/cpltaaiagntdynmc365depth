@@ -64,28 +64,33 @@ By the end of this lab, you will be able to:
 
 In this task, you will start a **Dynamics 365 Contact Center trial**, provide the required contact information, and confirm that a **Contact Center Trial environment** has been provisioned in the Power Platform admin center.
 
-1. Go to the **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and, if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
+1. Go to the **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com/+++** and if required, **sign in** using your provided Microsoft 365 tenant administrator credentials.
 
-2. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Contact Center** environment is available.
+2. From the left navigation pane, select **Manage** > **Environments**. In the list of environments, verify that the **Contact Center** environment is available. Click the **Contact Center trial** environment.
 
-   ![](./media/image98.png)
+    ![](./media/image98.png)
+
+3. Click the **Environment URL**.
+
+    ![](./media/image99.png)
 
 ## **Exercise 2: Verify Contact Center Setup**
 
 1. Select **Chat**. Under **Test the chat service** > **Prepare the representative** app, select **Open representative app**.
 
-    ![](./media/image7.png)
+     ![](./media/image7.png)
 
-2. Select **Open representative app**. The **Copilot Service workspace** opens.
-   > **Note: A green check mark on the right side of the page indicates that the representative is Available.**
+2. The **Copilot Service workspace** opens.
 
-  ![](./media/image8.png)
+    > **Note: A green check mark on the right side of the page indicates that the representative is Available.**
 
-3. Go back to the **Copilot Service admin** center portal and select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
+     ![](./media/image8.png)
+
+4. Go back to the **Copilot Service admin** center portal and select the **Voice tab**, and then select **Manage voice** setup to view the voice channel configuration.
 
     ![](./media/image9.png)
 
-4. Verify that the **Contact Center voice workstream** opens and displays the default **voice channel** and **phone number** that will be used later to test the agent.
+5. Verify that the **Contact Center voice workstream** opens and displays the default **voice channel** and **phone number** that will be used later to test the agent.
 
     ![](./media/image10.png)
 
@@ -95,22 +100,21 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
 1.  Open a new browser tab and navigate to the **+++https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio+++** page.
 
-2. Select **Sign in** to Copilot Studio.
+2.  Select **Sign in** to Copilot Studio.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.jpeg)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.jpeg)
 
-3. In the **Email** field, enter the administrator username and select **Next**.
+3.  You will be directed to the **Copilot Studio Home page**. Then go to Step no. 10 directly. If not, in the **Email** field, enter the administrator username and select **Next**.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
 4. Select **Sign in**.
 
 5. If prompted, enter the password and select **Sign in**.
-
-    
+  
 6. If a message appears stating that a license already exists, select **Get started**.
 
-    ![A screenshot of a computer error AI-generated content may be incorrect.](./media/image13.png)
+     ![A screenshot of a computer error AI-generated content may be incorrect.](./media/image13.png)
 
 7. Enter **Country/Region** and **Business** **phone number**, using
     fictitious details if required.
@@ -123,11 +127,11 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
     ![](./media/image20.png)
 
-10. From the environment selector at the bottom of the page, select ContactCenter Trial.
+10. From the environment selector at the bottom of the page, select **ContactCenter Trial**.
 
     ![](./media/image91.png)
 
-11. From the bottom of the page select **Classic Copilot Studio**.
+11. From the bottom of the page select three dots (…) next to the **Mod Administrator** and then select **Classic Copilot Studio**.
 
     ![](./media/image92.png)
 
@@ -135,7 +139,7 @@ In this exercise, you activate the Microsoft Copilot Studio trial to create and 
 
     ![](./media/image93.png)
     
-13. If the pop-up appears, select **Skip**.
+13. If asked, select **Get started**. Then, if the pop-up appears, select **Skip**.
 
      ![](./media/image94.png)
 
@@ -189,11 +193,11 @@ In this exercise, you add policy documents as knowledge sources so the agent can
 
 1.  From the top navigation, select Knowledge, and then select **+ Add knowledge**.
 
-    ![](./media/image34.png)
+     ![](./media/image34.png)
 
 2.  Select **Select to browse**.
 
-    ![](./media/image35.png)
+     ![](./media/image35.png)
 
 3.  On the virtual machine, navigate to **C:\LabFiles**, select the following files, and select Open:
 
@@ -201,11 +205,11 @@ In this exercise, you add policy documents as knowledge sources so the agent can
     
     - Troubleshooting Guide
 
-    ![](./media/image36.png)
+     ![](./media/image36.png)
 
 4.  Select **Add to agent** to add the files as knowledge sources.
 
-    ![](./media/image37.png)
+     ![](./media/image37.png)
 
 ## **Exercise 6: Configure System and Custom Topics**
 
@@ -235,7 +239,7 @@ In this exercise, you customize system and main menu topics to control the agent
 
 3.  Select **Save**.
 
-    ![](./media/image41.png)
+     ![](./media/image41.png)
 
 ### **Task 3: Delete Dummy Topics**
 
@@ -247,7 +251,7 @@ In this exercise, you customize system and main menu topics to control the agent
     
     - **Lesson 3**
 
-    ![](./media/image42.png)
+     ![](./media/image42.png)
 
 ## **Exercise 7: Create Warranty and Return Policy Topic**
 
@@ -255,15 +259,15 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 
 1. In **Topics**, select **+ Add a topic**, and then select **From blank**.
 
-    ![](./media/image43.png)
+     ![](./media/image43.png)
 
 2. Rename the topic **+++Warranty and Return Policy+++**.
 
-    ![](./media/image44.png)
+     ![](./media/image44.png)
 
 3. On the trigger node, select **Edit**. Add **+++Warranty and Return Policy+++** to the phrase field, and then select the **+** icon.
 
-    ![](./media/image45.png)
+     ![](./media/image45.png)
 
 4. Add the following trigger phrases:
 
@@ -271,7 +275,7 @@ In this exercise, you create a custom topic that enables the agent to answer ref
     
    **+++Return Policy details+++**
 
-    ![](./media/image46.png)
+     ![](./media/image46.png)
 
 5. Below the trigger node, select **+** and add an **Ask a question** node.
 
@@ -283,15 +287,15 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 7.  Select the response variable **Var1** and rename it to
     +++**WarrantyandReturnQuery**+++
 
-    ![](./media/image48.png)
+     ![](./media/image48.png)
 
 8.  Below the question node, select **+,** select **Advanced**, and add a **Generative answer node**.
 
-    ![](./media/image49.png)
+     ![](./media/image49.png)
 
 9.  Click on the three dots in the Input field and select **WarrantyandReturnQuery** as the input variable.
 
-    ![](./media/image50.png)
+     ![](./media/image50.png)
 
 10. For **Data source**, select **Edit**, then enable **Search only selected sources** in the **Create generative answers properties** pane that opens on the right.
 
@@ -310,27 +314,27 @@ In this exercise, you create a custom topic that enables the agent to answer ref
 14. Select the new **Var1** variable and rename it to
     +++**WarrantyandReturnQueryAnswer**+++
 
-    ![](./media/image54.png)
+     ![](./media/image54.png)
 
 15. Under the **Generative answer node**, select **+** and add a **Send a message node**.
 
-    ![](./media/image55.png)
+     ![](./media/image55.png)
 
 16. Select the **{x}** icon and insert +++**WarrantyandReturnQueryAnswer**+++ in the message field.
 
-    ![](./media/image56.png)
+     ![](./media/image56.png)
 
 17. Verify that the **WarrantyandReturnQueryAnswer** variable is inserted in the **Send a message node**, so the generated answer is returned to the caller.
 
-    ![](./media/image57.png)
+     ![](./media/image57.png)
 
 18. Under the message node, select **+**, choose **Topic management** > **Go to another topic**, and select **Main Menu.**
 
-    ![](./media/image58.png)
+     ![](./media/image58.png)
 
 19. Select **Save** to save the topic.
 
-    ![](./media/image59.png)
+     ![](./media/image59.png)
 
 ## **Exercise 8: Create Troubleshooting Guide Topic**
 
@@ -356,26 +360,26 @@ In this exercise, you create a custom topic to handle protection plan queries us
     
     - +++Assistance with troubleshooting+++
 
-    ![](./media/image63.png)
+     ![](./media/image63.png)
 
 5. Below the trigger node, select **+** and add an **Ask a question node**.
 
-    ![](./media/image64.png)
+     ![](./media/image64.png)
 
 6. In the message field, enter: +++**Please explain your query related to Protection policy**+++.
 
 7.  Set **Identify** to **User's entire response**.
 
-    ![](./media/image65.png)
+     ![](./media/image65.png)
 
 8.  Select the **response variable** i.e. **Var1** and rename it to +++TroubleshootingQuery+++
 
-    ![](./media/image66.png)
+     ![](./media/image66.png)
 
 9.  Verify that the response variable is renamed to
     +++**TroubleshootingQuery**+++ in the **Variable** properties pane.
 
-    ![](./media/image67.png)
+     ![](./media/image67.png)
 
 10. Below the **question node**, select **+**, select **Advanced**, and add a **Generative answer node**.
 
@@ -383,36 +387,36 @@ In this exercise, you create a custom topic to handle protection plan queries us
 
 11. Select **TroubleshootingQuery** as the input variable.
 
-    ![](./media/image69.png)
+     ![](./media/image69.png)
 
 12. For **Data source**, select **Edit** and enable **Search only selected sources**.
 
 13. Select **Troubleshooting Guide** as the data source.
 
-    ![](./media/image70.png)
+     ![](./media/image70.png)
 
 14. Scroll down and select **Advanced**. Under **Save the bot response**, select the **variable field** and choose **Create a new variable**.
 
 15. Select the new **Var1** variable and rename it to
     +++**TroubleshootingQueryAnswer**+++
 
-    ![](./media/image71.png)
+     ![](./media/image71.png)
 
 16. Under the **Generative answer node**, select **+** and add a **Send a message node**.
 
-    ![](./media/image72.png)
+     ![](./media/image72.png)
 
 17. Select the **{x}** icon and insert **TroubleshootingQueryAnswer** in the message field.
 
-    ![](./media/image73.png)
+     ![](./media/image73.png)
 
 18. Under the message node, select **+**, choose **Topic management** > **Go to another topic**, and select **Main Menu**.
 
-    ![](./media/image74.png)
+     ![](./media/image74.png)
 
 19. Select **Save** to save the topic.
 
-    ![](./media/image75.png)
+     ![](./media/image75.png)
 
 ## **Exercise 9: Configure Escalation Topic**
 
@@ -422,20 +426,20 @@ In this exercise, you configure call escalation so the agent can transfer conver
 
 2.  Open the **Escalate** topic.
 
-    ![](./media/image76.png)
+     ![](./media/image76.png)
 
 3. In the message node, replace the existing message with: +++Please wait while connecting+++.
 
-    ![](./media/image77.png)
+     ![](./media/image77.png)
 
 4. Below the message node, select **+** and add **Transfer
 conversation** under **Topic management**.
 
-    ![](./media/image78.png)
+     ![](./media/image78.png)
 
 5. Select **Save**.
 
-    ![](./media/image79.png)
+     ![](./media/image79.png)
 
 ## **Exercise 10: Connect Channel and Publish Agent**
 
@@ -469,29 +473,29 @@ In this exercise, you connect the AI agent to the voice workstream for handling 
 
 1. On the Dynamics 365 Contact Center channel pane, select **View Dynamics 365 Contact Center**.
   
-    ![](./media/image96.png)
+     ![](./media/image96.png)
 
 2. In the **Omnichannel admin center** portal, from the left navigation pane, select **Workstreams** and then select **Contact center voice workstream**.
 
-   ![](./media/image97.png)
+    ![](./media/image97.png)
     
 3. Scroll down and select **+ Add AI agent**.
 
-    ![](./media/image85.png)
+     ![](./media/image85.png)
 
 4. Select **Contoso Voice Agent** and then, select **Connect**.
 
-    ![](./media/image86.png)
+     ![](./media/image86.png)
 
 5. Verify that **Contoso Voice Agent** appears as the connected AI agent for the voice workstream.
 
-    ![](./media/image87.png)
+     ![](./media/image87.png)
 
 9. Wait until the agent shows as connected successfully.
 
   **Note**: Agent testing may take up to 15 minutes to become available after configuration.
 
-   ![](./media/image88.png)
+    ![](./media/image88.png)
 
 ## **Exercise 12: Test the Agent**
 
