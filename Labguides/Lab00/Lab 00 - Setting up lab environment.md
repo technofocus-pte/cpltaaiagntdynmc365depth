@@ -130,10 +130,9 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
      ![](./media/image20.png)
 
-11. Wait till the setup is complete. Verify that the Your contact center is ready! message appears and confirms that the Chat setup, Voice setup, and AI experiences are configured.
+11. Wait till the setup is complete. Verify that the **Your contact center is ready**! message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
 
      ![](./media/image24.png)
-
      ![](./media/image23.png)
 
 12. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
