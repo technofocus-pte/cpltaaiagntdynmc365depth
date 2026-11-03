@@ -353,7 +353,7 @@ In this exercise, use **Copilot** to generate a structured knowledge article dra
 
        ![](./media/image59.png)
 
-3.  When prompted, select Confirm to cancel all open activities associated with the case and proceed with resolving it.
+3.  When prompted, select **Confirm** to cancel all open activities associated with the case and proceed with resolving it.
 
       ![](./media/image109.png)
    
