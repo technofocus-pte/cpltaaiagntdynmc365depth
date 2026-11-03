@@ -100,35 +100,35 @@ Before starting this lab, ensure that you have:
 
 9.  Navigate to the **Mails**.
 
-  ![](./media/image8.png)
+    ![](./media/image8.png)
 
-10. Open any of the emails. While in an email, select the **Apps** icon.
+10. Open any email from your inbox. In the opened email, select the **Apps** icon..
 
-  ![](./media/image9.png)
+    ![](./media/image9.png)
 
-11. Now you will be able to see the **Sales** app. Select the **Sales** app.
+11. Locate the **Sales** app and select it.
 
-  ![](./media/image10.png)
+    ![](./media/image10.png)
 
-12. If asked, sign in with your **Office 365 admin tenant** credentials in the pop-up window. If a pop-up appears saying Catch up and draft fast with Copilot, select **Got it**.
+12. If asked, sign in with your **Office 365 admin tenant** credentials in the pop-up window. If a pop-up appears saying **Catch up and draft fast with Copilot**, select **Got it**.
 
-  ![](./media/image11.png)
+    ![](./media/image11.png)
 
-13. To sign in to the Dynamics 365 environment, select your environment from the drop-down menu. For this lab, select the **Sales Trial** environment.
+13. From the environment drop-down menu, select **Sales Trial** to access the Dynamics 365 environment.
 
-  ![](./media/image12.png)
+    ![](./media/image12.png)
 
-14. After selecting the Sales trial environment, select **OK**.
+14. Select **OK** to confirm the **Sales Trial** environment selection.
 
-  ![](./media/image13.png)
+    ![](./media/image13.png)
 
-15. You can now use the **Sales** pane.
+15. Access the **Sales** pane.
 
-  ![](./media/image14.png)
+    ![](./media/image14.png)
 
-## Exercise 2: View and save email summary
+## **Exercise 2: View and save email summary**
 
-### Task 1: View email summary
+### **Task 1: View email summary**
 
 1. In **Outlook**, open a customer email (any), if not open already.
 
@@ -136,27 +136,27 @@ Before starting this lab, ensure that you have:
 
 2. In the email, open the **Apps > Sales** pane.
 
-  ![](./media/image16.png)
+   ![](./media/image16.png)
 
 3. The email summary is displayed in the **Key email info** card.
 
-  ![](./media/image17.png)
+   ![](./media/image17.png)
 
-**Note**: If the email content is less than 1000 characters, the email summary will not be generated, and the Summary of this email card will not be displayed.
+  **Note**: If the email content is less than 1000 characters, the email summary will not be generated, and the Summary of this email card will not be displayed.
 
-### Task 2: Save email summary to CRM
+### **Task 2: Save email summary to CRM**
 
 1. In the **Key email info** card, click the ellipses (…) and then select **Save summary to Dynamics 365**.
 
-  ![](./media/image18.png)
-
+   ![](./media/image18.png)
+ 
 2. Under **Select a record**, enter Cafe in the search box, select one of the suggested records or use the search box to find another record.
 
 If there are multiple opportunities related to contact, the Sales app displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
 
-  ![](./media/image19.png)
+   ![](./media/image19.png)
 
-**Note**:
+  **Note**:
 
   - If the email is already connected to an opportunity, it's selected by default.
   
@@ -174,32 +174,32 @@ If there are multiple opportunities related to contact, the Sales app displays a
 
   ![](./media/image20.png)
 
-The email summary is saved to CRM as a note to the selected record. All Sales app notes share the same subject: "[AI-generated] Email summary from Sales app" and include the subject of the email itself,
-as well as the timestamp when the note was saved.
+ The email summary is saved to CRM as a note to the selected record. All Sales app notes share the same subject: "[AI-generated] Email summary from Sales app" and include the subject of the email itself,
+ as well as the timestamp when the note was saved.
 
-## Exercise 3: Create an email reply using the Sales app in Microsoft Outlook
+## **Exercise 3: Create an email reply using the Sales app in Microsoft Outlook**
 
-### Task 1: Create an email reply using pre-defined categories
+### **Task 1: Create an email reply using pre-defined categories**
 
 1. In **Outlook**, open a customer email and select **Reply**.
 
-  ![](./media/image21.png)
+   ![](./media/image21.png)
 
 2. Select **Apps** from the top bar and then select **Sales**.
 
-  ![](./media/image22.png)
+   ![](./media/image22.png)
 
 3. If asked, select **Sales** as shown in the image.
 
-  ![](./media/image23.png)
+   ![](./media/image23.png)
 
 4. Review the information displayed in the **Key email info** card.
 
-  ![](./media/image24.png)
+   ![](./media/image24.png)
 
 5. Select **Draft an email**.
 
-  ![](./media/image25.png)
+   ![](./media/image25.png)
 
 6. **Review** the suggested content. Select any of the suggested content. For example, select **Address a concern**.
 
@@ -212,14 +212,14 @@ To generate a different suggestion, select **More options**, and then select **T
 ![](./media/image27.png)
 
 8. Select **Add to email**.
-
-  ![](./media/image28.png)
+ 
+   ![](./media/image28.png)
 
 **Note**: Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
 
 9. **Edit** the email content as required, and then your email is ready to send. For now, select **Discard** to discard the mail
 
-  ![](./media/image29.png)
+   ![](./media/image29.png)
 
 ### Task 2: Create an email message using a custom prompt
 
@@ -227,15 +227,15 @@ If the pre-defined response categories don't suit your requirements, you can ent
 
 1. In **Outlook**, open a customer email and select **Reply**.
 
-  ![](./media/image30.png)
+   ![](./media/image30.png)
 
 2. Select **Apps** from the top bar and then select **Sales**.
 
-  ![](./media/image31.png)
+   ![](./media/image31.png)
 
 3. Select **Sales**.
 
-![](./media/image32.png)
+  ![](./media/image32.png)
 
 4. Select **Draft an email**.
 
@@ -257,13 +257,13 @@ To generate a different suggestion, select More options, and then select Try aga
 
   **Note**: Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
 
-  ![](./media/image36.png)
+   ![](./media/image36.png)
 
 8. **Edit** the email content as required, and your email is ready to send. For now, select **Discard**.
 
-  ![](./media/image37.png)
+   ![](./media/image37.png)
 
-### Task 3: Adjust the email draft
+### **Task 3: Adjust the email draft**
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -281,42 +281,42 @@ To generate a different suggestion, select More options, and then select **Try a
 
   ![](./media/image40.png)
 
-## Exercise 4: View opportunity summary
+## **Exercise 4: View opportunity summary**
 
 1. In **Outlook**, open an email or the scheduled meeting.
 
 2. Open the **Sales** pane. Click **Save email to Dynamics 365**.
 
-  ![](./media/image41.png)
+    ![](./media/image41.png)
 
 3. On the **First, turn on server-side sync** dialog, select **Turn on**.
 
-  ![](./media/image42.png)
+    ![](./media/image42.png)
 
 4. On **Connect to a record** page, search for the **andrew** and select the contact using the search box.
 
-  ![](./media/image43.png)
+    ![](./media/image43.png)
 
 5. Select the contact and click **Save**.
 
-  ![](./media/image44.png)
+    ![](./media/image44.png)
 
 6. Once the email is saved to the record of the selected contact, a message is displayed on the **Sales** pane.
 
-  ![](./media/image45.png)
+    ![](./media/image45.png)
 
 7. Select the contact. You will be navigated to the **Contact details** page.
 
-  ![](./media/image46.png)
+    ![](./media/image46.png)
 
 8. On the **Contact details** page, go to the **Opportunities** area and select one of the opportunities.
 
-  ![](./media/image47.png)
+    ![](./media/image47.png)
 
 9. The **Opportunity summary** and **Opportunity details** are displayed in the **Opportunity summary card**.
 
-  ![](./media/image48.png)
+    ![](./media/image48.png)
 
-## Summary
+## **Summary**
 
 In this lab, you learned how to install and open the Sales app in Outlook, generate AI-based email summaries, and save them to relevant Dynamics 365 records. You also used Copilot to draft replies using predefined categories and custom prompts, refine responses with tone and length adjustments, and view opportunity summaries linked to contacts. These capabilities demonstrate how Copilot integrates Outlook and Dynamics 365 to streamline sales communication and improve data-driven decision-making.
