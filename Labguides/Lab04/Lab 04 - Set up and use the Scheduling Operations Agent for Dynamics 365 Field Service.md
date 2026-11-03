@@ -128,7 +128,7 @@ Configure resource settings required by the Scheduling Operations Agent, includi
 
     ![](./media/image12.png)
 
-7.  Make sure that the **Resource** **Type** is **User**. Select **Save& Close**.
+7.  Make sure that the **Resource** **Type** is **Contact**. Select **Save & Close**.
 
     ![](./media/image13.png)
 
@@ -317,6 +317,7 @@ In this exercise, you will learn how to use the Scheduling Operations Agent in D
 
      ![](./media/image50.png)
     
+    **Note: If the suggested schedule does not load, adjust the Scheduling options, Time range, or Requirements as needed, and try again.**
 
 15. **Agent** is analyzing the schedule.
 
