@@ -74,9 +74,9 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
     ![](./media/image27.png)
 
-4. Enter your Office 365 admin tenant password.
+4. Enter your **Office 365 admin tenant** password.
 
-   ![](./media/image14.png)
+    ![](./media/image14.png)
 
 5. Select **Yes** to Stay Signed in?
 
@@ -90,11 +90,11 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
     ![](./media/image29.png)
 
-9. Close the Couldn’t load tables notification from the right corner of the screen.
+8. Close the **Couldn’t load tables** notification from the right corner of the screen.
 
     ![](./media/image30.png)
 
-10. Select **Start trial** from the top right corner. If you get an error message as **‘Couldn’t create environment’**, then follow the steps (a to f) given below and then continue with Step 9.
+9. Select **Start trial** from the top right corner. If you get an error message as **‘Couldn’t create environment’**, then follow the steps (a to f) given below and then continue with Step 9.
 
     ![](./media/image31.png)
     
@@ -106,19 +106,19 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
    ![](./media/image33.png)
 
-c.  Select **Sign in**.  
+ c.  Select **Sign in**.  
 
    ![](./media/image34.png)
 
-d. Enter **Country/region** as **United States**, your **job title** and **phone number**. Then, select **Get Started**.
+ d. Enter **Country/region** as **United States**, your **job title** and **phone number**. Then, select **Get Started**.
 
    ![](./media/image35.png)
 
-e. Select **Get Started**.
+ e. Select **Get Started**.
 
    ![](./media/image36.png)
 
-f. You will be on the **Home page** of **Customer Insights – Data** portal. Now, select **Start trial**.
+ f. You will be on the **Home page** of **Customer Insights – Data** portal. Now, select **Start trial**.
 
    ![](./media/image37.png)
 
@@ -130,21 +130,21 @@ f. You will be on the **Home page** of **Customer Insights – Data** portal. No
 
     ![](./media/image39.png)
 
-13. Select your **Dataverse environment** and then click **Next**.
-
-     ![](./media/image40.png)
-
-15. Review the information on the **Review** page and then select **Create**.
+12. Select your **Dataverse environment** and then click **Next**.
 
      ![](./media/image41.png)
 
-17. It may take some time to create your environment.
+13. Review the information on the **Review** page and then select **Create**.
 
      ![](./media/image42.png)
 
-19. You can now see that your environment is named **Marketing Trial**.
+14. It may take some time to create your environment.
 
      ![](./media/image43.png)
+
+15. You can now see that your environment is named **Marketing Trial**.
+
+     ![](./media/image44.png)
         
 
    
