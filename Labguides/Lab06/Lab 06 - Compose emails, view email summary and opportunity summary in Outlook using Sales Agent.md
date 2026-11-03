@@ -70,31 +70,31 @@ Before starting this lab, ensure that you have:
 
 1. In a new tab, open **Outlook** using the link **+++www.outlook.com+++**. Select **Sign in**.
 
-  ![](./media/image1.png)
+   ![](./media/image1.png)
 
 2. Sign in with your **Office 365 admin tenant** credentials.
 
-  ![](./media/image2.png "Screenshot")
+   ![](./media/image2.png "Screenshot")
 
 3. Open any of the emails. While in an email, select **more actions(…)** > **Apps**.
 
-  ![](./media/image3.png)
+   ![](./media/image3.png)
 
-4. If you can see **Sales** under **Apps**, you can directly execute step 13. If not, follow the upcoming steps.
+4. Select **Add apps**.
 
-  ![](./media/image4.png)
+   ![](./media/image4.png)
 
 5. If you don’t see **Sales** under **Apps**, select **More apps**, and then click **Add apps**.
 
-  ![](./media/image5.png)
+   ![](./media/image5.png)
 
 6.  On the **Apps** page, search for ***Sales*** and then select the **Sales** app.
 
-  ![](./media/image6.png)
+   ![](./media/image6.png)
 
 7.  Select **Add** on Sales card. Once again, select the **Sales** app and click **Open**.
 
-  ![](./media/image7.png)
+   ![](./media/image7.png)
 
 8.  If appears, on the **Start using Sales app**, select **Got it**.
 
@@ -132,16 +132,16 @@ Before starting this lab, ensure that you have:
 
 1. In **Outlook**, open a customer email (any), if not open already.
 
-  ![](./media/image15.png "Screenshot")
+   ![](./media/image15.png "Screenshot")
 
 2. In the email, open the **Apps > Sales** pane.
 
-   ![](./media/image16.png)
+    ![](./media/image16.png)
 
 3. The email summary is displayed in the **Key email info** card.
 
-   ![](./media/image17.png)
-
+    ![](./media/image17.png)
+ 
   **Note**: If the email content is less than 1000 characters, the email summary will not be generated, and the Summary of this email card will not be displayed.
 
 ### **Task 2: Save email summary to CRM**
@@ -152,7 +152,7 @@ Before starting this lab, ensure that you have:
  
 2. Under **Select a record**, enter Cafe in the search box, select one of the suggested records or use the search box to find another record.
 
-If there are multiple opportunities related to contact, the Sales app displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
+  If there are multiple opportunities related to contact, the Sales app displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
 
    ![](./media/image19.png)
 
@@ -172,7 +172,7 @@ If there are multiple opportunities related to contact, the Sales app displays a
 
 3. Select **Save**.
 
-  ![](./media/image20.png)
+   ![](./media/image20.png)
 
  The email summary is saved to CRM as a note to the selected record. All Sales app notes share the same subject: "[AI-generated] Email summary from Sales app" and include the subject of the email itself,
  as well as the timestamp when the note was saved.
@@ -183,33 +183,33 @@ If there are multiple opportunities related to contact, the Sales app displays a
 
 1. In **Outlook**, open a customer email and select **Reply**.
 
-   ![](./media/image21.png)
+    ![](./media/image21.png)
 
 2. Select **Apps** from the top bar and then select **Sales**.
 
-   ![](./media/image22.png)
+    ![](./media/image22.png)
 
 3. If asked, select **Sales** as shown in the image.
 
-   ![](./media/image23.png)
+    ![](./media/image23.png)
 
 4. Review the information displayed in the **Key email info** card.
 
-   ![](./media/image24.png)
+    ![](./media/image24.png)
 
 5. Select **Draft an email**.
 
-   ![](./media/image25.png)
+    ![](./media/image25.png)
 
 6. **Review** the suggested content. Select any of the suggested content. For example, select **Address a concern**.
 
 To generate a different suggestion, select **More options**, and then select **Try again**. Refine the suggested content, if required. You can also restore the suggested content to the previous version.
 
-  ![](./media/image26.png)
+   ![](./media/image26.png)
 
 7. Copilot gathers the required information and gives a response.
 
-![](./media/image27.png)
+   ![](./media/image27.png)
 
 8. Select **Add to email**.
  
@@ -221,37 +221,37 @@ To generate a different suggestion, select **More options**, and then select **T
 
    ![](./media/image29.png)
 
-### Task 2: Create an email message using a custom prompt
+### **Task 2: Create an email message using a custom prompt**
 
-If the pre-defined response categories don't suit your requirements, you can enter a custom prompt to generate suggested content. You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
+  If the pre-defined response categories don't suit your requirements, you can enter a custom prompt to generate suggested content. You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
 1. In **Outlook**, open a customer email and select **Reply**.
 
-   ![](./media/image30.png)
+     ![](./media/image30.png)
 
 2. Select **Apps** from the top bar and then select **Sales**.
 
-   ![](./media/image31.png)
+     ![](./media/image31.png)
 
 3. Select **Sales**.
 
-  ![](./media/image32.png)
+    ![](./media/image32.png)
 
-4. Select **Draft an email**.
+4. Under the Key email info card, select **Draft an email**.
 
-  ![](./media/image33.png)
+    ![](./media/image33.png)
 
-**Note**: Pre-defined response categories are not available while composing a new email. You can only enter a custom prompt or create an email to summarize your sales meeting.
+  **Note**: Pre-defined response categories are not available while composing a new email. You can only enter a custom prompt or create an email to summarize your sales meeting.
 
 5. In the textbox, enter a phrase to describe the kind of reply you want to send, for example **Send the acceptance** and then select **Create draft**.
 
-  ![](./media/image34.png)
+    ![](./media/image34.png)
 
 6. **Review** the suggested content.
 
 To generate a different suggestion, select More options, and then select Try again. Refine the suggested content, if required. You can also restore the suggested content to the previous version.
 
-  ![](./media/image35.png)
+   ![](./media/image35.png)
 
 7. Select **Add to email** to add the content to the new email body.
 
