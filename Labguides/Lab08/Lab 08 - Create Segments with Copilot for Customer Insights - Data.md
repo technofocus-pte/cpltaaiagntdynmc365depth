@@ -109,7 +109,7 @@ e. Leave the default OneDrive folder location unchanged. Do not select Next or m
 
   ![](./media/image8.png)
 
-9.  Select **Sign in** to log in to your account.
+9. Select **Sign in** to log in to your account.
 
  ![](./media/image9.png)
 
@@ -205,11 +205,11 @@ e. Leave the default OneDrive folder location unchanged. Do not select Next or m
 
  ![](./media/image32.png)
 
-34. Wait till the Data source is added successfully.
+34. Wait till the **Data source** is added successfully.
 
    ![](./media/image33.png)
 
-## Exercise 2: Unify your data
+## **Exercise 2: Unify your data**
 
 In this exercise, you will unify customer and transaction data by selecting source tables, defining primary keys, configuring matching rules, and generating unified customer profiles that provide a consolidated view of customer information across multiple data sources.
 
@@ -219,15 +219,15 @@ In this exercise, you will unify customer and transaction data by selecting sour
 
 2. Select **Get started** on the **Customer data** area.
 
-  ![](./media/image35.png)
+   ![](./media/image35.png)
 
 3.  On the **Describe the customer data to be unified** page, select the **Select tables and columns** button.
 
-**Note**: Select (…) 3 dots in the top bar if you don’t see the given option due to screen resolution.
+    **Note**: Select (…) 3 dots in the top bar if you don’t see the given option due to screen resolution.
 
-   ![](./media/image36.png)
+    ![](./media/image36.png)
 
-   ![](./media/image37.png)
+    ![](./media/image37.png)
 
 4. Select the **contact** and **Grocery_transaction** tables and then select **Apply**.
 
@@ -277,45 +277,46 @@ In this exercise, you will unify customer and transaction data by selecting sour
 
     ![](./media/image48.png)
 
-## Exercise 3: Create segments with Copilot for Customer Insights - Data (preview)
+## **Exercise 3: Create segments with Copilot for Customer Insights - Data (preview)**
 
 In this exercise, you will use Copilot to create customer segments through natural language prompts, review and apply AI-generated segment rules, and generate a target audience that can be used for customer analysis, personalization, and engagement activities.
 
 1. In **Customer Insights - Data**, go to **Insights** > **Segments**.
 
-   ![](./media/image49.png)
+    ![](./media/image49.png)
 
 2. Select + **New segment** to create a segment.
 
-   ![](./media/image50.png)
+    ![](./media/image50.png)
 
 3. Select the Copilot icon to open the **Copilot** pane.
 
-   ![](./media/image51.png)
+    ![](./media/image51.png)
 
 4. Enter a description of your segment or choose one of the suggested prompts. For example, select **Customers who have a loyalty membership**.
+ 
+    **Note**: If Copilot gives a message that **‘Sorry, I’m having trouble generating insights for this segment’**, then close the Copilot pane. Go to **Step 6**, enter the rule as shown in the image of **Step 5**,               and select **Run**.
 
-  **Note**: If Copilot gives a message that ‘Sorry, I’m having trouble generating insights for this segment’, then close the Copilot pane. Go to **Step 6**, enter the rule as shown in the image of **Step 5**,               and select **Run**.
-
-  ![](./media/image52.png "Screenshot")
+    ![](./media/image52.png "Screenshot")
 
 5. Select **Use** to apply the result to a rule.
 
-   ![](./media/image53.png "Screenshot")
+    ![](./media/image53.png "Screenshot")
 
 6. Select **Run**.
 
-  ![](./media/image54.png "Screenshot")
+    ![](./media/image54.png "Screenshot")
 
 7. On the **Review details** page, enter ***+++Loyalty membership+++*** in the **Name** field and then select **Run**.
 
-   ![](./media/image55.png "Screenshot")
+    ![](./media/image55.png "Screenshot")
 
 8. The **Loyalty membership** segment is now created.
 
-   ![](./media/image56.png "Screenshot")
+    ![](./media/image56.png "Screenshot")
 
-**Note**: If the resulting segment contains multiple **relationship paths**, it uses the shortest path by default. **Edit** the segment to change the relationship path.
+   **Note**: If the resulting segment contains multiple **relationship paths**, it uses the shortest path by default. **Edit** the segment to change the relationship path.
 
-## Summary
+## **Summary**
+
 In this lab, you learned how to load and transform customer and transaction datasets, unify them using deduplication and matching rules, and create enriched customer profiles in Customer Insights – Data. You also created customer segments using Copilot, leveraging AI-generated rules to build a segment and applying those rules to generate insights-ready segments.
