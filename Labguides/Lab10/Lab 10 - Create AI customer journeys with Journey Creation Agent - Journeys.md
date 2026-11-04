@@ -1,4 +1,4 @@
----
+<img width="1692" height="928" alt="image" src="https://github.com/user-attachments/assets/757ea1f3-2f74-43b4-9e8d-e607fa1d3a19" />---
 lab: 10
 
 title: Create AI customer journeys with Journey Creation Agent – Journeys
@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Customer Insights- Journeys
 ---
 
-# Lab 10 - Create an AI-Assisted Customer Journey with the Journey Creation Agent in Customer Insights – Journeys
+# **Lab 10 - Create an AI-Assisted Customer Journey with the Journey Creation Agent in Customer Insights – Journeys**
 
 ## **Scenario**
 
@@ -43,7 +43,7 @@ Next, you will use the Journey Creation Agent to generate a customer journey bas
 
 ## **Task 1: Access Power Platform Admin Center and Verify Environment Configuration**
 
-1. Open a new browser tab, go to +++https://admin.powerplatform.microsoft.com+++, and sign in with your Office 365 admin tenant credentials if prompted.
+1. Open a new browser tab, go to +++**https://admin.powerplatform.microsoft.com**+++, and sign in with your Office 365 admin tenant credentials if prompted.
 
 2. From the left navigation pane, select **Manage** > **Environment** and then click on **Marketing trial**.
 
@@ -77,14 +77,13 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
     ![](./media/image52.png) 
 
-4. Set **Use AI agents** to **On** for the selected environment or environment group.
+4. Under **AI agents**, select the required environment or environment group, and then select **Edit setting**.
 
     ![](./media/image37.png)
   
-5. **Save** the settings.
+5. Turn **AI agents** to **On**, and then select **Save** to apply the changes.
 
     ![](./media/image38.png)
-
 
 ### **Task 1: Open the AI Hub**
 
@@ -150,7 +149,9 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 ### **Task 1: Create a New Segment**
 
-1. In Customer Insights – Journeys, under Audiences, select Segments, and then select New segment to open the segment creation pane.
+    **Note: Create a new segment using the steps below or use the existing Loyalty membership segment from Lab 08.**
+    
+1. Select **Customer Insights – Journeys** from the change area, under **Audiences**, select **Segments**, and then select **New segment** to open the segment creation pane.
 
       ![](./media/image17.png))
   
@@ -200,49 +201,137 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 ### **Task 1: Start the Journey Creation Agent**
 
-1. From the Journeys area, select **New journey**. The Create new journey dialog opens on the Journey Creation Agent (Preview) tab, prompting What would you like to plan today?
+1. Select **Real-time Journeys** from the change area, under **Engagement**, select **Journeys**.
+
+     ![](./media/image53.png)
+
+   **Note: If the Send button is disabled (grayed out), select Skip and create from blank and follow Task 2: Create the Journey Manually instead.**
+   
+3. The **Create new journey** dialog appears with the **Journey Creation Agent (Preview)** tab selected. The **What would you like to plan today?** prompt is displayed.
 
      ![](./media/image21.png)
 
-2. In the prompt box, enter: **+++Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.+++** Select the **Send** (arrow) icon.
+4. In the prompt box, enter: **+++Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.+++** Select the **Send** (arrow) icon.
 
     ![](./media/image22.png)
 
-3. Select **Allow** to use data and proceed with **generating response**.
+5. Select **Allow** to use data and proceed with **generating response**.
 
     ![](./media/image42.png)
 
-4. Select **Allow** to connect with **Microsoft Dataverse**.
+6. Select **Allow** to connect with **Microsoft Dataverse**.
 
     ![](./media/image43.png)
 
-5. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
+7. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
 
-6. On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
+8. On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
 
-    ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
+      ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
-## **Exercise 5 – Review and publish the journey**
+9. Select **Review and publish** in the top-right corner of the journey canvas, then confirm the publishing action.
 
-Publish the completed journey so it goes live and starts running against the target segment.
+      ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image24.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
-### **Task 1: Publish the Journey**
+10. When the confirmation dialog appears, select **Skip or Tell me more** to close it.
 
-1. Select **Review and publish** in the top-right corner of the journey canvas, then confirm the publishing action.
+      ![Journey published confirmation dialog](./media/image25.png "Journey published confirmation dialog")
 
-     ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image24.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
+11. Verify that the journey status is **Live** and that a **scheduled start date and time** are displayed.
 
-2. When the confirmation dialog appears, select **Skip or Tell me more** to close it.
+12. Review the final journey canvas and verify that it includes the **Welcome Campaign** trigger, **Welcome Email**, **2-day wait**, and **Exclusive Offer** email.
 
-     ![Journey published confirmation dialog](./media/image25.png "Journey published confirmation dialog")
+      ![Published journey showing Live status](./media/image26.png "Published journey showing Live status")
 
-### **Task 2: Verify the Journey Is Live**
+### **Task 2: Create the Journey Manually (alternative workflow)**
 
-1. Verify that the journey status is **Live** and that a **scheduled start date and time** are displayed.
+1. In the Create new journey dialog, select **Skip and create from blank**.
+    
+    ![](./media/image54.png)
+   
+2. On the **Create a new journey** creation screen, enter a journey name, such as +++**Welcome Journey**+++.
 
-2. Review the final journey canvas and verify that it includes the **Welcome Campaign** trigger, **Welcome Email**, **2-day wait**, and **Exclusive Offer** email.
+    ![](./media/image55.png)     
 
-    ![Published journey showing Live status](./media/image26.png "Published journey showing Live status")
+3. Select **Segment-based** as the journey type. Select the **New Customers – Welcome Campaign** segment from the list or select **+ New** to create a new segment.
+
+   ![](./media/image56.png)  
+        
+4. Select **A one-time journey with a static audience** under **Select the frequency**. Then specify the journey's **Start date** and **Start time**.
+
+    ![](./media/image57.png) 
+
+5. Select **Create** to create the journey and open the journey canvas.
+
+    ![](./media/image58.png)
+
+6. On the journey canvas, select the **+ icon** below the Journey start node to add the first journey action.
+
+    ![](./media/image59.png)
+
+7. Under **Messages**, select **Email** to add an email action to the journey.
+
+     ![](./media/image60.png)
+
+8. Under **Select email**, choose the existing **Email 1** template from the list.
+
+    ![](./media/image61.png)
+
+9. Review the selected **Email 1** template in the **Preview pane** to verify the email content.
+
+     ![](./media/image63.png)
+
+10.  On the journey canvas, select the **+ icon** below the **Email 1** action. Under **Conditions**, select **Wait time** to add a delay before sending the next email.
+
+     ![](./media/image62.png)
+
+11. Under **People will wait**, select **A set amount of time** to configure the waiting period.
+
+     ![](./media/image64.png)
+
+12. Set the Duration to **1** and select **days** from the dropdown to configure a one-day waiting period.
+
+     ![](./media/image65.png)
+
+13. Verify that the **Wait** action displays **1 days** on the journey canvas.
+
+      ![](./media/image66.png)
+              
+14. On the journey canvas, select the **+ icon** below the **Wait** action.
+    
+     ![](./media/image75.png)
+
+16. Under **Messages**, select **Email** to add an email action to the journey.
+
+     ![](./media/image60.png)
+
+17. Under **Select email**, choose the existing **Email 2** template to the journey.
+
+    ![](./media/image67.png)
+
+18. Review the selected **Email 2** template in the **Preview pane** to verify the email content.
+
+     ![](./media/image68.png)
+
+19. Select **Save** to save the journey configuration.
+
+    ![](./media/image69.png)
+
+20. Select **Publish** to publish the journey and make it live.
+
+    ![](./media/image70.png)
+    
+22. After publishing the journey, the analytics introduction pop-ups appear. Select **Got it**, then select **Next** on each subsequent screen to proceed through the analytics overview.
+
+     ![](./media/image71.png)
+
+     ![](./media/image72.png)
+
+     ![](./media/image73.png)
+
+23. Verify the **green confirmation message** stating that the** Welcome Journey was successfully published**. Confirm that the journey status displays **Live**.
+
+    ![](./media/image74.png)    
 
 ## **Summary**
 
