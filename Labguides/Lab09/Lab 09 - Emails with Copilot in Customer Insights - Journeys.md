@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 09
 title: Design Emails with Copilot in Customer Insights – Journeys
 
 description: Learn how to use Copilot in Dynamics 365 Customer Insights – Journeys to generate email content ideas, apply AI-assisted themes and branding, and prepare marketing emails for delivery.
@@ -13,20 +13,20 @@ islab: True
 primarytopics: Dynamics 365 Customer Insights- Journey
 ---
 
-# Lab 09 - Design and style emails with AI-assisted themes using Copilot in Customer Insights – Journeys
+# **Lab 09 - Design and style emails with AI-assisted themes using Copilot in Customer Insights – Journeys**
 
-## Scenario
+## **Scenario**
 
 You are a Marketing Specialist at Contoso Retail, responsible for creating engaging email campaigns for customers. To accelerate campaign creation and maintain consistent branding, you will use Microsoft Copilot in Dynamics 365 Customer Insights – Journeys. By leveraging AI-generated content ideas and theme customization tools, you will design a professional marketing email, apply branding elements, and validate the email before preparing it for delivery.
 
-## Objective: 
+## **Objective**
 
 In this lab, you will learn how to design and style marketing emails using Copilot in Customer Insights – Journeys. You will learn how to enable Copilot features, use AI-generated content ideas to accelerate email creation, and apply theme customization tools to build branded email designs. You will also learn how to configure compliance elements, preview emails, and perform test sends to validate email styling and content before publishing.
 
-## Overview
+## **Overview**
 Dynamics 365 Customer Insights – Journeys includes Copilot capabilities that help marketers create compelling email campaigns more efficiently. In this lab, you will first enable Copilot features within the Customer Insights – Journeys environment. You will then create a new email and use Copilot to generate content ideas based on business scenarios and suggested topics. After generating content, you will use the Theme assistant to apply branding, colors, and styling to create a consistent visual experience. Finally, you will configure sender and compliance information, preview the email, perform a test send, and prepare the email for distribution.
 
-## Lab Prerequisites
+## **Lab Prerequisites**
 Before starting this lab, ensure that you have:
 
 - Access to a Dynamics 365 Customer Insights – Journeys environment.
@@ -78,11 +78,11 @@ Before starting this lab, ensure that you have:
 
   ![](./media/image8.png)
 
-10. Select **Ok**.
+10. If asked, select **Ok**.
 
   ![](./media/image9.png)
 
-## Task 2: Generate content ideas using Copilot
+## **Task 2: Generate content ideas using Copilot**
 
 1. Select **Real-time journeys** from the Change area.
 
@@ -136,31 +136,31 @@ Before starting this lab, ensure that you have:
 
   ![](./media/image21.png)
 
-## Task 3: Use the theme Copilot assistant
+## **Task 3: Use the theme Copilot assistant**
 
 1. Select **Theme** from the Email editor toolbox.
 
-  ![](./media/image22.png)
+    ![](./media/image22.png)
 
 2. Select **+ icon**.
 
-  ![](./media/image23.png)
+    ![](./media/image23.png)
 
 3. Select the box (empty white box) and select the **blue** color.
 
-   ![](./media/image24.png)
+    ![](./media/image24.png)
 
 4. If you're happy with the result, you can **save** your email theme. If you want to make further adjustments, you can edit the style of your email elements using the theme pane.
 
-   ![](./media/image25.png)
+    ![](./media/image25.png)
 
 5. Double-click on the **Company address** in the Email body area. Click on **Company address** under **Compliance**.
 
-   ![](./media/image26.png)
+    ![](./media/image26.png)
 
 6. Select the **Facebook URL** under **Brand profile**.
 
-  ![](./media/image27.png)
+   ![](./media/image27.png)
 
 7. Select **Save**.
 
@@ -168,17 +168,17 @@ Before starting this lab, ensure that you have:
 
 8. Expand the first section of the email.
 
-  ![](./media/image29.png)
+   ![](./media/image29.png)
 
 9. Enter the following information and then select **Save**.
     - **Sender**: Search and select the Default Brand sender
     - **Subject**: +++Test email+++
 
- ![](./media/image30.png)
+   ![](./media/image30.png)
 
 10. Select **Preview and test**.
 
-  ![](./media/image31.png)
+    ![](./media/image31.png)
 
 11. Select the **More options** (three dots) and select **Test send.**
 
@@ -192,5 +192,6 @@ Before starting this lab, ensure that you have:
 
   ![](./media/image34.png)
 
-## Summary
+## **Summary**
+
 In this lab, you learned how to enable Copilot in Customer Insights – Journeys, generate AI-based content suggestions for email creation, and use the theme assistant to style and brand your email layout. You also configured sender details, added compliance and brand profile components, and performed preview/testing steps to validate the final email.
