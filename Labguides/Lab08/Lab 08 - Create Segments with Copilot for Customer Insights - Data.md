@@ -73,8 +73,12 @@ In this exercise, you will import customer and transaction datasets into Custome
 
 5. Enter **+++GroceryContacts+++** in the **Data source name** for the data source and select **Next**.
 
-     ![](./media/image5.png)
+   ![](./media/image5.png)
 
+6. On the **Choose data source** page, select **Text/CSV**.
+
+   ![](./media/image6.png)
+   
    **Note**: **When you select **Upload file**, an error message may appear stating that your account does not have a SharePoint Online or OneDrive for Business license. If this error appears, follow the steps (a to e) mentione below to resolve it.**
 
  a. Open **File Explorer** and select **OneDrive** from the left navigation pane.
@@ -96,10 +100,6 @@ d. When prompted to **sign in** to all apps and websites on the device, select *
 e. Leave the default OneDrive folder location unchanged. Do not select Next or make any changes on this screen.
 
    ![](./media/image62.png)
-
-6. On the **Choose data source** page, select **Text/CSV**.
-
-   ![](./media/image6.png)
 
 7. On the **Connection settings** page, select **Upload file** and then select **Browse**.
 
