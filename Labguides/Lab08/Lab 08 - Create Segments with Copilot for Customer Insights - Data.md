@@ -19,7 +19,7 @@ primarytopics: Dynamics 365 Customer Insights - Data
 
 Contoso Grocery wants to gain a deeper understanding of its customers by combining customer profile data with transaction history from multiple sources. As a Customer Data Analyst, you need to prepare and unify customer and transaction data in Dynamics 365 Customer Insights – Data, generate a single customer view, and use Copilot to quickly create intelligent customer segments. These segments will help marketing and business teams identify target audiences for personalized campaigns, loyalty programs, and customer engagement initiatives.
 
-## Objective
+## **Objective**
 In this lab, you will learn how to prepare and unify customer data in Customer Insights – Data, configure data types using Power Query, define primary keys and matching rules, and generate unified customer profiles. You will also learn how to use Copilot to create AI-assisted segmentation rules that automatically identify targeted customer groups based on behavioral and transactional data.
 
 ## **Overview**
@@ -57,7 +57,7 @@ In this exercise, you will import customer and transaction datasets into Custome
 
   **Note**: Close the pop-up – introducing Copilot in Customer Insights – Data.
 
-    ![](./media/image1.png)
+   ![](./media/image1.png)
 
 3. From the left navigation, select **Data** > **Data sources**.
 
@@ -97,7 +97,7 @@ d. When prompted to **sign in** to all apps and websites on the device, select *
 
    ![](./media/image61.png)
 
-e. Leave the default OneDrive folder location unchanged. Do not select Next or make any changes on this screen.
+e. Leave the default **OneDrive** folder location unchanged. Do not select **Next** or make any changes on this screen.
 
    ![](./media/image62.png)
 
@@ -106,20 +106,20 @@ e. Leave the default OneDrive folder location unchanged. Do not select Next or m
    ![](./media/image7.png)
 
 8. Select **Grocery_Contacts.csv** from **C:\Labfiles** in your lab **VM**. Select **Open**.
-
-  ![](./media/image8.png)
+ 
+   ![](./media/image8.png)
 
 9. Select **Sign in** to log in to your account.
 
- ![](./media/image9.png)
+   ![](./media/image9.png)
 
 10. Enter your **Office 365 admin tenant** credentials.
 
-  ![](./media/image10.png "Screenshot")
+   ![](./media/image10.png "Screenshot")
 
 11. Select **Next**.
 
-  ![](./media/image11.png)
+   ![](./media/image11.png)
 
 12. On the **Preview file data** page, select **Transform data**.
 
@@ -151,7 +151,7 @@ e. Leave the default OneDrive folder location unchanged. Do not select Next or m
 
    ![](./media/image18.png)
 
-20. Wait till the Data source is added successfully.
+20. Wait till the **Data source** is added successfully.
 
    ![](./media/image19.png)
 
@@ -193,7 +193,7 @@ e. Leave the default OneDrive folder location unchanged. Do not select Next or m
 
 30. Scroll to and select the **msrc_transactiontimestamp** column. Right-click the column, select **Change type**, and then select **Date/Time**.
 
- ![](./media/image29.png)
+   ![](./media/image29.png)
 
 31. Press and hold the **Ctrl** key on your keyboard to select the **msrc_transactionamount** and **msrc_discountappliedamount** columns. Right-click one of the columns, go to **Change type**, and then select **Decimal number**.
 
@@ -289,13 +289,13 @@ In this exercise, you will use Copilot to create customer segments through natur
 
     ![](./media/image50.png)
 
-3. Select the Copilot icon to open the **Copilot** pane.
+3. Select the **Copilot** icon to open the **Copilot** pane.
 
     ![](./media/image51.png)
 
 4. Enter a description of your segment or choose one of the suggested prompts. For example, select **Customers who have a loyalty membership**.
  
-    **Note**: If Copilot gives a message that **‘Sorry, I’m having trouble generating insights for this segment’**, then close the Copilot pane. Go to **Step 6**, enter the rule as shown in the image of **Step 5**,               and select **Run**.
+    **Note**: If Copilot gives a message that **‘Sorry, I’m having trouble generating insights for this segment’**, then close the Copilot pane. Go to **Step 6**, enter the rule as shown in the image of **Step 5**, and select **Run**.
 
     ![](./media/image52.png "Screenshot")
 
