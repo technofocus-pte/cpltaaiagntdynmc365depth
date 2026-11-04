@@ -172,7 +172,7 @@ Before starting this lab, ensure that you have:
 
 9. Enter the following information and then select **Save**.
     - **Sender**: Search and select the Default Brand sender
-    - **Subject**: ***Test mail***
+    - **Subject**: +++Test email+++
 
  ![](./media/image30.png)
 
