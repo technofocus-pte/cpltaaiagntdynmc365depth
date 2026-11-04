@@ -15,13 +15,13 @@ primarytopics: Sales
 ---
 
 
-# Lab 07 - Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)
+# **Lab 07 - Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)**
 
-## Scenario
+## **Scenario**
 
 As a sales manager at Contoso, you need to ensure that your sales team is effectively engaging with customers and capturing valuable insights from conversations. To improve collaboration and sales productivity, you use Microsoft Teams integrated with Microsoft 365 Copilot for Sales. By leveraging the Sales app in Teams, you can access CRM data, schedule and manage customer meetings, capture AI-generated meeting recaps and transcripts, and analyze seller conversations through Conversation Intelligence dashboards. In this lab, you will explore how Teams, Dynamics 365 Sales, and Copilot work together to provide actionable sales insights and improve customer engagement.
 
-## Objective & Overview
+## **Objective & Overview**
 
 In this lab, you will learn how to install and configure the Sales app in Microsoft Teams, enable Copilot for Sales capabilities through Teams app setup policies, schedule and manage Teams meetings with sales insights, generate AI-powered meeting transcripts and recaps, and analyze conversation data using the Conversation Intelligence dashboard in Power BI.
 Microsoft 365 Copilot for Sales extends the capabilities of **Dynamics 365 Sales** into Microsoft Teams, allowing sellers to access customer information, collaborate more effectively, and gain insights from customer interactions without leaving their workflow. The integration of Teams, Dynamics 365 Sales and Power BI enables organizations to transform customer conversations into actionable business intelligence.
@@ -44,7 +44,7 @@ In this lab, you will:
 
 By the end of this lab, you will understand how Copilot for Sales enhances collaboration, meeting effectiveness, seller coaching, and data-driven decision-making through Microsoft Teams and Power BI.
 
-## Lab Prerequisites
+## **Lab Prerequisites**
 
  Before starting this lab, ensure that you have:
  
@@ -70,9 +70,9 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
       
    - A stable internet connection and a supported web browser such as Microsoft Edge or Google Chrome.
 
-## Exercise 1: Install and pin Microsoft Copilot for Sales in Teams
+## **Exercise 1: Install and pin Microsoft Copilot for Sales in Teams**
 
-### Task 1: Create a custom Teams app setup policy
+### **Task 1: Create a custom Teams app setup policy**
 
 1.  Sign in with your given Office 365 credentials to the **Microsoft Teams admin center** using **+++https://admin.teams.microsoft.com/dashboard+++**.
 
@@ -90,7 +90,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image3.png)
 
-6.  Under **Installed apps**, select **Add apps**.
+<!--6.  Under **Installed apps**, select **Add apps**.
 
     ![](./media/image4.png)
 
@@ -104,25 +104,25 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
 9.  Select **Add** again to install the listed apps.
 
-    ![](./media/image7.png)
+    ![](./media/image7.png)-->
 
-10. Under **Pinned apps**, select **Add apps**.
+6. Under **Pinned apps**, select **Add apps**.
 
     ![](./media/image8.png)
 
-11. In the **Add pinned** apps panel, search for the **Sales** app. Hover the mouse over **Sales**, then click **Select**.
+7. In the **Add pinned** apps panel, search for the **Sales** app. Hover the mouse over **Sales**, then click **Select**.
 
     ![](./media/image9.png)
 
-12. Select **Add** again to pin the listed apps.
+8. Select **Add** again to pin the listed apps.
 
     ![](./media/image10.png)
 
-13. You can arrange the apps in the order that you want them to appear in Teams.
+9. You can arrange the apps in the order that you want them to appear in Teams.
 
     ![](./media/image11.png)
 
-14. Once you moved the app to the first place, select **Save**.
+10. Once you moved the app to the first place, select **Save**.
 
     ![](./media/image12.png)
 
@@ -130,17 +130,17 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image13.png)
 
-16. From the **Microsoft Teams admin center** portal, select **App launcher** and then select **Teams**.
+11. From the **Microsoft Teams admin center** portal, select **App launcher** and then select **Teams**.
 
     ![](./media/image14.png)
 
-17. You can see the **Sales** app pinned in **Teams**.
+12. You can see the **Sales** app pinned in **Teams**.
 
 18. If you don’t see the app pinned, select **View more apps** from the left side pane, search for **Sales** and select **Add**.
 
     ![](./media/image15.png)
 
-19. The **Sales** app is now ready.
+13. The **Sales** app is now ready.
 
     ![](./media/image16.png)
 
@@ -256,9 +256,9 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image43.png)
 
-## Exercise 2: Analyze your sellers' conversation data with Power BI (preview)
+## **Exercise 2: Analyze your sellers' conversation data with Power BI (preview)**
 
-### Task 1: Download the Copilot for Sales dashboard app
+### **Task 1: Download the Copilot for Sales dashboard app**
 
 1. To download the Copilot for Sales - Conversation intelligence dashboard, go to **+++https://go.microsoft.com/fwlink/p/?linkid=2259835+++**. Select **Get it now**.
 
@@ -310,7 +310,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image54.png)
 
-### Task 2: Connect the dashboard to your organization's data
+### **Task 2: Connect the dashboard to your organization's data**
 
 When you download Copilot for Sales - Conversation intelligence dashboard from Microsoft AppSource, it includes sample data. To connect the dashboard to your own data in Dataverse, follow these steps:
 
