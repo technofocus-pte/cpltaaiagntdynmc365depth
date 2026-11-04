@@ -1,4 +1,4 @@
-<img width="1692" height="928" alt="image" src="https://github.com/user-attachments/assets/757ea1f3-2f74-43b4-9e8d-e607fa1d3a19" />---
+
 lab: 10
 
 title: Create AI customer journeys with Journey Creation Agent – Journeys
