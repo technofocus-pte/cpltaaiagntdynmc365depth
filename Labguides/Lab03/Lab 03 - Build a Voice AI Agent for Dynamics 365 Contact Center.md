@@ -14,7 +14,7 @@ islab: True
 primarytopics: Dynamics 365 Contact Center
 ---
 
-# Lab 02 - Build a Voice AI Agent for Dynamics 365 Contact Center
+# **Lab 02 - Build a Voice AI Agent for Dynamics 365 Contact Center**
 
 ## **Scenario**
 
@@ -24,8 +24,7 @@ To improve customer service efficiency, Contoso plans to implement a voice-enabl
 
 ## **Overview and Objectives**
 
-In this lab, you'll create and configure a voice-enabled AI agent using Microsoft Copilot Studio and Dynamics 365 Contact Center. You'll activate the required environments, verify the voice configuration, build a voice agent, add knowledge sources, configure conversational behaviors and escalation paths, connect the agent to a voice workstream, and validate the solution through a live phone call.
-By the end of this lab, you will be able to:
+In this lab, you'll create and configure a voice-enabled AI agent using Microsoft Copilot Studio and Dynamics 365 Contact Center. You'll activate the required environments, verify the voice configuration, build a voice agent, add knowledge sources, configure conversational behaviors and escalation paths, connect the agent to a voice workstream, and validate the solution through a live phone call. By the end of this lab, you will be able to:
 
  - Create and configure a voice-enabled AI agent in Copilot Studio.
     
@@ -38,6 +37,7 @@ By the end of this lab, you will be able to:
  - Test and validate the voice agent using a live phone call.
     
  - Enable automated handling of common customer support inquiries.
+
 ## **Lab Prerequisites**
 
  Before starting this lab, ensure you have:
