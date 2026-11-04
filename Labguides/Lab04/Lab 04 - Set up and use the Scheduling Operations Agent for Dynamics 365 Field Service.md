@@ -14,21 +14,21 @@ islab: True
 primarytopics: Dynamics 365 Field Service
 ---
 
-# Lab 03 - Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service
+# **Lab 03 - Set up and use the Scheduling Operations Agent for Dynamics 365 Field Service**
 
-## Scenario
+## **Scenario**
 
 Contoso provides field service and maintenance support to customers across multiple locations. The service operations team is responsible for efficiently assigning technicians to customer requests while
 ensuring that high-priority issues are addressed promptly. 
 To improve scheduling efficiency and reduce manual effort, Contoso has decided to implement the Scheduling Operations Agent in Dynamics 365 Field Service. As a Field Service Administrator, your task is to
 configure the Scheduling Operations Agent, prepare scheduling data, and use AI-driven scheduling recommendations to optimize technician assignments and improve customer service response times.
 
-## Overview
+## **Overview**
 
 Copilot in **Dynamics 365 Field Service** helps service organizations improve scheduling efficiency and respond to customer issues more quickly. The **Scheduling Operations Agent** uses AI to optimize technician
 schedule, prioritize work orders, and recommend the best resource assignments based on configured business rules.
 
-## Lab Prerequisites
+## **Lab Prerequisites**
 
 Before starting this lab, ensure that:
 
