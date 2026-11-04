@@ -133,7 +133,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 
 1.  Go to **+++https://powerapps.microsoft.com+++** and select **Apps** in the left navigation to view the apps available in the environment.
     
-    ![](./media/image14.png)
+  ![](./media/image14.png)
 
 2.  In the apps list, locate **Customer Insights – Journeys** and select the **edit (pencil)** icon to open it, or select the app name to launch it directly.
 
@@ -160,68 +160,67 @@ Build a segment that identifies new customers who should receive the welcome cam
    
 ### **Task 2: Define the Segment Condition**
 
- 1.  On the segment canvas, select Add a new group.
+ 1.  On the segment canvas, select **Add a new group**.
 
-        ![](./media/image45.png)
+       ![](./media/image45.png)
     
  2.  From the drop-down list, select **Behavioral group**.
 
-        ![](./media/image46.png)
+       ![](./media/image46.png)
 
- 3.  In the Behavioral pane, expand **Marketing form**, and then select **Submitted**.
+ 3.  In the **Behavioral** pane, expand **Marketing form**, and then select **Submitted**.
 
-        ![](./media/image47.png)
+       ![](./media/image47.png)
 
- 4.  Verify that **Marketing Form Submitted at least once in the last 28 days** is added to Group 1, and then in the **Marketing Form** Submitted pane, select **E-mail Id**.
+ 4.  Verify that **Marketing Form Submitted at least once in the last 28 days** is added to **Group 1**, and then in the **Marketing Form** Submitted pane, select **E-mail Id**.
 
-        ![](./media/image48.png)
+       ![](./media/image48.png)
 
  5.  In the **E-mail Id** row, select the drop-down arrow, and then select **Contains**.
 
-        ![](./media/image49.png)
+       ![](./media/image49.png)
 
  6. In the **Enter value** field, enter +++Contoso+++, and then select **Ready to use**.
 
-       ![](./media/image50.png)  
+      ![](./media/image50.png)  
     
- 7.  Verify that the New Customers - Welcome Campaign segment status changes to Getting ready.
+ 7.  Verify that the **New Customers - Welcome Campaign** segment status changes to **Getting ready**.
 
         **Note: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.**
 
-        ![](./media/image51.png) 
+      ![](./media/image51.png) 
 
  9. Verify that the **New Customers - Welcome Campaign segment** status changes **Ready to use**.
 
-       ![](./media/image20.png)
+      ![](./media/image20.png)
 
 ## **Exercise 4 – Generate the journey with Copilot**
 
    Use the Journey Creation Agent to turn a plain-language description into a complete, multi-step customer journey that targets the segment created in Exercise 2.
 
-
 ### **Task 1: Start the Journey Creation Agent**
 
 1. From the Journeys area, select **New journey**. The Create new journey dialog opens on the Journey Creation Agent (Preview) tab, prompting What would you like to plan today?
 
-      ![](./media/image21.png)
+     ![](./media/image21.png)
 
 2. In the prompt box, enter: **+++Create a journey that will send a welcome email to all new customers that are part of the New Customers – Welcome Campaign segment. After two days, send them an exclusive offer email.+++** Select the **Send** (arrow) icon.
 
-      ![](./media/image22.png)
+    ![](./media/image22.png)
 
 3. Select **Allow** to use data and proceed with **generating response**.
 
-      ![](./media/image42.png)
+    ![](./media/image42.png)
 
 4. Select **Allow** to connect with **Microsoft Dataverse**.
 
-     ![](./media/image43.png)
+    ![](./media/image43.png)
 
-5.  Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
+5. Wait while the agent’s reasons through the request. When it finishes, review the summary it provides, confirming the audience (New Customers - Welcome Campaign segment) and the Welcome Email send step.
 
-6.  On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
+6. On the canvas, confirm the generated journey structure: **Journey start > Email (Welcome Email) > Wait (2 days) > Email (Exclusive Offer) > Exit.** Adjust any step if needed before continuing.
 
-      ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
+    ![Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps](./media/image23.png "Generated journey canvas with Welcome Email, Wait, and Exclusive Offer steps")
 
 ## **Exercise 5 – Review and publish the journey**
 
@@ -243,7 +242,7 @@ Publish the completed journey so it goes live and starts running against the tar
 
 2. Review the final journey canvas and verify that it includes the **Welcome Campaign** trigger, **Welcome Email**, **2-day wait**, and **Exclusive Offer** email.
 
- ![Published journey showing Live status](./media/image26.png "Published journey showing Live status")
+    ![Published journey showing Live status](./media/image26.png "Published journey showing Live status")
 
 ## **Summary**
 
