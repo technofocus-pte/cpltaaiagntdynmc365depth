@@ -85,7 +85,7 @@ In this exercise, you will import customer and transaction datasets into Custome
 
    ![](./media/image58.png)
 
-b. Enter your tenant account email address and select **Sign in** to sign in to OneDrive.
+b. Enter your tenant account email address and select **Sign in** to sign in to **OneDrive**.
 
    ![](./media/image59.png)
 
@@ -203,7 +203,7 @@ e. Leave the default **OneDrive** folder location unchanged. Do not select **Nex
 
 33. On the **Refresh settings** page, select **Refresh manually**. Select **Save**.
 
- ![](./media/image32.png)
+   ![](./media/image32.png)
 
 34. Wait till the **Data source** is added successfully.
 
