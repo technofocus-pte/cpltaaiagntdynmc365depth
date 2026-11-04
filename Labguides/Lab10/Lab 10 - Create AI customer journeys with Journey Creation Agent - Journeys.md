@@ -1,4 +1,4 @@
-
+---
 lab: 10
 
 title: Create AI customer journeys with Journey Creation Agent – Journeys
