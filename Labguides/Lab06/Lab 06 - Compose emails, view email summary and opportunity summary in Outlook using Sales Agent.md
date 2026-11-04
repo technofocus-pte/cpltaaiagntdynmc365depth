@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 06
 
 title: Use Sales Agent in Outlook
 
@@ -174,8 +174,7 @@ Before starting this lab, ensure that you have:
 
    ![](./media/image20.png)
 
- The email summary is saved to CRM as a note to the selected record. All Sales app notes share the same subject: "[AI-generated] Email summary from Sales app" and include the subject of the email itself,
- as well as the timestamp when the note was saved.
+ The email summary is saved to CRM as a note to the selected record. All Sales app notes share the same subject: "[AI-generated] Email summary from Sales app" and include the subject of the email itself, as well as the timestamp when the note was saved.
 
 ## **Exercise 3: Create an email reply using the Sales app in Microsoft Outlook**
 
