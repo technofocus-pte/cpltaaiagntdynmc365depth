@@ -25,13 +25,14 @@ In this lab, you will set up a complete trial environment required for working w
 
 In this task, you will start a Dynamics 365 Sales trial, provide the required contact information, and confirm that a Sales Trial environment has been provisioned in the Power Platform admin center.
 
-1. Go to the **Sales overview** page using the given URL **https://www.microsoft.com/en-us/dynamics-365/products/sales** and select **Try for free**.
+1. Go to the **Sales overview** page using the given URL **+++https://www.microsoft.com/en-us/dynamics-365/products/sales+++** and select **Try for free**.
 
     ![](./media/image19.png)
 
 2. Enter your **Office 365 admin tenant** credentials, select the checkbox to **accept the agreement** and click on **Start your free trial**.
 
     ![](./media/image21.png)
+   
 3. If requested, enter your Office 365 admin tenant password.
    
 4. Provide **Contact Information** as below and then select **Submit**.
@@ -44,19 +45,19 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
     ![](./media/image23.png)
   
-5. If asked, enter your Office 365 admin tenant password.
+6. If asked, enter your Office 365 admin tenant password.
 
     ![](./media/image24.png)
    
-6. If any pop-up appears, select Launch Trial.
+7. If any pop-up appears, select Launch Trial.
 
     ![](./media/image25.png)
 
-7. You will be landed to the **Dynamics 365 Sales portal**.
+8. You will be landed to the **Dynamics 365 Sales portal**.
 
     ![](./media/image26.png)  
  
-8. Go to **Power Platform admin** center by navigating to **https://admin.powerplatform.microsoft.com** and if required, sign in using your given Office 365 tenant admin credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Sales Trial** environment is created.
+9. Go to **Power Platform admin** center by navigating to **https://admin.powerplatform.microsoft.com** and if required, sign in using your given Office 365 tenant admin credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Sales Trial** environment is created.
 
    ![](./media/image22.png)
 
