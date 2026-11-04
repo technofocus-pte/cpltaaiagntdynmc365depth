@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 07
 
 title: Use the Sales app in Microsoft Teams and use the conversation intelligence dashboard (preview)
 
@@ -118,7 +118,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image10.png)
 
-9. You can arrange the apps in the order that you want them to appear in Teams.
+9. You can arrange the apps in the order that you want them to appear in **Teams**.
 
     ![](./media/image11.png)
 
@@ -226,9 +226,9 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image36.png)
 
-21. You can talk about something as a MOD Admin to generate a transcript. (Example - You can explain what Sales in Microsoft 365 is)
+21. You can talk about something as a **MOD Admin** to generate a transcript. (Example - You can explain what Sales in Microsoft 365 is)
 
-22. Leave the meeting from Mod Admin’s Teams web app and your Teams app.
+22. Leave the meeting from **Mod Admin’s Teams** web app and your **Teams app**.
 
     ![](./media/image37.png)
 
@@ -236,7 +236,7 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image38.png)
 
-24. In the Chat section, you can see the recap.
+24. In the **Chat** section, you can see the recap.
 
     ![](./media/image39.png)
 
@@ -260,11 +260,11 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
 ### **Task 1: Download the Copilot for Sales dashboard app**
 
-1. To download the Copilot for Sales - Conversation intelligence dashboard, go to **+++https://go.microsoft.com/fwlink/p/?linkid=2259835+++**. Select **Get it now**.
+1. To download the **Copilot for Sales - Conversation intelligence dashboard**, go to **+++https://go.microsoft.com/fwlink/p/?linkid=2259835+++**. Select **Get it now**.
 
    ![](./media/image44.png)
 
-2. Enter the given Office 365 tenant credentials and select **Sign in**.
+2. Enter the given **Office 365 tenant** credentials and select **Sign in**.
 
     ![](./media/image45.png)
 
@@ -276,11 +276,11 @@ By the end of this lab, you will understand how Copilot for Sales enhances colla
 
     ![](./media/image47.png)
 
-5. You will be navigated to Power BI Apps. Select **Install** on the 'Install this Power BI app' window.
+5. You will be navigated to **Power BI** Apps. Select **Install** on the **Install this Power BI app?** window.
 
     ![](./media/image48.png)
 
-6. You can see the Copilot for Sales - Dashboard under the Apps list. Click on the **Copilot for Sales - Dashboard** to open it.
+6. You can see the **Copilot for Sales - Dashboard** under the Apps list. Click on the **Copilot for Sales - Dashboard** to open it.
 
     ![](./media/image49.png)
 
