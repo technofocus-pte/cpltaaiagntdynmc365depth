@@ -148,8 +148,7 @@ Turn on the Journey Creation Agent in the Dynamics 365 AI hub and confirm you ca
 Build a segment that identifies new customers who should receive the welcome campaign, so the journey you generate in Exercise 3 has an audience to target.
 
 ### **Task 1: Create a New Segment**
-
-    **Note: Create a new segment using the steps below or use the existing Loyalty membership segment from Lab 08.**
+ Create a new segment by following the steps below, or use the existing Loyalty membership segment created in Lab 08.
     
 1. Select **Customer Insights – Journeys** from the change area, under **Audiences**, select **Segments**, and then select **New segment** to open the segment creation pane.
 
