@@ -14,17 +14,17 @@ islab: True
 primarytopics: Sales Agent
 ---
 
-# Lab 06 - Compose emails, view email summary and opportunity summary in Outlook using Sales Agent
+# **Lab 06 - Compose emails, view email summary and opportunity summary in Outlook using Sales Agent**
 
-## Scenario
+## **Scenario**
 
 You are a sales representative at Contoso who manages customer communications through Microsoft Outlook and Dynamics 365 Sales. Every day, you receive numerous customer emails that require quick analysis, follow-up actions, and personalized responses. To improve productivity and maintain accurate CRM records, you use the Dynamics 365 Sales app in Outlook powered by Microsoft 365 Copilot. In this lab, you will explore how Copilot helps summarize customer emails, save key insights to Dynamics 365, generate AI-assisted email responses, and provide opportunity-related information directly within Outlook to support customer engagement and sales activities.
 
-## Objective
+## **Objective**
 
 In this lab, you will learn how to use the Dynamics 365 Sales app in Microsoft Outlook with Microsoft 365 Copilot to streamline email management and sales communications. You will generate email summaries, save AI-generated insights to Dynamics 365 records, draft professional email responses using predefined and custom prompts, adjust email drafts using Copilot, and view opportunity summaries related to customers directly from Outlook.
 
-## Overview
+## **Overview**
 
 Organizations often rely on sales teams to process large volumes of customer communications while maintaining accurate CRM records. Microsoft 365 Copilot and the Dynamics 365 Sales app help sellers work more efficiently by providing AI-generated email summaries, intelligent email drafting capabilities, and contextual sales insights within Outlook.
 
@@ -44,7 +44,7 @@ In this lab, you will:
   
   By completing this lab, you will understand how Copilot enhances seller productivity, improves communication quality, and ensures important customer interactions are captured in Dynamics 365 Sales.
 
-## Lab Prerequisites
+## **Lab Prerequisites**
 
 Before starting this lab, ensure that you have:
 
@@ -66,7 +66,7 @@ Before starting this lab, ensure that you have:
 
 - Microsoft 365 Copilot and Dynamics 365 Sales capabilities enabled in the lab environment.
   
-## Exercise 1: Install and open the Sales app in Outlook
+## **Exercise 1: Install and open the Sales app in Outlook**
 
 1. In a new tab, open **Outlook** using the link **+++www.outlook.com+++**. Select **Sign in**.
 
