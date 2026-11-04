@@ -13,21 +13,21 @@ islab: True
 
 primarytopics: Dynamics 365 Customer Insights - Data
 ---
-# Lab 08 - Create segments with Copilot for Customer Insights – Data
+# **Lab 08 - Create segments with Copilot for Customer Insights – Data**
 
-## Scenario
+## **Scenario**
 
 Contoso Grocery wants to gain a deeper understanding of its customers by combining customer profile data with transaction history from multiple sources. As a Customer Data Analyst, you need to prepare and unify customer and transaction data in Dynamics 365 Customer Insights – Data, generate a single customer view, and use Copilot to quickly create intelligent customer segments. These segments will help marketing and business teams identify target audiences for personalized campaigns, loyalty programs, and customer engagement initiatives.
 
 ## Objective
 In this lab, you will learn how to prepare and unify customer data in Customer Insights – Data, configure data types using Power Query, define primary keys and matching rules, and generate unified customer profiles. You will also learn how to use Copilot to create AI-assisted segmentation rules that automatically identify targeted customer groups based on behavioral and transactional data.
 
-## Overview
+## **Overview**
 
 Dynamics 365 Customer Insights – Data enables organizations to unify data from multiple sources and create comprehensive customer profiles. In this lab, you will first import customer and transaction data using Power Query and perform data preparation tasks such as assigning column headers and data types. You will then configure unification settings, including primary keys and matching rules, to generate unified customer profiles.
 After creating the unified customer data model, you will use Copilot to create customer segments by describing target audiences in natural language. Copilot will generate segmentation rules that help identify relevant groups of customers, enabling faster audience creation and improved customer engagement strategies.
 
-## Prerequisites
+## **Prerequisites**
 
 Before starting this lab, ensure that you have:
 
@@ -45,7 +45,7 @@ Before starting this lab, ensure that you have:
  
  - Basic knowledge of customer data, data transformation concepts, and Dynamics 365 Customer Insights terminology.
 
-## Exercise 1: Add your Data
+## **Exercise 1: Add your Data**
 
 In this exercise, you will import customer and transaction datasets into Customer Insights - Data, use Power Query to transform and standardize source data, configure appropriate data types, and create data sources that are ready for customer profile unification.
 
@@ -53,35 +53,57 @@ In this exercise, you will import customer and transaction datasets into Custome
 
 2. Select Individual consumers (B2C) card.
 
-  ![](./media/image57.png)
+    ![](./media/image57.png)
 
- **Note**: Close the pop-up – introducing Copilot in Customer Insights – Data.
+  **Note**: Close the pop-up – introducing Copilot in Customer Insights – Data.
 
-  ![](./media/image1.png)
+    ![](./media/image1.png)
 
 3. From the left navigation, select **Data** > **Data sources**.
 
-  ![](./media/image2.png)
+   ![](./media/image2.png)
 
 3. Select **Add a data source**.
 
-  ![](./media/image3.png)
+   ![](./media/image3.png)
 
 4. Select **Microsoft Power Query**.
 
-  ![](./media/image4.png)
+   ![](./media/image4.png)
 
-5. Enter ***+++GroceryContacts+++*** in the **Data source name** for the data source and select **Next**.
+5. Enter **+++GroceryContacts+++** in the **Data source name** for the data source and select **Next**.
 
-  ![](./media/image5.png)
+     ![](./media/image5.png)
+
+   **Note**: **When you select **Upload file**, an error message may appear stating that your account does not have a SharePoint Online or OneDrive for Business license. If this error appears, follow the steps (a to e) mentione below to resolve it.**
+
+ a. Open **File Explorer** and select **OneDrive** from the left navigation pane.
+
+   ![](./media/image58.png)
+
+b. Enter your tenant account email address and select **Sign in** to sign in to OneDrive.
+
+   ![](./media/image59.png)
+
+c. Enter the **administrator password** provided in the lab and select **Sign in** to continue.
+
+   ![](./media/image60.png)
+
+d. When prompted to **sign in** to all apps and websites on the device, select **No, this app only** to continue without registering the device with your organization.
+
+   ![](./media/image61.png)
+
+e. Leave the default OneDrive folder location unchanged. Do not select Next or make any changes on this screen.
+
+   ![](./media/image62.png)
 
 6. On the **Choose data source** page, select **Text/CSV**.
 
-  ![](./media/image6.png)
+   ![](./media/image6.png)
 
 7. On the **Connection settings** page, select **Upload file** and then select **Browse**.
 
-  ![](./media/image7.png)
+   ![](./media/image7.png)
 
 8. Select **Grocery_Contacts.csv** from **C:\Labfiles** in your lab **VM**. Select **Open**.
 
