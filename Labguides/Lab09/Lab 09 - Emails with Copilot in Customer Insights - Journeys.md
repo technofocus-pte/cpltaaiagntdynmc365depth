@@ -154,7 +154,7 @@ Before starting this lab, ensure that you have:
 
     ![](./media/image25.png)
 
-5. Double-click on the **Company address** in the Email body area. Click on **Company address** under **Compliance**.
+5. Scroll down to the bottom of the email body area and double-click **Company** address. Then, select **Company address** under **Compliance**.
 
     ![](./media/image26.png)
 
