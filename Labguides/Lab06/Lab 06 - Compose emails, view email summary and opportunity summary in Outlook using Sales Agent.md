@@ -292,7 +292,7 @@ To generate a different suggestion, select More options, and then select **Try a
 
     ![](./media/image42.png)
 
-4. On **Connect to a record** page, search for the **andrew** and select the contact using the search box.
+4. On the **Connect to a record** page, search for **Andrew** using the search box and select the matching contact. If **Andrew** is not available, search for **Alex** and select that contact instead.
 
     ![](./media/image43.png)
 
