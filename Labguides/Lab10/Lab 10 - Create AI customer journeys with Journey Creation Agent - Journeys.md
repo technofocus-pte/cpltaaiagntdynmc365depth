@@ -200,6 +200,8 @@ Build a segment that identifies new customers who should receive the welcome cam
 
 ### **Task 1: Start the Journey Creation Agent**
 
+In this lab, you will create a customer journey using the Journey Creation Agent or configure it manually. You will use the email templates created in the previous lab to send a welcome email followed by an exclusive offer after two days.
+
 1. Select **Real-time Journeys** from the change area, under **Engagement**, select **Journeys**.
 
      ![](./media/image53.png)
@@ -272,15 +274,15 @@ Build a segment that identifies new customers who should receive the welcome cam
 
      ![](./media/image60.png)
 
-8. Under **Select email**, choose the existing **Email 1** template from the list.
+8. Under **Select email**, choose the existing **Email 1**(Welcome Email) template from the list.
 
     ![](./media/image61.png)
 
-9. Review the selected **Email 1** template in the **Preview pane** to verify the email content.
+9. Review the selected **Email 1**(Welcome Email) template in the **Preview pane** to verify the email content.
 
      ![](./media/image63.png)
 
-10.  On the journey canvas, select the **+ icon** below the **Email 1** action. Under **Conditions**, select **Wait time** to add a delay before sending the next email.
+10.  On the journey canvas, select the **+ icon** below the **Email 1**(Welcome Email) action. Under **Conditions**, select **Wait time** to add a delay before sending the next email.
 
      ![](./media/image62.png)
 
@@ -304,11 +306,11 @@ Build a segment that identifies new customers who should receive the welcome cam
 
      ![](./media/image60.png)
 
-17. Under **Select email**, choose the existing **Email 2** template to the journey.
+17. Under **Select email**, choose the existing **Email 2**(Exclusive Offer Email) template to the journey.
 
     ![](./media/image67.png)
 
-18. Review the selected **Email 2** template in the **Preview pane** to verify the email content.
+18. Review the selected **Email 2**(Exclusive Offer Email) template in the **Preview pane** to verify the email content.
 
      ![](./media/image68.png)
 
