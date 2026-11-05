@@ -206,7 +206,7 @@ In this lab, you will create a customer journey using the Journey Creation Agent
 
      ![](./media/image53.png)
 
-   **Note: If the Send button is disabled (grayed out), select Skip and create from blank and follow Task 2: Create the Journey Manually instead.**
+   **Note: The Journey Creation Agent (Preview) may work intermittently, depending on the environment. If the Send button is enabled, proceed with agent-assisted journey creation. If it is disabled (grayed out), select Skip and create from blank and follow Task 2: Create the Journey Manually.**
    
 3. The **Create new journey** dialog appears with the **Journey Creation Agent (Preview)** tab selected. The **What would you like to plan today?** prompt is displayed.
 
