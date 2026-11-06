@@ -186,7 +186,7 @@ Build a segment that identifies new customers who should receive the welcome cam
     
  7.  Verify that the **New Customers - Welcome Campaign** segment status changes to **Getting ready**.
 
-        **Note: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.**
+     **Note: The segment status shows **Ready to use** once processing completes. The panel also confirms the segment refreshes every 24 hours until it is used in a journey and will expire after 120 days if it remains unused.**
 
       ![](./media/image51.png) 
 
