@@ -57,7 +57,7 @@ In this task, you will start a Dynamics 365 Sales trial, provide the required co
 
     ![](./media/image26.png)  
  
-9. Go to **Power Platform admin** center by navigating to **https://admin.powerplatform.microsoft.com** and if required, sign in using your given Office 365 tenant admin credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Sales Trial** environment is created.
+9. Go to **Power Platform admin** center by navigating to **+++https://admin.powerplatform.microsoft.com+++** and if required, sign in using your given Office 365 tenant admin credentials. From left navigation pane, click on **Manage** > **Environments** and then you can see, **Sales Trial** environment is created.
 
    ![](./media/image22.png)
 
