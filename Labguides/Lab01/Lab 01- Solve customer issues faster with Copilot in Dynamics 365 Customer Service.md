@@ -145,9 +145,7 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
 1.  Open the **Copilot Service admin center** and, from the left
     navigation pane, select **Knowledge**.
-
-      ![](./media/image106.png)
-
+    
 2.  Under **Knowledge creation**, select **Manage**.
 
       ![](./media/image57.png)
