@@ -281,7 +281,7 @@ In this exercise, you will use Copilot to create customer segments through natur
 
     ![](./media/image50.png)
 
-<!-3. Select the **Copilot** icon to open the **Copilot** pane.
+<!-- 3. Select the **Copilot** icon to open the **Copilot** pane.
 
     ![](./media/image51.png)
 
