@@ -143,7 +143,7 @@ e. Leave the default **OneDrive** folder location unchanged. Do not select **Nex
 
    ![](./media/image16.png)
 
-18. Select **Next**.
+18. Select **Save**.
 
    ![](./media/image17.png)
 
@@ -193,15 +193,11 @@ e. Leave the default **OneDrive** folder location unchanged. Do not select **Nex
 
 30. Press and hold the **Ctrl** key on your keyboard to select the **msrc_transactionamount** and **msrc_discountappliedamount** columns. Right-click one of the columns, go to **Change type**, and then select **Decimal number**.
 
-31. Select **Next**.
+31. Select **Save**.
 
    ![](./media/image31.png)
 
-32. On the **Refresh settings** page, select **Refresh manually**. Select **Save**.
-
-   ![](./media/image32.png)
-
-33. Wait till the **Data source** is added successfully.
+32. Wait till the **Data source** is added successfully.
 
    ![](./media/image33.png)
 
