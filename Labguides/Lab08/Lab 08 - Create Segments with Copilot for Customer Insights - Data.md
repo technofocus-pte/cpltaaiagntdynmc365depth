@@ -1,5 +1,5 @@
 ---
-lab:
+lab: 8
 
 title: Create segments with Copilot for Customer Insights – Data
 
@@ -147,65 +147,61 @@ e. Leave the default **OneDrive** folder location unchanged. Do not select **Nex
 
    ![](./media/image17.png)
 
-19. On the **Refresh settings** page, select **Refresh manually**. Select **Save**.
-
-   ![](./media/image18.png)
-
-20. Wait till the **Data source** is added successfully.
+19. Wait till the **Data source** is added successfully.
 
    ![](./media/image19.png)
 
-21. On the **Data sources** page, select **Add a data source**.
+20. On the **Data sources** page, select **Add a data source**.
 
    ![](./media/image20.png)
 
-22. Select **Microsoft Power Query**.
+21. Select **Microsoft Power Query**.
 
    ![](./media/image21.png)
 
-23. Enter ***+++GroceryTransactions+++*** in the **Data source Name** for the data source and select **Next**.
+22. Enter ***+++GroceryTransactions+++*** in the **Data source Name** for the data source and select **Next**.
 
    ![](./media/image22.png)
 
-24. On the **Choose data source** page, select **Text/CSV**.
+23. On the **Choose data source** page, select **Text/CSV**.
 
    ![](./media/image23.png)
 
-25. On the **Connection settings** page, select **Upload file** and then select **Browse**.
+24. On the **Connection settings** page, select **Upload file** and then select **Browse**.
 
    ![](./media/image24.png)
 
-26. Select **Grocery_transaction.csv** from **C:\Labfiles** in your lab **VM**. Click **Open**.
+25. Select **Grocery_transaction.csv** from **C:\Labfiles** in your lab **VM**. Click **Open**.
 
    ![](./media/image25.png)
 
-27. Once the file is uploaded, select **Next**.
+26. Once the file is uploaded, select **Save**.
 
    ![](./media/image26.png)
 
-28. On the **Preview file data** page, select **Transform data**.
+27. On the **Preview file data** page, select **Transform data**.
 
    ![](./media/image27.png)
 
-29. As before, go to **Transform** and select **Use first row as headers > Use first row as headers**.
+28. As before, go to **Transform** and select **Use first row as headers > Use first row as headers**.
 
    ![](./media/image28.png)
 
-30. Scroll to and select the **msrc_transactiontimestamp** column. Right-click the column, select **Change type**, and then select **Date/Time**.
+29. Scroll to and select the **msrc_transactiontimestamp** column. Right-click the column, select **Change type**, and then select **Date/Time**.
 
    ![](./media/image29.png)
 
-31. Press and hold the **Ctrl** key on your keyboard to select the **msrc_transactionamount** and **msrc_discountappliedamount** columns. Right-click one of the columns, go to **Change type**, and then select **Decimal number**.
+30. Press and hold the **Ctrl** key on your keyboard to select the **msrc_transactionamount** and **msrc_discountappliedamount** columns. Right-click one of the columns, go to **Change type**, and then select **Decimal number**.
 
-32. Select **Next**.
+31. Select **Next**.
 
    ![](./media/image31.png)
 
-33. On the **Refresh settings** page, select **Refresh manually**. Select **Save**.
+32. On the **Refresh settings** page, select **Refresh manually**. Select **Save**.
 
    ![](./media/image32.png)
 
-34. Wait till the **Data source** is added successfully.
+33. Wait till the **Data source** is added successfully.
 
    ![](./media/image33.png)
 
@@ -289,7 +285,7 @@ In this exercise, you will use Copilot to create customer segments through natur
 
     ![](./media/image50.png)
 
-3. Select the **Copilot** icon to open the **Copilot** pane.
+<!-3. Select the **Copilot** icon to open the **Copilot** pane.
 
     ![](./media/image51.png)
 
@@ -301,22 +297,37 @@ In this exercise, you will use Copilot to create customer segments through natur
 
 5. Select **Use** to apply the result to a rule.
 
-    ![](./media/image53.png "Screenshot")
+    ![](./media/image53.png "Screenshot") -->
 
-6. Select **Run**.
 
-    ![](./media/image54.png "Screenshot")
+ **Note:** The Create segments with Copilot feature in Customer Insights - Data is no longer available as of November 2, 2026. Use the Segment builder to create the Loyalty membership segment by following the steps below. 
 
-7. On the **Review details** page, enter ***+++Loyalty membership+++*** in the **Name** field and then select **Run**.
+3. Select msrc_loyaltymembership from CustomerInsights under Customer.
 
-    ![](./media/image55.png "Screenshot")
+   ![](./media/image63.png)
+
+4. Select **is not** from the operator dropdown.
+
+   ![](./media/image64.png)
+
+5. Select **empty** from the value dropdown.
+
+   ![](./media/image65.png)
+
+6. On the Edit details page, enter +++Loyalty membership+++ in the **Name** field, then select **Done**.
+
+    ![](./media/image66.png)
+
+7. Select **Run** to execute the segment definition.
+
+    ![](./media/image67.png)
 
 8. The **Loyalty membership** segment is now created.
 
-    ![](./media/image56.png "Screenshot")
+    ![](./media/image68.png)
 
    **Note**: If the resulting segment contains multiple **relationship paths**, it uses the shortest path by default. **Edit** the segment to change the relationship path.
 
 ## **Summary**
 
-In this lab, you learned how to load and transform customer and transaction datasets, unify them using deduplication and matching rules, and create enriched customer profiles in Customer Insights – Data. You also created customer segments using Copilot, leveraging AI-generated rules to build a segment and applying those rules to generate insights-ready segments.
+In this lab, you learned how to load and transform customer and transaction datasets, unify customer records using deduplication and matching rules, and create enriched customer profiles in Customer Insights – Data. You also created customer segments using the Segment builder by defining rules and applying filters to identify customers based on specific criteria.
