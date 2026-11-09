@@ -317,7 +317,7 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
 
     ![](./media/image53.png)
    
-8. In the **Draft with Copilot pane**, select **Suggest a call**, confirm that Copilot updates the email draft with a follow-up call recommendation, and then select one of the following options: **Keep it**, **Start over**, **Discard**, **Adjust**, or **Translate**.
+8. In the Draft with Copilot pane, select **Suggest a call** and confirm that Copilot updates the email draft with a follow-up call recommendation. Then select one of the following options: **Keep it**, **Start over**, **Discard**, **Adjust**, or **Translate**. For this exercise, select **Keep it**.
 
     ![](./media/image54.png)
 
@@ -325,7 +325,7 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
     ![](./media/image117.png)
     
    
-10. Adjust the **email draft** as needed:
+9. Adjust the **email draft** as needed:
 
     - **Length:** Select **Short**, **Medium**, or **Long**.
     
@@ -334,12 +334,11 @@ In this exercise, you will use Copilot's predefined and custom prompts to draft 
     ![](./media/image51.png)
 
 
-14. In the **Copilot** pane, select the **Translate** drop-down and choose a language to translate the generated content. Review the translated response.
+10. In the **Copilot** pane, select the **Translate** drop-down and choose a language to translate the generated content. Review the translated response.
 
      ![](./media/image66.png)
-
-    
-16. Review the email, and then you can select **Send** to send it but in the lab select **Save** to save it. Additionally, use Draft with Copilot to further refine the email response as needed.
+   
+11. Review the email, and then you can select **Send** to send it but in the lab select **Save** to save it. Additionally, use **Draft with Copilot** to further refine the email response as needed.
 
     ![](./media/image55.png)
 
@@ -429,60 +428,62 @@ workspace**.
 
        ![](./media/image71.png)
 
-8.  Go to the **Power Apps** tab and make sure the **Customer Service Trial** environment is selected. In the left navigation pane, select **Apps**, and then select **Copilot Service workspace** to open the app.
+7.  Go to the **Power Apps** tab and make sure the **Customer Service Trial** environment is selected. In the left navigation pane, select **Apps**, and then select **Copilot Service workspace** to open the app.
 
        ![](./media/image104.png)
 
-9.  In the **App Designer**, locate the Copilot card at the bottom of the Pages pane, and then select **+ Enable Copilot**.
+8.  In the **App Designer**, locate the **Copilot card** at the bottom of the **Pages** pane, and then select **+ Enable Copilot**.
 
       ![](./media/image113.png)
     
-10. In the Settings dialog, select **Features**, and then locate the **Enable M365 Copilot in model-driven apps** setting.
+9. In the Settings dialog, select **Features**, and then locate the **Enable M365 Copilot in model-driven apps** setting.
 
        ![](./media/image114.png)
     
-11. Under **Enable M365 Copilot in model-driven apps**, select **On** from the drop-down list, and then select **Save**.
+10. Under **Enable M365 Copilot in model-driven apps**, select **On** from the drop-down list, and then select **Save**.
 
        ![](./media/image115.png)
      
-12. Select **Save and Publish**.
+11. Select **Save and Publish**.
 
        ![](./media/image105.png)
 
-13. Select the **Play** icon to open and preview the app. Verify that the **Copilot** button appears in the top-right corner of the page. If it doesn’t, close the app tab, return to the App Designer, select **Save and Publish**, and then select **Play** again.
+**Note: If the **Error in loading Control** message appears, select **Cases** from the left navigation pane.**
+
+12. Select the **Play** icon to open and preview the app. Verify that the **Copilot** button appears in the top-right corner of the page. If it doesn’t, close the app tab, return to the App Designer, select **Save and Publish**, and then select **Play** again.
 
     ![](./media/image116.png)
 
-14.  In the left navigation pane, select **Service** > **Contacts**.
+13.  Click the **hamburger menu (☰)** in the upper-left corner, select **Service** > **Contacts**.
 
       ![](./media/image72.png)
 
-15.  You can view new contact form.
+14.  You can view new contact form.
 
       ![](./media/image74.png)
 
-16.  Select the row where you want to add the contact information, and then upload **contacts_dummy_data.csv** from C:\Labfiles, which contains the pre-created contact data.
+15.  Select the row where you want to add the contact information, and then upload **contacts_dummy_data.csv** from C:\Labfiles, which contains the pre-created contact data.
 
       ![](./media/image75.png)
 
-17. Select **Upload**.
+16. Select **Upload**.
 
      ![](./media/image76.png)
 
-18. Wait for AI-generated suggestions to appear. Click “**Accept 11
+17. Wait for AI-generated suggestions to appear. Click “**Accept 11
     Suggestion**.”
 
     ![](./media/image77.png)
 
-19. Verify that the **Contact Information** is automatically populated.
+18. Verify that the **Contact Information** is automatically populated.
 
     ![](./media/image78.png)
 
-20. Click **Save & Close**.
+19. Click **Save & Close**.
 
     ![](./media/image79.png)
 
-21. Verify that the **Contact Information** has been added successfully.
+20. Verify that the **Contact Information** has been added successfully.
 
     ![](./media/image80.png)
 
@@ -498,49 +499,49 @@ plain-language search terms.
 
      ![](./media/image81.png)
 
-4.  Return to the **Dynamics 365 Copilot Service workspace**. In the
+2.  Return to the **Dynamics 365 Copilot Service workspace**. In the
     left navigation pane, select **Service > Cases**.
 
     ![](./media/image82.png)
 
-5.  In **My Active Cases**, use the AI-powered natural language search
+3.  In **My Active Cases**, use the AI-powered natural language search
     to find the required cases. For example, enter **“List cases with
     high priority.”**
 
     ![](./media/image83.png)
 
-6.  In the **Cases** view, select **Visualize**.
+4.  In the **Cases** view, select **Visualize**.
 
     ![](./media/image84.png)
 
-7.  Wait for Copilot to analyse the visible data. Review the
+5.  Wait for Copilot to analyse the visible data. Review the
     **AI-generated** chart in the side pane.
 
     ![](./media/image85.png)
 
-8.  Visualize Using Natural Language: Enter in search box: **Visualize
+6.  Visualize Using Natural Language: Enter in search box: **Visualize
     data as a bar chart**.
 
     ![](./media/image86.png)
 
-9.  Select a **section** of the generated chart. Observe the case grid.
+7.  Select a **section** of the generated chart. Observe the case grid.
 
     ![](./media/image87.png)
 
-10.  Select the **three dots (...)** in the chart pane. Select **Save
+8.  Select the **three dots (...)** in the chart pane. Select **Save
     as**.
 
      ![](./media/image88.png)
 
-11.  In the **Name** field, enter **Incidents by Priority**. Optionally, enter a **Description**, and then select **Save** to save the chart.
+9.  In the **Name** field, enter **Incidents by Priority**. Optionally, enter a **Description**, and then select **Save** to save the chart.
 
      ![](./media/image89.png)
 
-11.  Create new chart with Copilot. Select option **New Chart with Copilot**.
+10.  Create new chart with Copilot. Select option **New Chart with Copilot**.
 
      ![](./media/image90.png)
 
-12.  You can view the chart generated by **Copilot**.
+11.  You can view the chart generated by **Copilot**.
 
      ![](./media/image91.png)
 
@@ -570,23 +571,23 @@ account record in the Omnichannel for Customer Service app.
    
     ![](./media/image107.png)
    
-7.  Verify that the **Row summary (applied)** status is displayed.
+6.  Verify that the **Row summary (applied)** status is displayed.
 
      ![](./media/image96.png)
 
-8.  In the **App Designer** left navigation pane, select **Apps**, and then open **Omnichannel for Customer Service**.
+7.  In the **App Designer** left navigation pane, select **Apps**, and then open **Omnichannel for Customer Service**.
 
       ![](./media/image97.png)
 
-9.  Select **Save and Publish**. Then, select **play** icon.
+8.  Select **Save and Publish**. Then, select **play** icon.
 
       ![](./media/image98.png)
 
-10.  Click the **hamburger menu (☰)** in the upper-left corner, then navigate to **Customers > Accounts**.
+9.  Click the **hamburger menu (☰)** in the upper-left corner, then navigate to **Customers > Accounts**.
 
        ![](./media/image99.png)
 
-11.  On the **My Active Accounts** page, review the list of active account records and the **Copilot** pane displayed on the right.
+10.  On the **My Active Accounts** page, review the list of active account records and the **Copilot** pane displayed on the right.
 
        ![](./media/image100.png)
 
