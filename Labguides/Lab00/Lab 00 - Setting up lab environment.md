@@ -136,7 +136,6 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
 **Note**: During **voice services setup**, you may encounter an error at the **Create voice channel** step displaying the message **"Something went wrong during the Create voice channel step."** If this occurs, try selecting **Retry** step two or three times, as the setup may succeed after multiple attempts.
 
-
    ![](./media/image23.png)
 
 13. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
@@ -144,6 +143,33 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 14. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
 
      ![](./media/image21.png)
+
+### **Task 1: Alternative Steps for Voice Channel Setup**
+1. Refresh the browser and reopen the setup wizard.
+
+2. If the error persists, select **Skip voice setup** to proceed with the remaining configuration.
+
+      ![](./media/image26.png)
+
+3. Open the **Copilot Service admin center**.
+
+      ![](./media/image27.png)
+
+4. Select **Channels** from the left navigation pane in the **Customer support** section.
+
+     ![](./media/image28.png)
+
+5. Scroll down to the Voice section and select Manage.
+
+   ![](./media/image29.png)
+
+6. On the **Voice channels** page, verify that the voice channel is listed. Select the associated Workstream link.
+
+   ![](./media/image30.png)
+
+7. Verify that the phone number is associated with the workstream and its status is **Active**.
+
+    ![](./media/image31.png)                
 
 
 **Summary** 
