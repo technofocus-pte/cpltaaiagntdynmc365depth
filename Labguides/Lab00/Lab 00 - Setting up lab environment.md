@@ -133,11 +133,14 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 11. Wait till the setup is complete. Verify that the **Your contact center is ready**! message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
 
      ![](./media/image24.png)
+
+**Note**: During **voice services setup**, you may encounter an error at the **Create voice channel** step displaying the message **"Something went wrong during the Create voice channel step."** If this occurs, try selecting **Retry** step two or three times, as the setup may succeed after multiple attempts.
+
      ![](./media/image23.png)
 
-12. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
+13. Verify that the **Your contact center is ready!** message appears and confirms that the **Chat setup**, **Voice setup**, and **AI experiences** are configured.
 
-13. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
+14. Select **Open contact center** to open the **Copilot Service Admin Center** and **manage** the contact center settings.
 
      ![](./media/image21.png)
 
