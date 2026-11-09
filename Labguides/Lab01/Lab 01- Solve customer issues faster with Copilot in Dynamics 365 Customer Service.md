@@ -133,13 +133,17 @@ In this task, you will start a **Dynamics 365 Customer Service trial**, provide 
 
     ![](./media/image19.png)
 
-8. Select **Manage** for **Summaries**.
+8. Select **Let representatives translate responses using Copilot** under **Translation using Copilot** to enable the translation feature.
+
+   ![](./media/image20.png)
+
+9. Select **Manage** for **Summaries**.
 
     ![](./media/image20.png)
 
-9. Select the **Make case summaries available to representatives** check box, select all the check boxes under **Live conversation summaries** and then select **Save and close**.
+10. Select the **Make case summaries available to representatives** check box, select all the check boxes under **Live conversation summaries** and then select **Save and close**.
 
-    ![](./media/image21.png)
+    ![](./media/image119.png)
 
 #### **Generate knowledge drafts**
 
