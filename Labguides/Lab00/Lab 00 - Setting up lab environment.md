@@ -134,7 +134,7 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
 
      ![](./media/image24.png)
 
-**Note**: During **voice services setup**, you may encounter an error at the **Create voice channel** step displaying the message **"Something went wrong during the Create voice channel step."** If this occurs, try selecting **Retry** step two or three times, as the setup may succeed after multiple attempts.
+**Note**: During **voice services setup**, you may encounter an error at the **Create voice channel** step displaying the message **"Something went wrong during the Create voice channel step."** If this occurs, select **Retry** two or three times, as the setup may succeed after multiple attempts. If the error persists, follow the steps provided in **Task 2** to complete the voice channel configuration manually.
 
    ![](./media/image23.png)
 
@@ -145,7 +145,7 @@ In this exercise, you activate the Dynamics 365 Contact Center trial to access t
      ![](./media/image21.png)
 
 ### **Task 1: Alternative Steps for Voice Channel Setup**
-1. Refresh the browser and reopen the setup wizard.
+1. **Refresh** the browser and **reopen** the setup wizard.
 
 2. If the error persists, select **Skip voice setup** to proceed with the remaining configuration.
 
